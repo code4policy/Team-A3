@@ -41,6 +41,7 @@ img {
 
 }
 
+
  /* Styles for the our team page*/
 
  /* Three columns side by side */
@@ -96,3 +97,8 @@ img {
 .button:hover {
   background-color: #555;
 } 
+
+table{
+  width: 60%;
+}
+
