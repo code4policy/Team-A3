@@ -8,3 +8,4 @@ var logo = document.querySelector('img');
 
 // Assign the function to the onclick event on that element
 logo.onclick = sayOuch;
+
