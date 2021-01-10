@@ -2,14 +2,13 @@
 html {
 
   background-color: white;
-  height: 100%;
 
 }
 
 /* styles for the body of the site */
 body {
 
-  width: 70%;
+  width: 80%;
   height: 100%;
   background-color: #d3d3d3;
   padding: 50px 100px 100px 100px;
@@ -65,9 +64,6 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.row {
-  justify-content: center;
-}
 
 /* Some left and right padding inside the container */
 .container {
