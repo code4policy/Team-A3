@@ -1,14 +1,26 @@
 /* Set background */
 html {
+
   background-color: white;
+
+  background-color: brown;
+
 }
 
 /* styles for the body of the site */
 body {
+
   width: 60%;
   background-color: #d3d3d3;
   padding: 50px 100px 100px 100px;
   margin-top: 50px;
+
+  width: 90%;
+  background-color: beige;
+  border: 5px solid black;
+  padding: 0 10px 5px 5px;
+  margin-top: 25px;
+
   margin-left: auto;
   margin-right: auto;
 }

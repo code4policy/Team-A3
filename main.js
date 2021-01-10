@@ -9,6 +9,7 @@ var logo = document.querySelector('img');
 // Assign the function to the onclick event on that element
 logo.onclick = sayOuch;
 
+
 // Include literature review table
 d3.text("lit_review_table.csv", function(data) {
     var parsedCSV = d3.csv.parseRows(data);
