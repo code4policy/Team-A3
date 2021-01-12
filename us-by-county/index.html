@@ -23,7 +23,7 @@
             style="width: 0; min-width: 100% !important; border: none;" 
             height="489">
             </iframe>
-        <p>This graphic shows how particulate matter varies accross US counties. </p>
+        <p>This graphic shows how particulate matter varies accross US counties. Note that only roughly 1 in 6 counties has sufficient data for an annual weighted mean measure.</p>
 
 <!--    <p> PM2.5 (partiulate matter under 2.5&#x03BC;m in diameter) </p> -->
         <iframe 
@@ -36,29 +36,35 @@
             style="width: 0; min-width: 100% !important; border: none;" 
             height="489">
             </iframe>        
-        <p>This graphic shows how COVID death rate per case varies accross US counties. </p>
+        <p>This graphic shows how COVID death rate per case varies across US counties. </p>
 
         <p>How correlated are these variations?</p>
         <img src="images/Death_Rate_vs_PM25.png" width="700" height="1000">
-        <p>We see here that there is a very weak correlation with little explanatory power</p>
+        <p>We see here that there is a very weak correlation with little explanatory power over the 500+ counties with PM2.5 data.</p>
 
+        <p>For context, here is how COVID death rate per case is correlated with county poverty rate (in the counties represented above):</p>
 
-        <h2>For Context, How Does Death Rate Correlate with Poverty?</h2>
         <img src="images/death_rate_vs_poverty.png" width="700" height="1000">
         <p>Controlling for nothing else, county-level poverty rate is a far better indicator than PM2.5 (when controlling for nothing else).</p>
 
-        <img src="images/FL.png" width="700" height="1000">
-        <p>This state is currently FL</p>
+        <p>However, since there is COVID death rate data and poverty data for more than 3000 counties, a more statistically precise correlation can be calcualated.</p>
 
-        <h2>What does it mean?</h2>
-        <p>Here is a summary:</p>
+        <p>First, how does poverty vary nationwide?</p>
+        <iframe 
+            title="[ Poverty Rate, by County ]" 
+            aria-label="Map" 
+            id="datawrapper-chart-PnsT0" 
+            src="https://datawrapper.dwcdn.net/PnsT0/1/" 
+            scrolling="no" 
+            frameborder="0" 
+            style="width: 0; min-width: 100% !important; border: none;" height="489"></iframe>
+        <p>This graphic shows how county-level poverty rate varies accross US counties. </p>
 
+        <p>How correlated are Death Rate and Poverty Rate for 3000+ counties?</p>
+        <img src="images/death_rate_vs_poverty_all.png" width="700" height="1000">
+        <p>Repeating the same analysis above, a more explanatory relationship emerges with a much higher degree of precision.</p>
 
-
-        
-
-
-
+        <p>Summary</p>
 
         <!-- Link to Team A3's Bio -->
         <a href='../index.html'>Go back to the main page</a>
