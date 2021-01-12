@@ -13,23 +13,63 @@
         
         <!-- Head -->
         <h1>What Is the Picture When Data Is More Localized?</h1>
-        <h2>Here is the US</h2>
-        <img src="images/US.png" width="700" height="1000">
-        <p>This is the US</p>
+        <iframe 
+            title="US Annual PM2.5 By County" 
+            aria-label="Map" 
+            id="datawrapper-chart-4zoBn" 
+            src="https://datawrapper.dwcdn.net/4zoBn/3/" 
+            scrolling="no" 
+            frameborder="0" 
+            style="width: 0; min-width: 100% !important; border: none;" 
+            height="489">
+            </iframe>
+        <p>This graphic shows how particulate matter varies accross US counties. Note that only roughly 1 in 6 counties has sufficient data for an annual weighted mean measure.</p>
 
-        <h2>Interesting State 1</h2>
-        <img src="images/CA.png" width="700" height="1000">
-        <p>This state is currently FL</p>
+<!--    <p> PM2.5 (partiulate matter under 2.5&#x03BC;m in diameter) </p> -->
+        <iframe 
+            title="Deaths per COVID19 Case, by County]" 
+            aria-label="Map" 
+            id="datawrapper-chart-UueJh" 
+            src="https://datawrapper.dwcdn.net/UueJh/1/" 
+            scrolling="no" 
+            frameborder="0" 
+            style="width: 0; min-width: 100% !important; border: none;" 
+            height="489">
+            </iframe>        
+        <p>This graphic shows how COVID death rate per case varies across US counties. </p>
 
-        <h2>Interesting State 2</h2>
-        <img src="images/FL.png" width="700" height="1000">
-        <p>This state is currently FL</p>
+        <h2>How correlated are these variations?</h2>
+        <img src="images/Death_Rate_vs_PM25.png" width="700" height="1000">
+        <p>We see here that there is a very weak correlation with little explanatory power over the 500+ counties with PM2.5 data.</p>
 
-        <h2>What does it mean?</h2>
-        <p>Here is a summary:</p>
+        <p>For context, here is how COVID death rate per case is correlated with county poverty rate (in the counties represented above):</p>
+
+        <img src="images/death_rate_vs_poverty.png" width="700" height="1000">
+        <p>Controlling for nothing else, county-level poverty rate is a far better indicator than PM2.5 (when controlling for nothing else).</p>
+
+        <p>However, since there is COVID death rate data and poverty data for more than 3000 counties, a more statistically precise correlation can be calcualated.</p>
+
+        <h2>First, how does poverty vary nationwide?</h2>
+        <iframe 
+            title="[ Poverty Rate, by County ]" 
+            aria-label="Map" 
+            id="datawrapper-chart-PnsT0" 
+            src="https://datawrapper.dwcdn.net/PnsT0/1/" 
+            scrolling="no" 
+            frameborder="0" 
+            style="width: 0; min-width: 100% !important; border: none;" height="489"></iframe>
+        <p>This graphic shows how county-level poverty rate varies accross US counties. </p>
+
+        <h2>How correlated are Death Rate and Poverty Rate for 3000+ counties?</h2>
+        <img src="images/death_rate_vs_poverty_all.png" width="700" height="1000">
+        <p>Repeating the same analysis above, a more explanatory relationship emerges with a much higher degree of precision.</p>
+
+        <h2>What Does It All Mean?</h2>
+        <p>With the data available from the EPA for 2019, there is no clear correlation between PM2.5 particles and COVID Death Rate without controlling for ommitted factors correlated with both PM2.5 particles and COVID Death Rate, such as amount of economic activity taking place in a county.  A more complicated analysis could show such a correlation, but using PM2.5 concentrations without controlling for other factors to predict COVID Death Rate would have little benefit.</p>
 
         <!-- Link to Team A3's Bio -->
         <a href='../index.html'>Go back to the main page</a>
+        <script type="text/javascript" src='main.js'></script>
 
     </body>
 </html>
