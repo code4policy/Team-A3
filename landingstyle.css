@@ -1,0 +1,55 @@
+/* Set background */
+html {
+
+  background-color: black;
+
+}
+
+/* styles for the body of the site */
+body {
+
+  width: 40%;
+  height: 100%;
+  padding: 50px 100px 100px 100px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* styles for headline */
+h1 {
+  color: white;
+  font-family: Calibri;
+  font-size: 48px;
+}
+
+/* styles for subheadline */
+h2 {
+  color: white;
+  font-family: Calibri;
+  font-size: 32px;
+}
+
+/* styles for paragraph */
+p {
+    color: white;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+li {
+    color: white;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+/* styles for image */
+img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+
+}
+
