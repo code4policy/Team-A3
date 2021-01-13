@@ -64,6 +64,37 @@ th, td {
   font-size: 20px;
 }
 
+/* Styles for topnav*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #23252d;
+  overflow: hidden;
+  font-family: Calibri;
+  font-size: 24px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkgrey;
+  color: white;
+}
  /* Styles for the our team page*/
 
  /* Three columns side by side */
