@@ -149,7 +149,7 @@ ggplot(data=df,
   geom_point() + 
   xlab("% of All People Living in Poverty") + 
   ylab("COVID 19 Death Rate") + 
-  ggtitle("County Poverty Rate vs COVID 19 Death Rate")+
+  ggtitle("COVID 19 Death Rate vs County Poverty Rate")+
   geom_smooth(method=lm, formula = y ~ x) +
   annotate(x=35, 
            y=6, 
@@ -177,7 +177,7 @@ ggplot(data=df,
   geom_point() + 
   xlab("% of All People Living in Poverty") + 
   ylab("COVID 19 Death Rate") + 
-  ggtitle("County Poverty Rate vs COVID 19 Death Rate")+
+  ggtitle("COVID 19 Death Rate vs County Poverty Rate")+
   geom_smooth(method=lm, formula = y ~ x) +
   annotate(x=40, 
            y=7.5, 
