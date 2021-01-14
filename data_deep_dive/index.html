@@ -1,0 +1,197 @@
+
+<html>
+    <head>
+
+        <!-- Text that appears in the browser tab -->
+        <title>Data Deep Dive</title>
+
+        <!-- Link stylesheet -->
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+
+    </head>
+    <!-- add Topnav -->
+         <div class="topnav">
+             <a href="../index.html">Home</a>
+             <a class="active" href="index.html">Global</a>
+             <a href="../us_covid/index.html">US States</a>
+             <a href="../us-by-county/index.html">US Counties</a>
+             <a href="../china_covid/index.html">China</a>
+             <a href="../literature_review.html">Literature</a>
+             <a href="../our-team/index.html">About Us</a>
+        </div> 
+
+    <body>
+        
+        <!-- Head -->
+        <h1>The literature is clear</h1>
+        <h2>Why is this topic still more complicated than you might think?</h2>
+
+
+        <p> Most prominently, a <a href='https://www.hsph.harvard.edu/c-change/subtopics/coronavirus-and-pollution/'>study</a> from the Harvard T.H.Chan School of Public Health found that "a small increase in the long-term exposure to PM 2.5 leads to a large increase in the COVID-19 death rate". PM2.5 refers to particulate matter (also called particle pollution) of a specific size: 2.5 micrometers and smaller. For context, think about a single hair from your head. This is on average 70 micrometers in diameter, making it 30 times larger than the largets fine particles. Let's have a look on a country-by-country basis first. </p>
+
+       <!-- Embed datawrapper chart --> 
+        <iframe title="PM 2.5 air Pollutionmean annual micrograms/m3 " aria-label="Map" id="datawrapper-chart-yYah3" src="https://datawrapper.dwcdn.net/yYah3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="422"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+			</script> 
+
+		<p>As can be seen above, the level of air quality as measured the mean annual PM 2.5 air pollution concentration, varies a lot between country. Given the results of multiple studies (as summarised on our <a href='../literature_review.html'>literature review</a> page) one might think that we might now see a correlation between PM 2.5 and COVID-19 death rate on a country-by-country basis. However, this is not the case: </p>
+
+		<!-- Embed datawrapper chart --> 
+		<iframe title="When looking at countries with high testing rates (EU as proxy), a correlation starts to emerge (Copy)" aria-label="chart" id="datawrapper-chart-R9ZWa" src="https://datawrapper.dwcdn.net/R9ZWa/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+			</script>
+
+		<p>How come? There are two main reasons why it is difficult to look at this issue with average country-by-country data. Firstly, air pollution is a highly localised issue. Most particulate matter comes from so called "point sources". So unlike CO2, which is an atmospheric gas with similar concentrations everywhere (apart from the North Pole), particulate matter concentrations are much higher close to their sources than elsewhere. Most particles form in the atmosphere as a result of complex chemical reactions of sulfur dioxide and nitorgen oxides, which are pollutants emitted from power plants, industrial plants but also automobiles. This means that looking at national mean values is not necessarily picking up in which region air concentration is high and the correlation with COVID-19 deaths might not be linear.</p>
+		
+		<p>Secondly, data on COVID-19 death rates, measured as deaths per 100k, is highly dependant on testing. In countries with less testing, or improper reporting of the reason of death, this measure is not representative. Take the example below: When we start to look at regions with high test rates and high levels of reporting the reason for death (taking countries in the EU as a proxy-group), we see a positive correlation emerging. </p>
+
+		<!-- Embed datawrapper chart --> 
+		<iframe title="When looking at countries with high testing rates (EU as proxy), a correlation starts to emerge" aria-label="chart" id="datawrapper-chart-mnXsX" src="https://datawrapper.dwcdn.net/mnXsX/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+			</script>
+       
+        
+        <p>"Our word in data" has some great charts to show the extent of testing relative to the scale of the outbreak in different countries. The chart below shows the daily number of tests on the vertical axis agains the daily number of new confirmed cases on the horizontal axis - per million people. We can see that some countries are doing ten or hundred times fewer tests than other countries but still report a similar number of new confirmed cases. Our world in data explains: "Where the number of confirmed cases is high relative to the extent of testing, this suggests that there may not be enough tests being carried out to properly monitor the outbreak".
+         </p>
+        <iframe src="https://ourworldindata.org/grapher/covid-19-daily-tests-vs-daily-new-confirmed-cases-per-million?tab=chart&stackMode=absolute&time=latest&country=&region=World" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+                <br>
+
+        <h1>What about China?</h1>
+
+        <!-- Paragraphs -->
+        <p>After performing data analysis to find out if there is a potential relationship between COVID 19 and air pollution across the US, we decided to conduct similar analysis across China. We have collected China's covid 19 data from February to October 2020 and the country's air pollution data in the same period.</p>
+
+        <p>With the data available, we made four scatterplots to find out if there are positive correlations between Covid 19 death rate in China and each of the three major pollutants (i.e. particle pollution (PM2.5 and PM10), carbon monoxide, and sulfur dioxide).</p>
+
+        <p>The results are shown below:</p>
+
+        <p>PM2.5 vs Covid 19 Death Rate</p>
+        <img src='../images/pm2.5_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>PM10 vs Covid 19 Death Rate</p>
+        <img src='../images/pm10_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>CO vs Covid 19 Death Rate</p>
+        <img src='../images/co_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>SO2 vs Covid 19 Death Rate</p>
+        <img src='../images/so2_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>Contrary to our initial expectation, there is a weak positive correlation between PM2.5 and covid 19 death rate, with the correlation coefficient of 0.05. Similarly, the correlation coefficient between PM10 and covid 19 death rate is 0.16, which is still not a strong correlation. However, the correlation between CO and covid 19 death rate, and that between SO2 and covid 19 death rate are relatively strong and positive, with the correlation coefficients of 0.44 and 0.55, respectively.</p>
+
+        <P>Since the correlation between SO2 and covid 19 death rate was the strongest, we decided to further visualize both SO2 and covid 19 death rate using the heat map of China.</P>
+
+        <p>The visualizations are shown below:</p>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="Covid 19 Death Rate in China" aria-label="Map" id="datawrapper-chart-M6Isn" src="https://datawrapper.dwcdn.net/M6Isn/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="SO2 Level in China" aria-label="Map" id="datawrapper-chart-EVu2u" src="https://datawrapper.dwcdn.net/EVu2u/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="CO Level in China" aria-label="Map" id="datawrapper-chart-2X6zH" src="https://datawrapper.dwcdn.net/2X6zH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <p>As expected, provinces with high level of SO2 had relatively higher covid 19 death rate. However, it should be noted that the strong positive correlation between the level of SO2 and covid 19 death rate does not necessarily indicate a causal relationship between two variables. First, we do not know which of these two variables, if any, is a dependant variable. Second, even if we do, there might be one or more confounding variables that affect the correlation between SO2 level and the death rate. Therefore, in order to find out if there is a causal relationship between the two, we need to control other confounding variables, and that is beyond the scope of this page.</p>
+
+        <br>
+
+        <h1>Is previous study(PM2.5) works on U.S. state level?</h1>
+
+        <!-- Paragraphs -->
+        <p>For the find out relationship with Air pollution & COVID-19 Death rate, visualize COVID-19 Death rate per 100,000 patients and States average montinoring result by states level on PM 2.5. </p>
+
+    
+        
+   
+
+
+        <iframe title="[COVID-19 Death Rate per 100,000 ]" aria-label="Map" id="datawrapper-chart-wp2yk" src="https://datawrapper.dwcdn.net/wp2yk/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="484"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+<p>Here is PM 2.5 air pollution heat map & regression ananlysis graph. We can detect PM 2.5 data is weak correlate(R<sup>2</sup>=0.02873) with COVID-19 Death in U.S.</p>
+
+                  <iframe title="[ Air Pollution in U.S(PM 2.5) ]" aria-label="Map" id="datawrapper-chart-dzVJy" src="https://datawrapper.dwcdn.net/dzVJy/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="459"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/TrtRXYj/Rplot-PM2-5.png" alt="Rplot-PM2-5" border="0"></a>
+
+
+     <h2>Any other index for comparison?</h2>
+<p>For the seek more correlation wiht air quality and COVID-19 death rate, we analysis with EPA(Environmental Protection Agency) AQI(Air Quality Index).</p>
+
+        <p>API(Air Pollution Index) : The Air Quality Index (AQI) is an index calculated for four major air pollutants regulated by the Clean Air Act: ground-level ozone, particle pollution, carbon monoxide, and sulfur dioxide.</p>
+         <iframe title="[ EPA Air Quality Standard ] " aria-label="Map" id="datawrapper-chart-OQ1ZI" src="https://datawrapper.dwcdn.net/OQ1ZI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="484"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/52W57h5/Rplot-AQI.png" alt="Rplot-AQI" border="0"></a>
+
+      <p>AQI index shows slightly more correlation with COVID-19 death rate.(R<sup>2</sup>=0.07483) It means ozone, carbon monoxide and sulfur dioxide also impact on COVID-19 death rate.</p> 
+        <h2>Why states view correlation is low?</h2>
+        <p>One of the reason is air pollution monitor location.</p>
+        <p>The monitor centers are not equaly spread on states. It caused bias on state level analysis.</p> 
+        <p>Thus, AQI factor and COVID-19 correlation provide limited information on states view.</p>
+      
+<h1>What Is the Picture When Data Is More Localized?</h1>
+        <iframe 
+            title="US Annual PM2.5 By County" 
+            aria-label="Map" 
+            id="datawrapper-chart-4zoBn" 
+            src="https://datawrapper.dwcdn.net/4zoBn/3/" 
+            scrolling="no" 
+            frameborder="0" 
+            style="width: 0; min-width: 100% !important; border: none;" 
+            height="489">
+            </iframe>
+        <p>This graphic shows how particulate matter varies accross US counties. Note that only roughly 1 in 6 counties has sufficient data for an annual weighted mean measure.</p>
+
+<!--    <p> PM2.5 (partiulate matter under 2.5&#x03BC;m in diameter) </p> -->
+        <iframe 
+            title="Deaths per COVID19 Case, by County]" 
+            aria-label="Map" 
+            id="datawrapper-chart-UueJh" 
+            src="https://datawrapper.dwcdn.net/UueJh/1/" 
+            scrolling="no" 
+            frameborder="0" 
+            style="width: 0; min-width: 100% !important; border: none;" 
+            height="489">
+            </iframe>        
+        <p>This graphic shows how COVID death rate per case varies across US counties. </p>
+
+        <h2>How correlated are these variations?</h2>
+        <img src="images/Death_Rate_vs_PM25.png" width="700" height="1000">
+        <p>We see here that there is a very weak correlation with little explanatory power over the 500+ counties with PM2.5 data.</p>
+
+        <p>For context, here is how COVID death rate per case is correlated with county poverty rate (in the counties represented above):</p>
+
+        <img src="images/death_rate_vs_poverty.png" width="700" height="1000">
+        <p>Controlling for nothing else, county-level poverty rate is a far better indicator than PM2.5 (when controlling for nothing else).</p>
+
+        <p>However, since there is COVID death rate data and poverty data for more than 3000 counties, a more statistically precise correlation can be calcualated.</p>
+
+        <h2>First, how does poverty vary nationwide?</h2>
+        <iframe 
+            title="[ Poverty Rate, by County ]" 
+            aria-label="Map" 
+            id="datawrapper-chart-PnsT0" 
+            src="https://datawrapper.dwcdn.net/PnsT0/1/" 
+            scrolling="no" 
+            frameborder="0" 
+            style="width: 0; min-width: 100% !important; border: none;" height="489"></iframe>
+        <p>This graphic shows how county-level poverty rate varies accross US counties. </p>
+
+        <h2>How correlated are Death Rate and Poverty Rate for 3000+ counties?</h2>
+        <img src="images/death_rate_vs_poverty_all.png" width="700" height="1000">
+        <p>Repeating the same analysis above, a more explanatory relationship emerges with a much higher degree of precision.</p>
+
+        <h2>What Does It All Mean?</h2>
+        <p>With the data available from the EPA for 2019, there is no clear correlation between PM2.5 particles and COVID Death Rate without controlling for ommitted factors correlated with both PM2.5 particles and COVID Death Rate, such as amount of economic activity taking place in a county.  A more complicated analysis could show such a correlation, but using PM2.5 concentrations without controlling for other factors to predict COVID Death Rate would have little benefit.</p>
+
+
+    </body>
+</html>
