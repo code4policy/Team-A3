@@ -56,6 +56,90 @@
         <!-- Adding space -->	
         <br>
 
+        <h1>What about China?</h1>
+
+        <!-- Paragraphs -->
+        <p>After performing data analysis to find out if there is a potential relationship between COVID 19 and air pollution across the US, we decided to conduct similar analysis across China. We have collected China's covid 19 data from February to October 2020 and the country's air pollution data in the same period.</p>
+
+        <p>With the data available, we made four scatterplots to find out if there are positive correlations between Covid 19 death rate in China and each of the three major pollutants (i.e. particle pollution (PM2.5 and PM10), carbon monoxide, and sulfur dioxide).</p>
+
+        <p>The results are shown below:</p>
+
+        <p>PM2.5 vs Covid 19 Death Rate</p>
+        <img src='../images/pm2.5_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>PM10 vs Covid 19 Death Rate</p>
+        <img src='../images/pm10_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>CO vs Covid 19 Death Rate</p>
+        <img src='../images/co_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>SO2 vs Covid 19 Death Rate</p>
+        <img src='../images/so2_vs_covid_china.png' width="600" height="800">
+        <p></p>
+
+        <p>Contrary to our initial expectation, there is a weak positive correlation between PM2.5 and covid 19 death rate, with the correlation coefficient of 0.05. Similarly, the correlation coefficient between PM10 and covid 19 death rate is 0.16, which is still not a strong correlation. However, the correlation between CO and covid 19 death rate, and that between SO2 and covid 19 death rate are relatively strong and positive, with the correlation coefficients of 0.44 and 0.55, respectively.</p>
+
+        <P>Since the correlation between SO2 and covid 19 death rate was the strongest, we decided to further visualize both SO2 and covid 19 death rate using the heat map of China.</P>
+
+        <p>The visualizations are shown below:</p>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="Covid 19 Death Rate in China" aria-label="Map" id="datawrapper-chart-M6Isn" src="https://datawrapper.dwcdn.net/M6Isn/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="SO2 Level in China" aria-label="Map" id="datawrapper-chart-EVu2u" src="https://datawrapper.dwcdn.net/EVu2u/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="CO Level in China" aria-label="Map" id="datawrapper-chart-2X6zH" src="https://datawrapper.dwcdn.net/2X6zH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <p>As expected, provinces with high level of SO2 had relatively higher covid 19 death rate. However, it should be noted that the strong positive correlation between the level of SO2 and covid 19 death rate does not necessarily indicate a causal relationship between two variables. First, we do not know which of these two variables, if any, is a dependant variable. Second, even if we do, there might be one or more confounding variables that affect the correlation between SO2 level and the death rate. Therefore, in order to find out if there is a causal relationship between the two, we need to control other confounding variables, and that is beyond the scope of this page.</p>
+
+        <br>
+
+        <h1>Is previous study(PM2.5) works on U.S. state level?</h1>
+
+        <!-- Paragraphs -->
+        <p>For the find out relationship with Air pollution & COVID-19 Death rate, visualize COVID-19 Death rate per 100,000 patients and States average montinoring result by states level on PM 2.5. </p>
+
+    
+        
+   
+
+
+        <iframe title="[COVID-19 Death Rate per 100,000 ]" aria-label="Map" id="datawrapper-chart-wp2yk" src="https://datawrapper.dwcdn.net/wp2yk/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="484"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+<p>Here is PM 2.5 air pollution heat map & regression ananlysis graph. We can detect PM 2.5 data is weak correlate(R<sup>2</sup>=0.02873) with COVID-19 Death in U.S.</p>
+
+                  <iframe title="[ Air Pollution in U.S(PM 2.5) ]" aria-label="Map" id="datawrapper-chart-dzVJy" src="https://datawrapper.dwcdn.net/dzVJy/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="459"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/TrtRXYj/Rplot-PM2-5.png" alt="Rplot-PM2-5" border="0"></a>
+
+
+     <h2>Any other index for comparison?</h2>
+<p>For the seek more correlation wiht air quality and COVID-19 death rate, we analysis with EPA(Environmental Protection Agency) AQI(Air Quality Index).</p>
+
+        <p>API(Air Pollution Index) : The Air Quality Index (AQI) is an index calculated for four major air pollutants regulated by the Clean Air Act: ground-level ozone, particle pollution, carbon monoxide, and sulfur dioxide.</p>
+         <iframe title="[ EPA Air Quality Standard ] " aria-label="Map" id="datawrapper-chart-OQ1ZI" src="https://datawrapper.dwcdn.net/OQ1ZI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="484"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/52W57h5/Rplot-AQI.png" alt="Rplot-AQI" border="0"></a>
+
+      <p>AQI index shows slightly more correlation with COVID-19 death rate.(R<sup>2</sup>=0.07483) It means ozone, carbon monoxide and sulfur dioxide also impact on COVID-19 death rate.</p> 
+        <h2>Why states view correlation is low?</h2>
+        <p>One of the reason is air pollution monitor location.</p>
+        <p>The monitor centers are not equaly spread on states. It caused bias on state level analysis.</p> 
+        <p>Thus, AQI factor and COVID-19 correlation provide limited information on states view.</p>
+      
+
 
         <!-- Invoke the JavaScript file for interactive image -->
 		<script type="text/javascript" src='main.js'></script>
