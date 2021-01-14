@@ -4,18 +4,19 @@ library(lfe)
 # ----
 
 #Read Data
-air <- read_csv("data/ctyfactbook2019.csv") #https://www.epa.gov/air-trends/air-quality-cities-and-counties
+# Data grabbed from #https://www.epa.gov/air-trends/air-quality-cities-and-counties, saved into .csv for R
+air <- read_csv("data/ctyfactbook2019.csv")
+
+# catalogued version in "data/us-county-covid-01-11-2021.csv"
 covid <- read_csv ("https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_daily_reports/01-10-2021.csv")
 
-# covid <- read_csv("https://data.cdc.gov/api/views/kn79-hsxy/rows.csv?accessType=DOWNLOAD")
-#If above doens't work, there is version accessed 1/6 here
-# covid <- read_csv("data/Provisional_COVID-19_Death_Counts_in_the_United_States_by_County-1-6-21.csv")
 
 # Format FIPS Codes for joining
 air$`County FIPS Code` <- str_pad(as.character(air$`County FIPS Code`), 
                                   5, 
                                   pad = "0")
 
+# Calculate deaths per case, format fips code
 covid <- covid %>% 
   filter(!is.na(FIPS)) %>% 
   mutate(Death_Rate = Incident_Rate/Confirmed*Deaths)
@@ -23,9 +24,10 @@ covid$FIPS <- str_pad(as.character(covid$FIPS),
                                     5, 
                                     pad = "0")
 
+# Join data
 data <- full_join(air, covid, by= c("County FIPS Code"="FIPS"))
 
-# from https://www.ers.usda.gov/webdocs/DataFiles/48747/PovertyEstimates.xls?v=6924.4
+# Grabbed from https://www.ers.usda.gov/webdocs/DataFiles/48747/PovertyEstimates.xls?v=6924.4
 poverty <- read_csv("data/poverty-by-county.csv")
 povery <- poverty %>% select(FIPStxt, Stabr, Area_name, POVALL_2019)
 
@@ -185,47 +187,3 @@ ggplot(data=df,
                              2)), 
            geom="text", 
            size=4)
-
-#scatterplot using Death_rate vs PM10 with R value
-# ggplot(data=covid_aqi_w_death, aes(x=PM10, y=Death_rate))+geom_point() + xlab("PM10 Levels") + ylab("COVID 19 Death Rate") + ggtitle("PM10 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=130, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$PM10,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
-# 
-# #scatterplot using Death_rate vs CO with R value
-# ggplot(data=covid_aqi_w_death, aes(x=CO, y=Death_rate))+geom_point() + xlab("CO Levels") + ylab("COVID 19 Death Rate") + ggtitle("CO vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=2.2, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$CO,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
-# 
-# #scatterplot using Death_rate vs NO2 with R value
-# ggplot(data=covid_aqi_w_death, aes(x=NO2, y=Death_rate))+geom_point() + xlab("NO2 Levels") + ylab("COVID 19 Death Rate") + ggtitle("NO2 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=85, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$NO2,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
-# 
-# #scatterplot using Death_rate vs O3 with R value
-# ggplot(data=covid_aqi_w_death, aes(x=O3, y=Death_rate))+geom_point() + xlab("O3 Levels") + ylab("COVID 19 Death Rate") + ggtitle("O3 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=67, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$O3,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
-# 
-# #scatterplot using Death_rate vs SO2 with R value
-# ggplot(data=covid_aqi_w_death, aes(x=SO2, y=Death_rate))+geom_point() + xlab("SO2 Levels") + ylab("COVID 19 Death Rate") + ggtitle("SO2 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=55, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$SO2,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
-
-
-
-
-# Scratchpad----
-
-df <- df %>% filter(!is.na(State)) %>% 
-  select(-c(county, 
-            state, 
-            date, 
-            confirmed_cases,
-            confirmed_deaths,
-            probable_cases,
-            probable_deaths,
-            date)) %>% 
-  mutate(cases_per_100k = cases/`2010 Population`*100000,
-         deaths_per_100k = deaths/`2010 Population`*100000,
-         deaths_per_case = deaths/cases)
-
-df2 <- df %>% select(`County FIPS Code`, deaths_per_case)
-write_csv(df, "data/county_covid_air.csv")
-write_csv(df2, "data/county_covid_air2.csv")
-
-
-write_csv(covid %>% 
-            mutate(cases_per_100k = cases/`2010 Population`*100000,
-                   deaths_per_100k = deaths/`2010 Population`*100000,
-                   deaths_per_case = deaths/cases) %>% 
-            select(fips, deaths_per_case), "data/temp.csv")
