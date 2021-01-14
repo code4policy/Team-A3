@@ -1,1 +1,1 @@
-This directory contains the R project directory and directions to tell your WSL system to open rstudio with the command rstudio or a project r.proj with rstudio rproj
+This directory contains the R project directory and directions to tell your WSL system to open rstudio with the `rstudio` or project r.proj with `rstudio rproj`
