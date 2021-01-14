@@ -23,12 +23,19 @@ h1 {
   font-size: 48px;
 }
 
-/* styles for subheadline */
+/* styles for subheadlines */
 h2 {
   color: #23252d;
   font-family: Calibri;
   font-size: 32px;
 }
+
+h3 {
+  color: grey;
+  font-family: Calibri;
+  font-size: 24px;
+}
+
 
 /* styles for paragraph */
 p {
@@ -100,7 +107,7 @@ th, td {
  /* Three columns side by side */
 .column {
   float: left;
-  width: 33.3%;
+  width: 45%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -161,12 +168,14 @@ th, td {
   background-color: #eee;
   color: #444;
   cursor: pointer;
+  font-family: Calibri;
   padding: 18px;
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
+  
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -181,6 +190,20 @@ th, td {
   display: none;
   overflow: hidden;
 } 
+
+/*Add a symbol to each button to indicate whether the collapsible content is open or closed:*/
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 
 table{
   width: 60%;
