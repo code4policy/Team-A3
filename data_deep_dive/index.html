@@ -110,8 +110,8 @@
             .data(data)
             .enter()
             .append("circle")
-              .attr("cx", function (d) { return x(d.GrLivArea); } )
-              .attr("cy", function (d) { return y(d.SalePrice); } )
+              .attr("cx", function (d) { return x(d.PM25); } )
+              .attr("cy", function (d) { return y(d.Death_rate); } )
               .attr("r", 1.5)
               .style("fill", "#69b3a2")
 
