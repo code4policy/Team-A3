@@ -8,6 +8,8 @@
         <!-- Link stylesheet -->
         <link rel="stylesheet" type="text/css" href="../styles.css">
 
+        <meta charset="utf-8">
+
     </head>
     <!-- add Topnav -->
          <div class="topnav">
@@ -59,6 +61,64 @@
         <p>With the data available, we made four scatterplots to find out if there are positive correlations between Covid 19 death rate in China and each of the three major pollutants (i.e. particle pollution (PM2.5 and PM10), carbon monoxide, and sulfur dioxide).</p>
 
         <p>The results are shown below:</p>
+
+        <!-- D3 scatterplot starts here -->
+
+        <!-- Load d3.js -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+
+        <!-- Create a div where the graph will take place -->
+        <div id="my_dataviz"></div>
+
+        <script>
+
+        // set the dimensions and margins of the graph
+        var margin = {top: 10, right: 30, bottom: 30, left: 60},
+            width = 460 - margin.left - margin.right,
+            height = 400 - margin.top - margin.bottom;
+
+        // append the svg object to the body of the page
+        var svg = d3.select("#my_dataviz")
+          .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform",
+                  "translate(" + margin.left + "," + margin.top + ")");
+
+        //Read the data
+        d3.csv("../data-for-china/china_death_pm25.csv", function(data) {
+
+          // Add X axis
+          var x = d3.scaleLinear()
+            .domain([0, 4000])
+            .range([ 0, width ]);
+          svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x));
+
+          // Add Y axis
+          var y = d3.scaleLinear()
+            .domain([0, 500000])
+            .range([ height, 0]);
+          svg.append("g")
+            .call(d3.axisLeft(y));
+
+          // Add dots
+          svg.append('g')
+            .selectAll("dot")
+            .data(data)
+            .enter()
+            .append("circle")
+              .attr("cx", function (d) { return x(d.GrLivArea); } )
+              .attr("cy", function (d) { return y(d.SalePrice); } )
+              .attr("r", 1.5)
+              .style("fill", "#69b3a2")
+
+        })
+
+        </script>
+        <!-- D3 scatterplot ends here -->
 
         <p>PM2.5 vs Covid 19 Death Rate</p>
         <img src='../images/pm2.5_vs_covid_china.png' width="600" height="800">
