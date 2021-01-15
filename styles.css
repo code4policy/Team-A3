@@ -258,18 +258,25 @@ table{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: auto;
+  max-width: block-size;
   background-color: black;
   color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+  display: inline-block;
 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
+
+  /*Make fade in*/
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  opacity: 1;
 }
