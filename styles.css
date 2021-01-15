@@ -258,7 +258,7 @@ table{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: auto;
+  width: 200px;
   max-width: block-size;
   background-color: black;
   color: #fff;
@@ -267,9 +267,16 @@ table{
   padding: 5px 0;
   display: inline-block;
 
+  /*format text*/
+  font-family: Calibri;
+  font-size: 20px;
+
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 
   /*Make fade in*/
   opacity: 0;
