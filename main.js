@@ -29,8 +29,6 @@ $("#glossary h2").each(function(index) {
 
   // Update all instances of that word in the content page with mouse over def.
   var contentHTML = $("#content").html();
-  contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<div class="tooltip">' + word + '<span class="tooltiptext">' + def + '</span></div>');
-
-  // contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<span title="' + def + '">' + word + '</span>');
+  contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<span class="tooltip">' + word + '<span class="tooltiptext">' + def + '</span></span>');
   $("#content").html(contentHTML);
 });
