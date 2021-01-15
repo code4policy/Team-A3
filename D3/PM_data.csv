@@ -1,61 +1,61 @@
-﻿State/Territory,DeathRate,PM2.5,AQI,,,,,
-Alaska,30,7.026919359,29.1,,,,,
-Alabama,105,7.708208681,46.6,,,,,
-Arkansas,131,7.813542765,43.1,,,,,
-American Samoa,0,,,,,,,
-Arizona,136,6.988750068,45.4,,,,,
-California,72,9.175463087,46,,,,,
-Colorado,89,7.31571387,47.1,,,,,
-Connecticut,177,6.285074246,45,,,,,
-District of Columbia,114,6.566143792,,,,,,
-Delaware,99,6.647006633,46.4,,,,,
-Florida,105,7.757536386,38.9,,,,,
-Federated States of Micronesia,0,,,,,,,
-Georgia,106,8.133521956,48.2,,,,,
-Guam,74,,,,,,,
-Hawaii,21,2.55443413,21.2,,,,,
-Iowa,130,7.789771905,37.6,,,,,
-Idaho,85,5.393484297,44.3,,,,,
-Illinois,150,8.583356466,43.6,,,,,
-Indiana,132,8.390073996,47.5,,,,,
-Kansas,108,7.628929814,42.8,,,,,
-Kentucky,63,7.347503525,46.1,,,,,
-Louisiana,168,7.384234452,40.4,,,,,
-Massachusetts,187,6.649492884,41.4,,,,,
-Maryland,103,5.699874282,47,,,,,
-Maine,32,5.262033696,36.5,,,,,
-Michigan,139,7.520198637,42.5,,,,,
-Minnesota,100,5.8836353,38.3,,,,,
-Missouri,96,7.862616042,44,,,,,
-Northern Mariana Islands,3,,,,,,,
-Mississippi,172,8.878847869,43.7,,,,,
-Montana,98,4.531434684,39.6,,,,,
-North Carolina,69,6.489144321,46.5,,,,,
-North Dakota,177,4.85994226,37,,,,,
-Nebraska,89,6.511115237,37,,,,,
-New Hampshire,62,4.953268326,38.9,,,,,
-New Jersey,222,7.237769908,44.1,,,,,
-New Mexico,129,5.773197293,42.1,,,,,
-Nevada,110,6.383522294,42.1,,,,,
-New York,122,6.563141802,40.4,,,,,
-New York City,303,7.542951333,,,,,,
-Ohio,81,8.151016239,48.2,,,,,
-Oklahoma,69,8.142195837,43.5,,,,,
-Oregon,37,10.77460483,36.1,,,,,
-Pennsylvania,135,7.701801197,45.6,,,,,
-Puerto Rico,50,5.819567,,,,,,
-Palau,0,,,,,,,
-Rhode Island,180,6.098364865,43.7,,,,,
-Republic of Marshall Islands,0,,,,,,,
-South Carolina,110,6.984979286,44.8,,,,,
-South Dakota,175,5.080361245,39.6,,,,,
-Tennessee,111,6.854196365,47.5,,,,,
-Texas,101,8.837300582,41,,,,,
-Utah,43,7.250275092,51.2,,,,,
-Virginia,63,5.909720017,45,,,,,
-Virgin Islands,22,6.071429,,,,,,
-Vermont,25,5.622253071,38.5,,,,,
-Washington,48,5.326084957,33.5,,,,,
-Wisconsin,94,7.316688417,39.5,,,,,
-West Virginia,86,7.085042415,47.6,,,,,
-Wyoming,84,2.843824662,45,,,,,
+﻿State/Territory,DeathRate,PM25,AQI
+Alaska,30,7.026919359,29.1
+Alabama,105,7.708208681,46.6
+Arkansas,131,7.813542765,43.1
+American Samoa,0,,
+Arizona,136,6.988750068,45.4
+California,72,9.175463087,46
+Colorado,89,7.31571387,47.1
+Connecticut,177,6.285074246,45
+District of Columbia,114,6.566143792,
+Delaware,99,6.647006633,46.4
+Florida,105,7.757536386,38.9
+Federated States of Micronesia,0,,
+Georgia,106,8.133521956,48.2
+Guam,74,,
+Hawaii,21,2.55443413,21.2
+Iowa,130,7.789771905,37.6
+Idaho,85,5.393484297,44.3
+Illinois,150,8.583356466,43.6
+Indiana,132,8.390073996,47.5
+Kansas,108,7.628929814,42.8
+Kentucky,63,7.347503525,46.1
+Louisiana,168,7.384234452,40.4
+Massachusetts,187,6.649492884,41.4
+Maryland,103,5.699874282,47
+Maine,32,5.262033696,36.5
+Michigan,139,7.520198637,42.5
+Minnesota,100,5.8836353,38.3
+Missouri,96,7.862616042,44
+Northern Mariana Islands,3,,
+Mississippi,172,8.878847869,43.7
+Montana,98,4.531434684,39.6
+North Carolina,69,6.489144321,46.5
+North Dakota,177,4.85994226,37
+Nebraska,89,6.511115237,37
+New Hampshire,62,4.953268326,38.9
+New Jersey,222,7.237769908,44.1
+New Mexico,129,5.773197293,42.1
+Nevada,110,6.383522294,42.1
+New York,122,6.563141802,40.4
+New York City,303,7.542951333,
+Ohio,81,8.151016239,48.2
+Oklahoma,69,8.142195837,43.5
+Oregon,37,10.77460483,36.1
+Pennsylvania,135,7.701801197,45.6
+Puerto Rico,50,5.819567,
+Palau,0,,
+Rhode Island,180,6.098364865,43.7
+Republic of Marshall Islands,0,,
+South Carolina,110,6.984979286,44.8
+South Dakota,175,5.080361245,39.6
+Tennessee,111,6.854196365,47.5
+Texas,101,8.837300582,41
+Utah,43,7.250275092,51.2
+Virginia,63,5.909720017,45
+Virgin Islands,22,6.071429,
+Vermont,25,5.622253071,38.5
+Washington,48,5.326084957,33.5
+Wisconsin,94,7.316688417,39.5
+West Virginia,86,7.085042415,47.6
+Wyoming,84,2.843824662,45
