@@ -73,7 +73,7 @@
         <script>
 
         // set the dimensions and margins of the graph
-        var margin = {top: 10, right: 30, bottom: 30, left: 60},
+        var margin = {top: 10, right: 30, bottom: 50, left: 60},
             width = 460 - margin.left - margin.right,
             height = 400 - margin.top - margin.bottom;
 
@@ -115,10 +115,27 @@
               .attr("r", 1.5)
               .style("fill", "#69b3a2")
 
+          // Add X axis label:
+          svg.append("text")
+              .attr("text-anchor", "end")
+              .attr("x", width/2 + margin.left + 20)
+              .attr("y", height + margin.top + 30)
+              .text("PM 2.5 Level (μg/m3)");
+
+          // Y axis label:
+          svg.append("text")
+              .attr("text-anchor", "end")
+              .attr("transform", "rotate(-90)")
+              .attr("y", -margin.left + 25)
+              .attr("x", -margin.top - height/2 + 90)
+              .text("Covid 19 Death Rate(%)")
+
         })
 
         </script>
         <!-- D3 scatterplot ends here -->
+
+        <br>
 
         <p>PM2.5 vs Covid 19 Death Rate</p>
         <img src='../images/pm2.5_vs_covid_china.png' width="600" height="800">
