@@ -118,7 +118,7 @@ th, td {
 }
 
 /* Collapsible: Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active_accordion, .collapsible:hover {
   background-color: #ccc;
 }
 
@@ -138,7 +138,7 @@ th, td {
   margin-left: 5px;
 }
 
-.active:after {
+.active_accordion:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
@@ -219,7 +219,7 @@ th, td {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active_accordion, .accordion:hover {
   background-color: #ccc;
 }
 
@@ -241,7 +241,7 @@ th, td {
   margin-left: 5px;
 }
 
-.active:after {
+.active_accordion:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
