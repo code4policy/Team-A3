@@ -1,4 +1,5 @@
 
+
 // collapsible content our team page
 
 var acc = document.getElementsByClassName("accordion");
@@ -19,3 +20,4 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 } 
+
