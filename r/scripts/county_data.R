@@ -32,12 +32,12 @@ poverty <- read_csv("data/poverty-by-county.csv")
 povery <- poverty %>% select(FIPStxt, Stabr, Area_name, POVALL_2019)
 
 data <- left_join(data, poverty, by= c("County FIPS Code" = "FIPStxt"))
-  
+
 # Export FIPS and Death Rate----
 df <- data %>%
   filter(Admin2 != "Unassigned") %>% 
   rename(FIPS = `County FIPS Code`) %>% 
-  select(FIPS, Case_Fatality_Ratio) %>% 
+  select(FIPS, County, Case_Fatality_Ratio) %>% 
   filter(!is.na(Case_Fatality_Ratio)) %>% 
   mutate(Case_Fatality_Ratio = round(Case_Fatality_Ratio, 2)) %>% 
   rename(DeathRate = Case_Fatality_Ratio)
@@ -47,7 +47,7 @@ write_csv(df, "data/deaths_per_case.csv")
 # Export FIPS and PM25----
 df <- data %>% 
   rename(FIPS = `County FIPS Code`) %>% 
-  select(FIPS, `PM2.5     Wtd AM (µg/m3)`) %>% 
+  select(FIPS, County, `PM2.5     Wtd AM (µg/m3)`) %>% 
   rename(pm25 = `PM2.5     Wtd AM (µg/m3)`) %>% 
   filter(!(pm25 == "ND" | pm25 == "IN")) %>% 
   mutate(pm25 = as.numeric(pm25))
@@ -57,6 +57,7 @@ write_csv(df, "data/pm25.csv")
 # Export FIPS and Poverty Rate ----
 df <- data %>% 
   select(`County FIPS Code`,
+         County,
          PCTPOVALL_2019) %>% 
   filter(!is.na(PCTPOVALL_2019)) %>% 
   rename(fips = `County FIPS Code`,
