@@ -1,14 +1,12 @@
 /* Set background */
 html {
-
   background-color: white;
-
 }
 
 /* styles for the body of the site */
 body {
-
-  width: 40%;
+  width: auto;
+  max-width: 1250;
   height: 100%;
   padding: 50px 100px 100px 100px;
   margin-top: 50px;
@@ -120,7 +118,7 @@ th, td {
 }
 
 /* Collapsible: Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active_accordion, .collapsible:hover {
   background-color: #ccc;
 }
 
@@ -140,7 +138,7 @@ th, td {
   margin-left: 5px;
 }
 
-.active:after {
+.active_accordion:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
@@ -221,7 +219,7 @@ th, td {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active_accordion, .accordion:hover {
   background-color: #ccc;
 }
 
@@ -243,7 +241,7 @@ th, td {
   margin-left: 5px;
 }
 
-.active:after {
+.active_accordion:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
