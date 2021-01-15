@@ -1,14 +1,12 @@
 /* Set background */
 html {
-
   background-color: white;
-
 }
 
 /* styles for the body of the site */
 body {
-
-  width: 40%;
+  width: auto;
+  max-width: 1250;
   height: 100%;
   padding: 50px 100px 100px 100px;
   margin-top: 50px;
