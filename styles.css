@@ -14,6 +14,7 @@ body {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  text-align: justify;
 }
 
 /* styles for headline */
@@ -21,6 +22,7 @@ h1 {
   color: #23252d;
   font-family: Calibri;
   font-size: 48px;
+  text-align: justify;
 }
 
 /* styles for subheadlines */
@@ -33,11 +35,18 @@ h2 {
 
 h3 {
   color: grey;
-
   font-family: Calibri;
   font-size: 24px;
+  text-align: left;
 }
 
+
+h4 {
+  color: #23252d;
+  font-family: Calibri;
+  font-size: 28px;
+  text-align: justify;
+}
 
 /* styles for paragraph */
 p {
@@ -59,6 +68,24 @@ img {
   max-width: 100%;
   height: auto;
 
+}
+
+/* Container holding the intro page image and the text */
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Calibri;
+  font-size: 48px;
 }
 
 /* Styles for table on lit review page*/
@@ -104,9 +131,10 @@ th, td {
   background-color: darkgrey;
   color: white;
 }
- /* Styles for the our team page*/
 
-  /* Collapsible: Style the button that is used to open and close the collapsible content */
+/* Styles for the our team page*/
+  
+/* Collapsible: Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
   color: #444;
@@ -170,7 +198,7 @@ th, td {
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 0 16px;
+  padding: 16px;
 }
 
 /* Clear floats */
@@ -186,7 +214,7 @@ th, td {
 
 /* linkedIn buttons */
 
-.button {
+/.button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -203,6 +231,10 @@ th, td {
 } 
 
 
+.team-img-con { position: relative; }
+.team-img-con img { display: block; }
+.team-img-con .fa-linkedin-in { position: absolute; top:0; right:0; }
+
 /* collapsible*/
 
  /* Style the buttons that are used to open and close the accordion panel */
@@ -211,6 +243,7 @@ th, td {
   color: #444;
   cursor: pointer;
   font-family: Calibri;
+  font-size:16px;
   padding: 18px;
   width: 100%;
   text-align: left;
