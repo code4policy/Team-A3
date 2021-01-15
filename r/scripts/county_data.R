@@ -7,36 +7,52 @@ library(lfe)
 # Data grabbed from #https://www.epa.gov/air-trends/air-quality-cities-and-counties, saved into .csv for R
 air <- read_csv("data/ctyfactbook2019.csv")
 
+# Format FIPS Codes for joining, drop county
+air <- air %>% 
+  mutate(`County FIPS Code` = str_pad(as.character(`County FIPS Code`), 
+                                                   5, 
+                                                   pad = "0")) %>% 
+  select(-County) %>% 
+  rename(FIPS=`County FIPS Code`)
+
 # catalogued version in "data/us-county-covid-01-11-2021.csv"
 covid <- read_csv ("https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_daily_reports/01-10-2021.csv")
-
-
-# Format FIPS Codes for joining
-air$`County FIPS Code` <- str_pad(as.character(air$`County FIPS Code`), 
-                                  5, 
-                                  pad = "0")
 
 # Calculate deaths per case, format fips code
 covid <- covid %>% 
   filter(!is.na(FIPS)) %>% 
-  mutate(Death_Rate = Incident_Rate/Confirmed*Deaths)
-covid$FIPS <- str_pad(as.character(covid$FIPS), 
-                                    5, 
-                                    pad = "0")
+  mutate(Death_Rate = Incident_Rate/Confirmed*Deaths,
+         FIPS = str_pad(as.character(FIPS), 
+                        5, 
+                        pad = "0"))
+
+# fips master list from https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+fips_master <- read_csv("data/all-geocodes-v2018.csv")
+fips_master <- fips_master %>% 
+  filter(`County Code (FIPS)`!="000",
+         `County Subdivision Code (FIPS)`=="00000", 
+         `Place Code (FIPS)`=="00000", 
+         `Consolidtated City Code (FIPS)`=="00000") %>% 
+  mutate(County_FIPS_Full = paste(`State Code (FIPS)`,`County Code (FIPS)`, sep="")) %>% 
+  select(County_FIPS_Full, `Area Name (including legal/statistical area description)`) %>% 
+  rename(FIPS = County_FIPS_Full,
+         County = `Area Name (including legal/statistical area description)`)
 
 # Join data
-data <- full_join(air, covid, by= c("County FIPS Code"="FIPS"))
+data <- left_join(fips_master, air, by="FIPS")
+data <- full_join(data, covid, by= "FIPS")
 
 # Grabbed from https://www.ers.usda.gov/webdocs/DataFiles/48747/PovertyEstimates.xls?v=6924.4
 poverty <- read_csv("data/poverty-by-county.csv")
-povery <- poverty %>% select(FIPStxt, Stabr, Area_name, POVALL_2019)
+poverty <- poverty %>% 
+  rename(FIPS = FIPStxt)
 
-data <- left_join(data, poverty, by= c("County FIPS Code" = "FIPStxt"))
+# Join
+data <- left_join(data, poverty, by= "FIPS")
 
 # Export FIPS and Death Rate----
 df <- data %>%
   filter(Admin2 != "Unassigned") %>% 
-  rename(FIPS = `County FIPS Code`) %>% 
   select(FIPS, County, Case_Fatality_Ratio) %>% 
   filter(!is.na(Case_Fatality_Ratio)) %>% 
   mutate(Case_Fatality_Ratio = round(Case_Fatality_Ratio, 2)) %>% 
@@ -46,22 +62,22 @@ write_csv(df, "data/deaths_per_case.csv")
 
 # Export FIPS and PM25----
 df <- data %>% 
-  rename(FIPS = `County FIPS Code`) %>% 
   select(FIPS, County, `PM2.5     Wtd AM (µg/m3)`) %>% 
   rename(pm25 = `PM2.5     Wtd AM (µg/m3)`) %>% 
-  filter(!(pm25 == "ND" | pm25 == "IN")) %>% 
+  filter(pm25 != "ND",
+         pm25 != "IN",
+         !is.na(pm25)) %>% 
   mutate(pm25 = as.numeric(pm25))
 
 write_csv(df, "data/pm25.csv")
 
 # Export FIPS and Poverty Rate ----
 df <- data %>% 
-  select(`County FIPS Code`,
+  select(FIPS,
          County,
          PCTPOVALL_2019) %>% 
   filter(!is.na(PCTPOVALL_2019)) %>% 
-  rename(fips = `County FIPS Code`,
-         povrate = PCTPOVALL_2019 )
+  rename(povrate = PCTPOVALL_2019 )
 
 write_csv(df, "data/poverty.csv")
 

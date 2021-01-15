@@ -1,36 +1,104 @@
 FIPS,County,DeathRate
+01001,Autauga County,1.11
 01003,Baldwin County,1.13
+01005,Barbour County,2.11
+01007,Bibb County,2.34
+01009,Blount County,1.52
+01011,Bullock County,2.94
+01013,Butler County,3.49
+01015,Calhoun County,1.7
+01017,Chambers County,2.5
+01019,Cherokee County,1.56
+01021,Chilton County,1.66
+01023,Choctaw County,4.39
+01025,Clarke County,0.99
 01027,Clay County,2.85
+01029,Cleburne County,1.61
+01031,Coffee County,1.04
 01033,Colbert County,1.2
+01035,Conecuh County,1.98
+01037,Coosa County,1.55
+01039,Covington County,1.58
+01041,Crenshaw County,3.38
+01043,Cullman County,1.03
+01045,Dale County,1.72
+01047,Dallas County,1.51
 01049,DeKalb County,0.84
 01051,Elmore County,1.15
 01053,Escambia County,1.14
 01055,Etowah County,0.96
+01057,Fayette County,1.34
+01059,Franklin County,1.1
+01061,Geneva County,1.21
+01063,Greene County,2.74
+01065,Hale County,2.47
+01067,Henry County,0.77
 01069,Houston County,0.88
+01071,Jackson County,0.61
 01073,Jefferson County,1.33
+01075,Lamar County,1.41
+01077,Lauderdale County,1
+01079,Lawrence County,1.89
+01081,Lee County,0.68
+01083,Limestone County,0.79
+01085,Lowndes County,3.33
+01087,Macon County,3.2
 01089,Madison County,0.7
+01091,Marengo County,1.39
+01093,Marion County,1.98
+01095,Marshall County,0.93
 01097,Mobile County,1.83
+01099,Monroe County,0.87
 01101,Montgomery County,1.58
 01103,Morgan County,0.89
+01105,Perry County,2.04
+01107,Pickens County,1.64
 01109,Pike County,0.98
+01111,Randolph County,2.37
 01113,Russell County,0.23
+01115,St. Clair County,1.59
 01117,Shelby County,0.6
 01119,Sumter County,2.92
 01121,Talladega County,1.88
+01123,Tallapoosa County,4.19
 01125,Tuscaloosa County,1.33
 01127,Walker County,2.96
+01129,Washington County,1.97
+01131,Wilcox County,2.05
+01133,Winston County,1.56
+02013,Aleutians East Borough,0
+02016,Aleutians West Census Area,0
 02020,Anchorage Municipality,0.52
 02050,Bethel Census Area,0.43
 02068,Denali Borough,0
+02070,Dillingham Census Area,0.68
 02090,Fairbanks North Star Borough,0.39
+02100,Haines Borough,0
 02110,Juneau City and Borough,0.47
 02122,Kenai Peninsula Borough,0.5
 02130,Ketchikan Gateway Borough,0.39
+02150,Kodiak Island Borough,0.21
+02158,Kusilvak Census Area,0.33
+02164,Lake and Peninsula Borough,0
 02170,Matanuska-Susitna Borough,0.26
+02180,Nome Census Area,0
+02185,North Slope Borough,0.34
+02188,Northwest Arctic Borough,0
+02195,Petersburg Borough,2.63
+02198,Prince of Wales-Hyder Census Area,1.35
+02220,Sitka City and Borough,0
+02230,Skagway Municipality,0
+02240,Southeast Fairbanks Census Area,0.72
+02261,Valdez-Cordova Census Area,0.79
+02275,Wrangell City and Borough,0
+02282,Yakutat City and Borough,1.67
+02290,Yukon-Koyukuk Census Area,1.69
 04001,Apache County,3.14
 04003,Cochise County,1.85
 04005,Coconino County,1.82
 04007,Gila County,3.06
+04009,Graham County,1.38
+04011,Greenlee County,0.86
 04012,La Paz County,2.1
 04013,Maricopa County,1.52
 04015,Mohave County,2.54
@@ -42,27 +110,81 @@ FIPS,County,DeathRate
 04027,Yuma County,1.85
 05001,Arkansas County,2.26
 05003,Ashley County,1.5
+05005,Baxter County,3.31
 05007,Benton County,1.37
+05009,Boone County,2.51
+05011,Bradley County,1.85
+05013,Calhoun County,0.37
+05015,Carroll County,1.45
+05017,Chicot County,2.24
 05019,Clark County,1.71
+05021,Clay County,2.46
+05023,Cleburne County,2.79
+05025,Cleveland County,3.34
+05027,Columbia County,2.64
+05029,Conway County,1.15
 05031,Craighead County,1.33
+05033,Crawford County,1.28
 05035,Crittenden County,1.65
+05037,Cross County,2.31
+05039,Dallas County,2.2
+05041,Desha County,1.35
+05043,Drew County,1.43
 05045,Faulkner County,1.18
+05047,Franklin County,2.08
+05049,Fulton County,3.8
 05051,Garland County,2.44
+05053,Grant County,1.34
+05055,Greene County,1.21
+05057,Hempstead County,0.8
+05059,Hot Spring County,1.5
+05061,Howard County,1.51
+05063,Independence County,3.2
+05065,Izard County,1.61
 05067,Jackson County,0.89
 05069,Jefferson County,1.87
+05071,Johnson County,0.97
+05073,Lafayette County,1.35
+05075,Lawrence County,2.21
+05077,Lee County,1.85
+05079,Lincoln County,0.96
+05081,Little River County,4.34
+05083,Logan County,0.78
+05085,Lonoke County,1.82
+05087,Madison County,1.22
 05089,Marion County,3.25
 05091,Miller County,0.84
 05093,Mississippi County,2.1
+05095,Monroe County,1.62
+05097,Montgomery County,3.62
+05099,Nevada County,3.51
 05101,Newton County,4.02
+05103,Ouachita County,2.18
+05105,Perry County,0.92
 05107,Phillips County,1.86
+05109,Pike County,1.8
+05111,Poinsett County,2.44
 05113,Polk County,3.41
 05115,Pope County,1.04
+05117,Prairie County,2.81
 05119,Pulaski County,1.52
+05121,Randolph County,2.65
+05123,St. Francis County,0.77
+05125,Saline County,1.36
+05127,Scott County,1.81
+05129,Searcy County,2.39
 05131,Sebastian County,1.48
+05133,Sevier County,1.06
+05135,Sharp County,2.76
+05137,Stone County,3.27
 05139,Union County,2.73
+05141,Van Buren County,1.03
 05143,Washington County,0.97
 05145,White County,1.35
+05147,Woodruff County,0.45
+05149,Yell County,1.88
 06001,Alameda County,1.22
+06003,Alpine County,0
 06005,Amador County,0.92
 06007,Butte County,1.3
 06009,Calaveras County,1.54
@@ -78,6 +200,7 @@ FIPS,County,DeathRate
 06029,Kern County,0.69
 06031,Kings County,0.62
 06033,Lake County,1.21
+06035,Lassen County,0.24
 06037,Los Angeles County,1.33
 06039,Madera County,1.04
 06041,Marin County,1.33
@@ -105,6 +228,7 @@ FIPS,County,DeathRate
 06085,Santa Clara County,1.1
 06087,Santa Cruz County,0.97
 06089,Shasta County,1.11
+06091,Sierra County,0
 06093,Siskiyou County,0.92
 06095,Solano County,0.46
 06097,Sonoma County,1.02
@@ -116,33 +240,71 @@ FIPS,County,DeathRate
 06109,Tuolumne County,1.04
 06111,Ventura County,0.64
 06113,Yolo County,1.33
+06115,Yuba County,0.56
 08001,Adams County,1.28
+08003,Alamosa County,2.49
 08005,Arapahoe County,1.44
 08007,Archuleta County,0
+08009,Baca County,0.49
+08011,Bent County,1.38
 08013,Boulder County,1.18
+08014,Broomfield County,2.24
+08015,Chaffee County,1.79
+08017,Cheyenne County,4.76
 08019,Clear Creek County,0.63
+08021,Conejos County,0.88
+08023,Costilla County,1.18
+08025,Crowley County,0.83
+08027,Custer County,0
 08029,Delta County,1.68
 08031,Denver County,1.36
+08033,Dolores County,0
 08035,Douglas County,1.21
+08037,Eagle County,0.43
 08039,Elbert County,1.04
 08041,El Paso County,1.43
 08043,Fremont County,0.51
 08045,Garfield County,0.81
 08047,Gilpin County,1.49
+08049,Grand County,0.53
 08051,Gunnison County,0.76
+08053,Hinsdale County,0
+08055,Huerfano County,6.01
+08057,Jackson County,0
 08059,Jefferson County,2.05
+08061,Kiowa County,2.56
+08063,Kit Carson County,2.19
+08065,Lake County,0
 08067,La Plata County,1.19
 08069,Larimer County,1.04
+08071,Las Animas County,0.85
+08073,Lincoln County,0.38
+08075,Logan County,1.63
 08077,Mesa County,1.5
+08079,Mineral County,2
+08081,Moffat County,3.7
 08083,Montezuma County,1.37
+08085,Montrose County,1.57
+08087,Morgan County,3.74
+08089,Otero County,3.14
+08091,Ouray County,1.81
 08093,Park County,1.15
+08095,Phillips County,2.65
 08097,Pitkin County,0.28
 08099,Prowers County,1.9
 08101,Pueblo County,2.43
 08103,Rio Blanco County,1.03
+08105,Rio Grande County,1.6
 08107,Routt County,1.54
+08109,Saguache County,1.47
+08111,San Juan County,0
 08113,San Miguel County,0
+08115,Sedgwick County,1.22
+08117,Summit County,0.22
+08119,Teller County,1.04
+08121,Washington County,3.12
 08123,Weld County,1.38
+08125,Yuma County,2.36
 09001,Fairfield County,2.9
 09003,Hartford County,3.7
 09005,Litchfield County,2.9
@@ -158,29 +320,50 @@ FIPS,County,DeathRate
 12001,Alachua County,0.79
 12003,Baker County,1.42
 12005,Bay County,1.72
+12007,Bradford County,1.01
 12009,Brevard County,2.33
 12011,Broward County,1.28
+12013,Calhoun County,2.1
+12015,Charlotte County,2.97
 12017,Citrus County,3.84
+12019,Clay County,1.51
 12021,Collier County,1.49
 12023,Columbia County,1.83
+12027,DeSoto County,1.94
+12029,Dixie County,0.9
 12031,Duval County,1.1
 12033,Escambia County,1.63
 12035,Flagler County,1.17
+12037,Franklin County,0.39
+12039,Gadsden County,1.36
+12041,Gilchrist County,2.47
+12043,Glades County,1.36
+12045,Gulf County,1.99
 12047,Hamilton County,1.11
+12049,Hardee County,0.93
+12051,Hendry County,1.45
+12053,Hernando County,3.43
 12055,Highlands County,3.93
 12057,Hillsborough County,1.3
 12059,Holmes County,1.59
 12061,Indian River County,2.2
+12063,Jackson County,2.4
+12065,Jefferson County,1.6
+12067,Lafayette County,1.44
 12069,Lake County,1.86
 12071,Lee County,1.58
 12073,Leon County,0.83
+12075,Levy County,1.02
 12077,Liberty County,1.63
+12079,Madison County,2.06
 12081,Manatee County,1.79
 12083,Marion County,2.45
 12085,Martin County,2.53
 12086,Miami-Dade County,1.35
+12087,Monroe County,0.77
 12089,Nassau County,1.22
 12091,Okaloosa County,1.74
+12093,Okeechobee County,1.94
 12095,Orange County,0.9
 12097,Osceola County,1.08
 12099,Palm Beach County,2.13
@@ -188,226 +371,808 @@ FIPS,County,DeathRate
 12103,Pinellas County,2.21
 12105,Polk County,1.97
 12107,Putnam County,1.89
+12109,St. Johns County,0.8
 12111,St. Lucie County,2.63
 12113,Santa Rosa County,1.21
 12115,Sarasota County,2.55
 12117,Seminole County,1.56
+12119,Sumter County,2.04
+12121,Suwannee County,2.15
+12123,Taylor County,1.3
+12125,Union County,4.24
 12127,Volusia County,1.81
 12129,Wakulla County,1.06
+12131,Walton County,1.04
+12133,Washington County,1.39
+13001,Appling County,2.46
+13003,Atkinson County,1.06
+13005,Bacon County,2.15
+13007,Baker County,3.31
+13009,Baldwin County,2.18
+13011,Banks County,1.54
+13013,Barrow County,1.2
+13015,Bartow County,1.45
+13017,Ben Hill County,2.89
+13019,Berrien County,2.34
 13021,Bibb County,2.36
+13023,Bleckley County,3.3
+13025,Brantley County,1.91
+13027,Brooks County,3.05
+13029,Bryan County,0.96
+13031,Bulloch County,1.25
+13033,Burke County,1.37
+13035,Butts County,2.55
+13037,Calhoun County,2.53
+13039,Camden County,0.79
+13043,Candler County,4.81
+13045,Carroll County,1.61
+13047,Catoosa County,1.06
+13049,Charlton County,1.8
 13051,Chatham County,1.67
+13053,Chattahoochee County,0.13
 13055,Chattooga County,2.41
+13057,Cherokee County,0.7
 13059,Clarke County,0.62
+13061,Clay County,1.52
 13063,Clayton County,1.51
+13065,Clinch County,1.94
 13067,Cobb County,1.19
 13069,Coffee County,2.25
+13071,Colquitt County,1.59
 13073,Columbia County,0.97
+13075,Cook County,2
+13077,Coweta County,0.93
+13079,Crawford County,1.69
+13081,Crisp County,2.85
+13083,Dade County,0.86
 13085,Dawson County,0.88
+13087,Decatur County,2.46
 13089,DeKalb County,1.28
+13091,Dodge County,4.03
+13093,Dooly County,3.47
 13095,Dougherty County,3.96
 13097,Douglas County,1.22
+13099,Early County,4.82
+13101,Echols County,1.02
+13103,Effingham County,1.26
+13105,Elbert County,1.91
+13107,Emanuel County,2.71
+13109,Evans County,1.91
+13111,Fannin County,2.86
+13113,Fayette County,1.44
 13115,Floyd County,1.51
+13117,Forsyth County,0.65
+13119,Franklin County,1.44
 13121,Fulton County,1.27
+13123,Gilmer County,1.88
+13125,Glascock County,3.12
 13127,Glynn County,2.36
+13129,Gordon County,1.24
+13131,Grady County,2.11
+13133,Greene County,2.22
 13135,Gwinnett County,0.95
+13137,Habersham County,2.51
 13139,Hall County,1.26
+13141,Hancock County,6.43
+13143,Haralson County,2.24
+13145,Harris County,1.79
+13147,Hart County,1.98
+13149,Heard County,1.88
 13151,Henry County,1.05
 13153,Houston County,1.46
+13155,Irwin County,2.72
+13157,Jackson County,1.17
+13159,Jasper County,1.41
+13161,Jeff Davis County,2.69
+13163,Jefferson County,2.84
+13165,Jenkins County,5.42
+13167,Johnson County,3.93
+13169,Jones County,1.74
+13171,Lamar County,2.51
+13173,Lanier County,1.72
+13175,Laurens County,2.85
+13177,Lee County,1.92
+13179,Liberty County,1.47
+13181,Lincoln County,2.65
+13183,Long County,0.91
 13185,Lowndes County,1.54
+13187,Lumpkin County,1.1
+13189,McDuffie County,1.77
+13191,McIntosh County,1.79
+13193,Macon County,2.86
+13195,Madison County,1.19
+13197,Marion County,2.87
+13199,Meriwether County,1.53
+13201,Miller County,0.49
+13205,Mitchell County,3.51
+13207,Monroe County,3.74
+13209,Montgomery County,1.55
+13211,Morgan County,0.76
 13213,Murray County,1.29
 13215,Muscogee County,1.92
+13217,Newton County,1.98
+13219,Oconee County,1.58
+13221,Oglethorpe County,1.5
 13223,Paulding County,1.19
+13225,Peach County,1.83
+13227,Pickens County,1
+13229,Pierce County,1.84
 13231,Pike County,1.51
+13233,Polk County,1.22
+13235,Pulaski County,4.36
+13237,Putnam County,2.23
+13239,Quitman County,0.86
+13241,Rabun County,1.71
+13243,Randolph County,6.81
 13245,Richmond County,1.66
 13247,Rockdale County,1.79
+13249,Schley County,0.81
+13251,Screven County,2.23
+13253,Seminole County,1.62
+13255,Spalding County,2.48
+13257,Stephens County,2.21
+13259,Stewart County,2.41
 13261,Sumter County,3.98
+13263,Talbot County,2.89
+13265,Taliaferro County,0
+13267,Tattnall County,2.26
+13269,Taylor County,2.54
+13271,Telfair County,4.18
+13273,Terrell County,5.71
+13275,Thomas County,2.7
+13277,Tift County,2.12
+13279,Toombs County,2.71
+13281,Towns County,4.21
+13283,Treutlen County,2.66
+13285,Troup County,2.37
+13287,Turner County,3.4
+13289,Twiggs County,4.02
+13291,Union County,2.85
+13293,Upson County,3.24
 13295,Walker County,1.28
+13297,Walton County,1.39
+13299,Ware County,2.4
+13301,Warren County,2.68
 13303,Washington County,2.99
+13305,Wayne County,2.12
+13307,Webster County,1.92
+13309,Wheeler County,3.8
+13311,White County,1.78
+13313,Whitfield County,1.04
+13315,Wilcox County,5.94
+13317,Wilkes County,1.55
 13319,Wilkinson County,2.55
+13321,Worth County,3.04
 15001,Hawaii County,2.22
 15003,Honolulu County,1.25
 15007,Kauai County,0.6
 15009,Maui County,1.02
 16001,Ada County,0.92
+16003,Adams County,1.05
 16005,Bannock County,1.02
+16007,Bear Lake County,0.67
 16009,Benewah County,1.03
+16011,Bingham County,1.38
+16013,Blaine County,0.8
 16015,Boise County,0.8
 16017,Bonner County,0.77
 16019,Bonneville County,1.1
 16021,Boundary County,1.61
 16023,Butte County,0.58
+16025,Camas County,0
 16027,Canyon County,1.07
 16029,Caribou County,1.79
+16031,Cassia County,0.87
+16033,Clark County,0
+16035,Clearwater County,0.94
+16037,Custer County,0.92
+16039,Elmore County,0.71
 16041,Franklin County,1.14
+16043,Fremont County,1.56
 16045,Gem County,1.46
+16047,Gooding County,1.68
 16049,Idaho County,1.38
+16051,Jefferson County,0.7
 16053,Jerome County,0.69
 16055,Kootenai County,0.94
 16057,Latah County,0.26
 16059,Lemhi County,1.91
+16061,Lewis County,1.42
+16063,Lincoln County,2
+16065,Madison County,0.38
+16067,Minidoka County,1.08
 16069,Nez Perce County,1.41
+16071,Oneida County,0.74
+16073,Owyhee County,2.26
+16075,Payette County,1.16
 16077,Power County,0.9
 16079,Shoshone County,3.26
+16081,Teton County,0.37
 16083,Twin Falls County,1.37
 16085,Valley County,0.73
+16087,Washington County,1.53
 17001,Adams County,1.38
+17003,Alexander County,1.92
+17005,Bond County,1.2
+17007,Boone County,1.41
+17009,Brown County,1.96
+17011,Bureau County,2.62
+17013,Calhoun County,0.96
+17015,Carroll County,2.32
+17017,Cass County,1.82
 17019,Champaign County,0.61
+17021,Christian County,2.43
 17023,Clark County,1.74
+17025,Clay County,2.87
+17027,Clinton County,1.69
+17029,Coles County,1.67
 17031,Cook County,2.1
+17033,Crawford County,1.9
+17035,Cumberland County,2.54
+17037,DeKalb County,1.22
+17039,De Witt County,2.38
+17041,Douglas County,1.7
 17043,DuPage County,1.68
+17045,Edgar County,3.5
+17047,Edwards County,1.8
 17049,Effingham County,1.56
+17051,Fayette County,1.85
+17053,Ford County,3.47
+17055,Franklin County,1.75
+17057,Fulton County,1.89
+17059,Gallatin County,1.07
+17061,Greene County,3.4
+17063,Grundy County,1.3
 17065,Hamilton County,1.8
+17067,Hancock County,2.25
+17069,Hardin County,3.11
+17071,Henderson County,3.5
+17073,Henry County,1.83
+17075,Iroquois County,2.12
+17077,Jackson County,1.7
+17079,Jasper County,1.52
+17081,Jefferson County,2.96
 17083,Jersey County,2.24
 17085,Jo Daviess County,1.68
+17087,Johnson County,1.29
 17089,Kane County,1.48
+17091,Kankakee County,1.53
+17093,Kendall County,0.83
+17095,Knox County,3.09
 17097,Lake County,1.68
 17099,LaSalle County,2.68
+17101,Lawrence County,1.39
+17103,Lee County,2.39
+17105,Livingston County,1.89
+17107,Logan County,1.84
+17109,McDonough County,2.33
 17111,McHenry County,1.13
 17113,McLean County,1.16
 17115,Macon County,2.07
 17117,Macoupin County,2.55
 17119,Madison County,1.89
+17121,Marion County,2.9
+17123,Marshall County,2.08
+17125,Mason County,3.46
+17127,Massac County,3.01
+17129,Menard County,1.12
+17131,Mercer County,2.28
 17133,Monroe County,1.82
+17135,Montgomery County,1.29
+17137,Morgan County,2.73
+17139,Moultrie County,2.05
+17141,Ogle County,1.49
 17143,Peoria County,1.56
+17145,Perry County,2.4
+17147,Piatt County,1.25
+17149,Pike County,2.87
+17151,Pope County,0.44
+17153,Pulaski County,0.51
+17155,Putnam County,0.29
 17157,Randolph County,1.74
+17159,Richland County,2.73
 17161,Rock Island County,2.53
 17163,St. Clair County,1.87
+17165,Saline County,2.47
 17167,Sangamon County,1.6
+17169,Schuyler County,2.57
+17171,Scott County,0.28
+17173,Shelby County,1.8
+17175,Stark County,4.11
+17177,Stephenson County,2.11
 17179,Tazewell County,2.05
+17181,Union County,1.7
+17183,Vermilion County,1.39
 17185,Wabash County,1.24
+17187,Warren County,2.7
+17189,Washington County,1.82
+17191,Wayne County,2.92
+17193,White County,2.28
+17195,Whiteside County,3.35
 17197,Will County,1.49
+17199,Williamson County,1.89
 17201,Winnebago County,1.56
+17203,Woodford County,2.05
+18001,Adams County,1.23
 18003,Allen County,1.71
 18005,Bartholomew County,1.52
+18007,Benton County,1.23
+18009,Blackford County,2.12
 18011,Boone County,1.28
 18013,Brown County,3.41
 18015,Carroll County,1.02
+18017,Cass County,1.23
 18019,Clark County,1.27
+18021,Clay County,1.55
+18023,Clinton County,1.05
+18025,Crawford County,1.3
 18027,Daviess County,2.81
+18029,Dearborn County,0.95
+18031,Decatur County,3.45
+18033,DeKalb County,1.9
 18035,Delaware County,1.52
 18037,Dubois County,1.31
 18039,Elkhart County,1.41
+18041,Fayette County,1.96
 18043,Floyd County,1.8
+18045,Fountain County,1.47
+18047,Franklin County,2.21
+18049,Fulton County,1.9
 18051,Gibson County,1.64
+18053,Grant County,1.95
 18055,Greene County,2.6
 18057,Hamilton County,1.09
+18059,Hancock County,1.47
+18061,Harrison County,1.28
 18063,Hendricks County,1.76
 18065,Henry County,1.3
 18067,Howard County,1.75
 18069,Huntington County,2.01
 18071,Jackson County,1.12
+18073,Jasper County,1.19
+18075,Jay County,1.33
+18077,Jefferson County,1.61
+18079,Jennings County,1.85
+18081,Johnson County,1.96
 18083,Knox County,1.24
+18085,Kosciusko County,0.98
+18087,LaGrange County,2.76
 18089,Lake County,1.52
 18091,LaPorte County,1.81
+18093,Lawrence County,1.84
 18095,Madison County,2
 18097,Marion County,1.6
+18099,Marshall County,1.75
+18101,Martin County,1.93
+18103,Miami County,1.39
 18105,Monroe County,1.17
 18107,Montgomery County,1.58
 18109,Morgan County,1.69
+18111,Newton County,2.19
+18113,Noble County,1.26
+18115,Ohio County,1.6
+18117,Orange County,2.34
+18119,Owen County,2.24
+18121,Parke County,0.64
 18123,Perry County,1.91
 18125,Pike County,2.38
 18127,Porter County,1.11
 18129,Posey County,1.19
+18131,Pulaski County,3.8
+18133,Putnam County,1.59
+18135,Randolph County,1.94
+18137,Ripley County,1.57
+18139,Rush County,1.15
 18141,St. Joseph County,1.41
+18143,Scott County,1.79
 18145,Shelby County,1.96
 18147,Spencer County,0.99
+18149,Starke County,2.46
+18151,Steuben County,1.33
 18153,Sullivan County,1.65
+18155,Switzerland County,0.87
 18157,Tippecanoe County,0.67
+18159,Tipton County,2.6
+18161,Union County,0.34
 18163,Vanderburgh County,1.18
+18165,Vermillion County,2.37
 18167,Vigo County,1.64
 18169,Wabash County,1.61
+18171,Warren County,1.11
 18173,Warrick County,1.5
+18175,Washington County,0.98
+18177,Wayne County,2.66
+18179,Wells County,2.06
+18181,White County,1.48
 18183,Whitley County,0.83
+19001,Adair County,3.05
+19003,Adams County,1.04
+19005,Allamakee County,2.1
+19007,Appanoose County,3.53
+19009,Audubon County,2.01
+19011,Benton County,2
 19013,Black Hawk County,1.69
+19015,Boone County,0.72
 19017,Bremer County,1.99
+19019,Buchanan County,1.24
+19021,Buena Vista County,0.73
+19023,Butler County,1.64
+19025,Calhoun County,0.75
+19027,Carroll County,1.29
+19029,Cass County,3.63
+19031,Cedar County,1.31
 19033,Cerro Gordo County,1.42
+19035,Cherokee County,1.88
+19037,Chickasaw County,1.01
+19039,Clarke County,0.95
+19041,Clay County,1.05
+19043,Clayton County,3.18
 19045,Clinton County,1.4
+19047,Crawford County,0.98
+19049,Dallas County,0.79
+19051,Davis County,2.95
+19053,Decatur County,0.87
 19055,Delaware County,2.07
+19057,Des Moines County,1.02
+19059,Dickinson County,1.16
+19061,Dubuque County,1.28
 19063,Emmet County,2.69
+19065,Fayette County,1.45
+19067,Floyd County,2.68
+19069,Franklin County,1.73
+19071,Fremont County,1.03
+19073,Greene County,1.05
+19075,Grundy County,1.8
+19077,Guthrie County,2.3
+19079,Hamilton County,1.69
+19081,Hancock County,1.91
+19083,Hardin County,1.91
 19085,Harrison County,3.98
+19087,Henry County,1.12
+19089,Howard County,2.26
+19091,Humboldt County,1.77
+19093,Ida County,4.14
+19095,Iowa County,1.84
+19097,Jackson County,1.67
+19099,Jasper County,1.8
+19101,Jefferson County,1.99
 19103,Johnson County,0.42
+19105,Jones County,1.84
+19107,Keokuk County,3.02
+19109,Kossuth County,2.14
 19111,Lee County,0.92
 19113,Linn County,1.52
+19115,Louisa County,2.4
+19117,Lucas County,1.26
+19119,Lyon County,2.29
+19121,Madison County,0.82
+19123,Mahaska County,1.89
+19125,Marion County,1.75
+19127,Marshall County,1.41
+19129,Mills County,1.12
+19131,Mitchell County,2.96
+19133,Monona County,2.69
+19135,Monroe County,2.34
 19137,Montgomery County,2.71
 19139,Muscatine County,2
+19141,O'Brien County,3.25
+19143,Osceola County,1.43
+19145,Page County,0.99
 19147,Palo Alto County,1.03
+19149,Plymouth County,1.88
+19151,Pocahontas County,1.44
 19153,Polk County,0.97
 19155,Pottawattamie County,1.19
+19157,Poweshiek County,1.87
+19159,Ringgold County,2.24
+19161,Sac County,1.3
 19163,Scott County,1.04
+19165,Shelby County,2.63
+19167,Sioux County,1.07
 19169,Story County,0.38
 19171,Tama County,3.12
+19173,Taylor County,1.55
+19175,Union County,1.88
 19177,Van Buren County,2.51
+19179,Wapello County,2.82
+19181,Warren County,0.9
+19183,Washington County,1.45
+19185,Wayne County,5.11
+19187,Webster County,1.46
+19189,Winnebago County,2.52
+19191,Winneshiek County,1.29
 19193,Woodbury County,1.36
+19195,Worth County,0.52
 19197,Wright County,1.39
+20001,Allen County,1.47
+20003,Anderson County,0.31
+20005,Atchison County,0.75
+20007,Barber County,0.95
+20009,Barton County,1.5
+20011,Bourbon County,0.94
+20013,Brown County,2.71
+20015,Butler County,0.56
+20017,Chase County,1.38
+20019,Chautauqua County,1.45
+20021,Cherokee County,1.73
+20023,Cheyenne County,3.21
+20025,Clark County,2.44
+20027,Clay County,2.99
+20029,Cloud County,2.48
+20031,Coffey County,2.37
+20033,Comanche County,5.37
+20035,Cowley County,1.63
+20037,Crawford County,0.91
+20039,Decatur County,3.38
+20041,Dickinson County,1.31
+20043,Doniphan County,0.88
+20045,Douglas County,0.7
+20047,Edwards County,3.49
+20049,Elk County,0
+20051,Ellis County,1.64
+20053,Ellsworth County,0.91
+20055,Finney County,0.94
 20057,Ford County,0.83
+20059,Franklin County,0.9
+20061,Geary County,0.83
+20063,Gove County,6.45
+20065,Graham County,1.39
+20067,Grant County,1.59
+20069,Gray County,1.76
+20071,Greeley County,1.03
+20073,Greenwood County,1.28
+20075,Hamilton County,0
+20077,Harper County,3.95
+20079,Harvey County,0.98
+20081,Haskell County,0.53
+20083,Hodgeman County,3.01
+20085,Jackson County,0.89
+20087,Jefferson County,1.54
+20089,Jewell County,1.79
 20091,Johnson County,1.22
+20093,Kearny County,1.93
+20095,Kingman County,1.7
+20097,Kiowa County,1.03
+20099,Labette County,0.46
+20101,Lane County,5.36
 20103,Leavenworth County,0.85
+20105,Lincoln County,0.88
 20107,Linn County,0.49
+20109,Logan County,2.15
+20111,Lyon County,1.69
+20113,McPherson County,1.54
+20115,Marion County,1.03
+20117,Marshall County,2.56
+20119,Meade County,1.45
+20121,Miami County,0.72
+20123,Mitchell County,0.86
+20125,Montgomery County,1.07
+20127,Morris County,3.87
+20129,Morton County,3.77
+20131,Nemaha County,3.63
 20133,Neosho County,1
+20135,Ness County,4.59
+20137,Norton County,2.11
+20139,Osage County,1.29
+20141,Osborne County,0.45
+20143,Ottawa County,1.78
+20145,Pawnee County,0.68
+20147,Phillips County,2.29
+20149,Pottawatomie County,0.55
+20151,Pratt County,2.92
+20153,Rawlins County,2.22
+20155,Reno County,1.47
+20157,Republic County,1.85
+20159,Rice County,0.45
+20161,Riley County,0.44
+20163,Rooks County,1.62
+20165,Rush County,2.19
+20167,Russell County,2.64
 20169,Saline County,1.4
+20171,Scott County,2.87
 20173,Sedgwick County,0.94
+20175,Seward County,0.81
 20177,Shawnee County,1.74
+20179,Sheridan County,2.28
 20181,Sherman County,1.63
+20183,Smith County,0.43
+20185,Stafford County,3.04
+20187,Stanton County,3.09
+20189,Stevens County,1.12
 20191,Sumner County,1.37
+20193,Thomas County,1.14
 20195,Trego County,1.51
+20197,Wabaunsee County,1.58
+20199,Wallace County,1.21
+20201,Washington County,1.77
+20203,Wichita County,2.54
+20205,Wilson County,0.95
+20207,Woodson County,1.46
 20209,Wyandotte County,1.21
+21001,Adair County,3.2
+21003,Allen County,1.28
+21005,Anderson County,0.34
+21007,Ballard County,1.14
+21009,Barren County,1.25
+21011,Bath County,1.53
 21013,Bell County,1.4
 21015,Boone County,0.51
+21017,Bourbon County,0.09
 21019,Boyd County,0.86
+21021,Boyle County,0.18
+21023,Bracken County,0.88
+21025,Breathitt County,0.42
+21027,Breckinridge County,0.63
 21029,Bullitt County,0.67
+21031,Butler County,1.75
+21033,Caldwell County,1.62
+21035,Calloway County,1.1
 21037,Campbell County,0.65
+21039,Carlisle County,0.27
+21041,Carroll County,1.04
 21043,Carter County,0.72
+21045,Casey County,2.97
 21047,Christian County,1.14
+21049,Clark County,0.89
+21051,Clay County,0.51
+21053,Clinton County,1.84
+21055,Crittenden County,0.68
+21057,Cumberland County,1.03
 21059,Daviess County,1.11
 21061,Edmonson County,2.16
+21063,Elliott County,0.12
+21065,Estill County,0
 21067,Fayette County,0.62
+21069,Fleming County,0.36
+21071,Floyd County,0.74
 21073,Franklin County,0.91
+21075,Fulton County,1.03
+21077,Gallatin County,2.31
+21079,Garrard County,0.37
+21081,Grant County,0.73
+21083,Graves County,1.66
+21085,Grayson County,2.49
+21087,Green County,1.35
 21089,Greenup County,0.79
 21091,Hancock County,1.93
 21093,Hardin County,0.65
+21095,Harlan County,1.4
+21097,Harrison County,0.1
+21099,Hart County,0.67
 21101,Henderson County,1.38
+21103,Henry County,0.44
+21105,Hickman County,3.03
+21107,Hopkins County,3.05
+21109,Jackson County,2.13
 21111,Jefferson County,1
 21113,Jessamine County,1.61
+21115,Johnson County,1.21
 21117,Kenton County,0.77
+21119,Knott County,1.75
+21121,Knox County,0.48
+21123,Larue County,0.44
 21125,Laurel County,0.4
+21127,Lawrence County,0.54
+21129,Lee County,1.67
+21131,Leslie County,0.18
+21133,Letcher County,0.32
+21135,Lewis County,2.89
+21137,Lincoln County,1.65
 21139,Livingston County,2.18
+21141,Logan County,2.11
+21143,Lyon County,1.93
 21145,McCracken County,0.98
+21147,McCreary County,0.33
+21149,McLean County,3.13
 21151,Madison County,0.66
+21153,Magoffin County,0.13
+21155,Marion County,1.19
+21157,Marshall County,1.37
+21159,Martin County,1.36
+21161,Mason County,2.17
+21163,Meade County,0.3
+21165,Menifee County,0.79
+21167,Mercer County,0.49
+21169,Metcalfe County,1.03
+21171,Monroe County,2.67
+21173,Montgomery County,0.74
 21175,Morgan County,0
+21177,Muhlenberg County,1.34
+21179,Nelson County,0.57
+21181,Nicholas County,0.85
 21183,Ohio County,1.56
 21185,Oldham County,1
+21187,Owen County,1.29
+21189,Owsley County,2.91
+21191,Pendleton County,0.15
 21193,Perry County,0.98
 21195,Pike County,1.09
+21197,Powell County,0
 21199,Pulaski County,1.17
+21201,Robertson County,3.01
+21203,Rockcastle County,0.9
+21205,Rowan County,0.21
+21207,Russell County,2.47
+21209,Scott County,0.81
+21211,Shelby County,0.87
 21213,Simpson County,0.9
+21215,Spencer County,0.45
+21217,Taylor County,0.99
+21219,Todd County,1.96
 21221,Trigg County,0.39
+21223,Trimble County,0.46
+21225,Union County,0.87
 21227,Warren County,0.73
 21229,Washington County,1.25
+21231,Wayne County,1.06
+21233,Webster County,1.34
+21235,Whitley County,0.32
+21237,Wolfe County,1.17
+21239,Woodford County,0.14
+22001,Acadia Parish,3.02
+22003,Allen Parish,2.91
 22005,Ascension Parish,1.41
+22007,Assumption Parish,1.91
+22009,Avoyelles Parish,3.2
+22011,Beauregard Parish,2.58
+22013,Bienville Parish,4.37
 22015,Bossier Parish,2.07
 22017,Caddo Parish,2.71
 22019,Calcasieu Parish,1.94
+22021,Caldwell Parish,2.25
+22023,Cameron Parish,0.97
+22025,Catahoula Parish,3.05
+22027,Claiborne Parish,3.29
 22029,Concordia Parish,2.57
+22031,De Soto Parish,2.76
 22033,East Baton Rouge Parish,2.18
+22035,East Carroll Parish,1.76
+22037,East Feliciana Parish,3.68
+22039,Evangeline Parish,2.1
+22041,Franklin Parish,3.99
+22043,Grant Parish,2.47
+22045,Iberia Parish,2.35
 22047,Iberville Parish,2.62
+22049,Jackson Parish,2.64
 22051,Jefferson Parish,2.01
+22053,Jefferson Davis Parish,2.74
 22055,Lafayette Parish,1.1
 22057,Lafourche Parish,2.39
+22059,LaSalle Parish,1.94
+22061,Lincoln Parish,2.18
 22063,Livingston Parish,1.41
+22065,Madison Parish,1.7
+22067,Morehouse Parish,2.2
+22069,Natchitoches Parish,1.89
 22071,Orleans Parish,2.98
 22073,Ouachita Parish,2.07
 22075,Plaquemines Parish,1.19
 22077,Pointe Coupee Parish,2.82
 22079,Rapides Parish,2.35
+22081,Red River Parish,4.08
+22083,Richland Parish,2.1
+22085,Sabine Parish,1.97
 22087,St. Bernard Parish,1.47
 22089,St. Charles Parish,1.93
+22091,St. Helena Parish,0.66
 22093,St. James Parish,2.89
 22095,St. John the Baptist Parish,4.16
+22097,St. Landry Parish,2.92
 22099,St. Martin Parish,2.25
+22101,St. Mary Parish,3.09
 22103,St. Tammany Parish,2.14
 22105,Tangipahoa Parish,2.03
+22107,Tensas Parish,1.04
 22109,Terrebonne Parish,2.2
+22111,Union Parish,3.36
+22113,Vermilion Parish,2.28
+22115,Vernon Parish,3.31
+22117,Washington Parish,2.84
+22119,Webster Parish,2.2
 22121,West Baton Rouge Parish,2.48
+22123,West Carroll Parish,3.43
+22125,West Feliciana Parish,2.65
+22127,Winn Parish,2.6
 23001,Androscoggin County,1.48
 23003,Aroostook County,2.59
 23005,Cumberland County,1.29
@@ -415,14 +1180,20 @@ FIPS,County,DeathRate
 23009,Hancock County,3.7
 23011,Kennebec County,1.56
 23013,Knox County,0.96
+23015,Lincoln County,0.56
 23017,Oxford County,2.14
 23019,Penobscot County,1.06
+23021,Piscataquis County,0.7
+23023,Sagadahoc County,0.2
+23025,Somerset County,2.7
+23027,Waldo County,4.22
 23029,Washington County,1.17
 23031,York County,1.25
 24001,Allegany County,2.81
 24003,Anne Arundel County,1.44
 24005,Baltimore County,2.38
 24009,Calvert County,1.75
+24011,Caroline County,0.73
 24013,Carroll County,3
 24015,Cecil County,2.04
 24017,Charles County,1.96
@@ -434,7 +1205,13 @@ FIPS,County,DeathRate
 24029,Kent County,3.52
 24031,Montgomery County,2.31
 24033,Prince George's County,1.91
+24035,Queen Anne's County,1.47
+24037,St. Mary's County,2.46
+24039,Somerset County,1.12
+24041,Talbot County,0.8
 24043,Washington County,1.8
+24045,Wicomico County,1.76
+24047,Worcester County,2.14
 24510,Baltimore city,2.18
 25001,Barnstable County,4.28
 25003,Berkshire County,4.6
@@ -448,162 +1225,554 @@ FIPS,County,DeathRate
 25023,Plymouth County,3.7
 25025,Suffolk County,2.33
 25027,Worcester County,3.31
+26001,Alcona County,4.83
+26003,Alger County,0.87
 26005,Allegan County,1.39
 26007,Alpena County,2.8
+26009,Antrim County,1.63
+26011,Arenac County,3.92
+26013,Baraga County,5.14
+26015,Barry County,1.2
 26017,Bay County,3.28
 26019,Benzie County,3.74
 26021,Berrien County,2.09
+26023,Branch County,2.21
+26025,Calhoun County,2.52
 26027,Cass County,1.53
+26029,Charlevoix County,1.13
+26031,Cheboygan County,4.16
 26033,Chippewa County,0.95
+26035,Clare County,4.34
 26037,Clinton County,1.12
+26039,Crawford County,1
+26041,Delta County,2.63
 26043,Dickinson County,3.11
+26045,Eaton County,2.06
 26047,Emmet County,2.65
 26049,Genesee County,2.86
+26051,Gladwin County,2.73
+26053,Gogebic County,3.76
 26055,Grand Traverse County,1.5
+26057,Gratiot County,3.28
+26059,Hillsdale County,2.19
+26061,Houghton County,1.57
 26063,Huron County,3.03
 26065,Ingham County,1.6
 26067,Ionia County,1.36
+26069,Iosco County,4.79
 26071,Iron County,4.3
+26073,Isabella County,1.49
+26075,Jackson County,2.25
 26077,Kalamazoo County,2.07
+26079,Kalkaska County,2.73
 26081,Kent County,1.29
+26083,Keweenaw County,2.02
+26085,Lake County,3.17
+26087,Lapeer County,2.42
+26089,Leelanau County,1.15
 26091,Lenawee County,1.51
+26093,Livingston County,1.04
+26095,Luce County,0
+26097,Mackinac County,0.76
 26099,Macomb County,3.29
 26101,Manistee County,2.9
+26103,Marquette County,1.41
 26105,Mason County,1.98
+26107,Mecosta County,0.75
+26109,Menominee County,1.81
+26111,Midland County,1.13
 26113,Missaukee County,2.11
 26115,Monroe County,2.02
+26117,Montcalm County,2.36
+26119,Montmorency County,3.68
 26121,Muskegon County,2.82
+26123,Newaygo County,1.59
 26125,Oakland County,2.7
+26127,Oceana County,2.6
+26129,Ogemaw County,2.95
+26131,Ontonagon County,5.13
+26133,Osceola County,2.09
+26135,Oscoda County,5.45
+26137,Otsego County,2.4
 26139,Ottawa County,1.52
+26141,Presque Isle County,3.15
+26143,Roscommon County,2.64
 26145,Saginaw County,3.31
 26147,St. Clair County,2.53
+26149,St. Joseph County,1.61
+26151,Sanilac County,4.11
 26153,Schoolcraft County,1.67
+26155,Shiawassee County,1.89
 26157,Tuscola County,3.62
+26159,Van Buren County,1.95
 26161,Washtenaw County,1.44
 26163,Wayne County,4.23
 26165,Wexford County,1.83
+27001,Aitkin County,3.15
 27003,Anoka County,1.14
 27005,Becker County,1.37
 27007,Beltrami County,1.53
+27009,Benton County,2.05
+27011,Big Stone County,0.67
+27013,Blue Earth County,0.61
+27015,Brown County,1.62
 27017,Carlton County,1.5
+27019,Carver County,0.5
 27021,Cass County,1.1
+27023,Chippewa County,2.38
+27025,Chisago County,0.66
+27027,Clay County,1.22
+27029,Clearwater County,2.06
 27031,Cook County,0
+27033,Cottonwood County,1.37
 27035,Crow Wing County,1.51
 27037,Dakota County,0.96
+27039,Dodge County,0.31
 27041,Douglas County,1.75
+27043,Faribault County,1.38
+27045,Fillmore County,0.26
 27047,Freeborn County,0.8
 27049,Goodhue County,1.56
+27051,Grant County,1.66
 27053,Hennepin County,1.59
+27055,Houston County,1
+27057,Hubbard County,2.56
+27059,Isanti County,1.41
 27061,Itasca County,1.48
+27063,Jackson County,1.21
+27065,Kanabec County,1.88
 27067,Kandiyohi County,1.26
+27069,Kittson County,5.32
+27071,Koochiching County,1.75
+27073,Lac qui Parle County,2.48
 27075,Lake County,2.5
+27077,Lake of the Woods County,0.61
+27079,Le Sueur County,0.73
+27081,Lincoln County,0.21
 27083,Lyon County,1.15
 27085,McLeod County,1.28
+27087,Mahnomen County,1.73
+27089,Marshall County,2.16
+27091,Martin County,1.57
+27093,Meeker County,1.69
 27095,Mille Lacs County,2.14
+27097,Morrison County,1.41
+27099,Mower County,0.74
+27101,Murray County,0.6
 27103,Nicollet County,1.64
+27105,Nobles County,1.27
+27107,Norman County,1.9
 27109,Olmsted County,0.68
 27111,Otter Tail County,1.28
+27113,Pennington County,1.62
+27115,Pine County,0.5
+27117,Pipestone County,2.42
+27119,Polk County,1.63
+27121,Pope County,0.68
 27123,Ramsey County,1.85
+27125,Red Lake County,1.27
+27127,Redwood County,1.99
+27129,Renville County,2.89
+27131,Rice County,1.08
+27133,Rock County,1.03
+27135,Roseau County,0.98
 27137,St. Louis County,1.72
 27139,Scott County,0.79
+27141,Sherburne County,0.77
+27143,Sibley County,0.66
 27145,Stearns County,1.02
+27147,Steele County,0.34
+27149,Stevens County,1.16
+27151,Swift County,2.07
+27153,Todd County,1.27
+27155,Traverse County,1.27
+27157,Wabasha County,0.12
+27159,Wadena County,1.11
+27161,Waseca County,0.86
 27163,Washington County,1.09
+27165,Watonwan County,0.67
+27167,Wilkin County,1.48
 27169,Winona County,1.2
 27171,Wright County,0.86
+27173,Yellow Medicine County,1.52
 28001,Adams County,3.29
+28003,Alcorn County,1.82
+28005,Amite County,2.66
+28007,Attala County,2.93
+28009,Benton County,2.84
 28011,Bolivar County,2.64
+28013,Calhoun County,1.48
+28015,Carroll County,1.98
+28017,Chickasaw County,2.39
+28019,Choctaw County,2.1
+28021,Claiborne County,2.72
+28023,Clarke County,4.56
+28025,Clay County,2.07
+28027,Coahoma County,2.48
+28029,Copiah County,2.02
+28031,Covington County,3.4
 28033,DeSoto County,0.95
 28035,Forrest County,1.93
+28037,Franklin County,1.88
+28039,George County,1.97
+28041,Greene County,2.57
 28043,Grenada County,3.19
 28045,Hancock County,2.38
 28047,Harrison County,1.4
 28049,Hinds County,1.93
+28051,Holmes County,4.06
+28053,Humphreys County,2.8
+28055,Issaquena County,3.9
+28057,Itawamba County,2.24
 28059,Jackson County,1.74
+28061,Jasper County,1.94
+28063,Jefferson County,3.35
+28065,Jefferson Davis County,2.93
 28067,Jones County,1.73
+28069,Kemper County,2.57
+28071,Lafayette County,1.88
+28073,Lamar County,1.33
 28075,Lauderdale County,3.17
+28077,Lawrence County,1.75
+28079,Leake County,2.8
 28081,Lee County,1.57
+28083,Leflore County,3.58
+28085,Lincoln County,2.86
 28087,Lowndes County,1.97
+28089,Madison County,1.94
+28091,Marion County,3.5
+28093,Marshall County,1.94
+28095,Monroe County,2.84
+28097,Montgomery County,3.02
+28099,Neshoba County,4.61
+28101,Newton County,2.32
+28103,Noxubee County,1.98
+28105,Oktibbeha County,2.09
+28107,Panola County,2.1
 28109,Pearl River County,2.94
+28111,Perry County,3.24
+28113,Pike County,3.04
+28115,Pontotoc County,1.42
+28117,Prentiss County,2.01
+28119,Quitman County,1.09
 28121,Rankin County,1.87
 28123,Scott County,1.81
+28125,Sharkey County,4.13
+28127,Simpson County,2.94
+28129,Smith County,1.75
+28131,Stone County,1.33
+28133,Sunflower County,2.52
+28135,Tallahatchie County,2.47
+28137,Tate County,2.26
+28139,Tippah County,2.01
+28141,Tishomingo County,3.22
+28143,Tunica County,2.58
+28145,Union County,1.66
+28147,Walthall County,3.34
 28149,Warren County,2.72
+28151,Washington County,2.57
+28153,Wayne County,1.44
+28155,Webster County,2.64
+28157,Wilkinson County,4.29
+28159,Winston County,3.03
 28161,Yalobusha County,3.09
+28163,Yazoo County,2.26
+29001,Adair County,0.28
 29003,Andrew County,1.27
+29005,Atchison County,1.77
+29007,Audrain County,2.16
+29009,Barry County,1.92
+29011,Barton County,0.96
+29013,Bates County,1.4
+29015,Benton County,1.38
+29017,Bollinger County,1.2
 29019,Boone County,0.35
 29021,Buchanan County,1.55
+29023,Butler County,0.53
+29025,Caldwell County,1.2
 29027,Callaway County,0.62
+29029,Camden County,1.91
+29031,Cape Girardeau County,1.51
+29033,Carroll County,2.54
+29035,Carter County,1.52
 29037,Cass County,0.95
 29039,Cedar County,1.55
+29041,Chariton County,0.84
+29043,Christian County,0.91
+29045,Clark County,1.29
 29047,Clay County,1.67
 29049,Clinton County,4.32
+29051,Cole County,1.16
+29053,Cooper County,1.23
+29055,Crawford County,1.08
+29057,Dade County,2.62
+29059,Dallas County,2.6
+29061,Daviess County,1.75
+29063,DeKalb County,2.54
+29065,Dent County,1.22
+29067,Douglas County,2.95
+29069,Dunklin County,0.77
 29071,Franklin County,1.6
+29073,Gasconade County,4.02
+29075,Gentry County,2.45
 29077,Greene County,1.49
+29079,Grundy County,3.51
+29081,Harrison County,1.47
+29083,Henry County,1.57
+29085,Hickory County,2.02
 29087,Holt County,2.63
+29089,Howard County,0.61
 29091,Howell County,1.54
 29093,Iron County,0.23
 29095,Jackson County,1.04
 29097,Jasper County,1.61
 29099,Jefferson County,0.9
+29101,Johnson County,0.99
+29103,Knox County,1.28
+29105,Laclede County,1.92
+29107,Lafayette County,1.94
+29109,Lawrence County,2.27
+29111,Lewis County,0.52
 29113,Lincoln County,0.53
+29115,Linn County,2.18
+29117,Livingston County,2.11
+29119,McDonald County,1.25
+29121,Macon County,0.99
+29123,Madison County,0.86
 29125,Maries County,1.44
+29127,Marion County,1.22
 29129,Mercer County,0.68
+29131,Miller County,1.98
+29133,Mississippi County,1.54
+29135,Moniteau County,1.2
 29137,Monroe County,1.08
+29139,Montgomery County,1.69
+29141,Morgan County,1.96
 29143,New Madrid County,2.26
+29145,Newton County,1.63
+29147,Nodaway County,0.91
+29149,Oregon County,0.49
+29151,Osage County,0.63
+29153,Ozark County,1.17
+29155,Pemiscot County,1.65
 29157,Perry County,0.99
+29159,Pettis County,1.55
+29161,Phelps County,3.49
+29163,Pike County,1.26
+29165,Platte County,0.94
+29167,Polk County,1.23
+29169,Pulaski County,1.04
+29171,Putnam County,0.98
+29173,Ralls County,0.99
+29175,Randolph County,1.12
+29177,Ray County,0.8
 29179,Reynolds County,0.82
+29181,Ripley County,1.25
 29183,St. Charles County,1.03
+29185,St. Clair County,1
 29186,Ste. Genevieve County,0.74
 29187,St. Francois County,1.09
 29189,St. Louis County,1.96
+29195,Saline County,1.2
+29197,Schuyler County,0.43
+29199,Scotland County,1.29
+29201,Scott County,1.88
+29203,Shannon County,2.07
+29205,Shelby County,1.25
+29207,Stoddard County,1.62
+29209,Stone County,1.54
+29211,Sullivan County,1.43
+29213,Taney County,1.41
+29215,Texas County,1.33
+29217,Vernon County,1.96
+29219,Warren County,0.5
+29221,Washington County,2.14
+29223,Wayne County,1.11
+29225,Webster County,1.65
+29227,Worth County,0.79
+29229,Wright County,2.01
 29510,St. Louis city,1.73
+30001,Beaverhead County,0.98
+30003,Big Horn County,3.19
+30005,Blaine County,3.72
+30007,Broadwater County,0.3
+30009,Carbon County,1.11
+30011,Carter County,3.65
 30013,Cascade County,1.73
+30015,Chouteau County,1.24
+30017,Custer County,1.07
+30019,Daniels County,3.36
+30021,Dawson County,2.83
+30023,Deer Lodge County,1.02
+30025,Fallon County,0.74
 30027,Fergus County,1.65
 30029,Flathead County,0.65
 30031,Gallatin County,0.39
+30033,Garfield County,2.74
+30035,Glacier County,1.76
+30037,Golden Valley County,0
+30039,Granite County,1.14
+30041,Hill County,1.95
+30043,Jefferson County,0.47
+30045,Judith Basin County,0
 30047,Lake County,1.11
 30049,Lewis and Clark County,0.79
+30051,Liberty County,0.99
 30053,Lincoln County,0.75
+30055,McCone County,0
+30057,Madison County,0.54
+30059,Meagher County,6.14
+30061,Mineral County,0
 30063,Missoula County,0.84
+30065,Musselshell County,2.55
+30067,Park County,0.75
+30069,Petroleum County,9.09
 30071,Phillips County,3.15
+30073,Pondera County,0.75
 30075,Powder River County,4.81
+30077,Powell County,0.61
+30079,Prairie County,1.57
 30081,Ravalli County,1.13
 30083,Richland County,1.3
+30085,Roosevelt County,3.63
 30087,Rosebud County,2.65
 30089,Sanders County,0.98
+30091,Sheridan County,1.36
 30093,Silver Bow County,1.77
+30095,Stillwater County,1.38
+30097,Sweet Grass County,1.87
+30099,Teton County,1.52
+30101,Toole County,1.18
+30103,Treasure County,2.13
+30105,Valley County,1.31
+30107,Wheatland County,3.97
+30109,Wibaux County,4.42
 30111,Yellowstone County,1.18
+31001,Adams County,1.5
+31003,Antelope County,0.91
+31005,Arthur County,0
+31007,Banner County,0
+31009,Blaine County,0
+31011,Boone County,0.9
+31013,Box Butte County,0.98
+31015,Boyd County,1.84
+31017,Brown County,0.95
+31019,Buffalo County,1.16
+31021,Burt County,1.87
+31023,Butler County,1.36
 31025,Cass County,0.69
 31027,Cedar County,1.75
+31029,Chase County,0.76
 31031,Cherry County,2.34
+31033,Cheyenne County,1.53
+31035,Clay County,1.88
+31037,Colfax County,1.29
+31039,Cuming County,1.03
+31041,Custer County,2.02
+31043,Dakota County,1.57
+31045,Dawes County,3.17
+31047,Dawson County,0.97
 31049,Deuel County,0
+31051,Dixon County,1.41
+31053,Dodge County,1.05
 31055,Douglas County,0.96
+31057,Dundy County,3.33
+31059,Fillmore County,1.64
+31061,Franklin County,1.4
+31063,Frontier County,0.61
+31065,Furnas County,1.05
+31067,Gage County,0.68
+31069,Garden County,1.03
+31071,Garfield County,2.34
+31073,Gosper County,2.4
+31075,Grant County,13.04
+31077,Greeley County,1.12
 31079,Hall County,1.65
+31081,Hamilton County,1.96
+31083,Harlan County,0
+31085,Hayes County,0
+31087,Hitchcock County,1.09
+31089,Holt County,1.87
+31091,Hooker County,4.17
+31093,Howard County,2.71
+31095,Jefferson County,0.17
+31097,Johnson County,0.87
+31099,Kearney County,0.68
+31101,Keith County,0.32
+31103,Keya Paha County,0
+31105,Kimball County,1.44
 31107,Knox County,0.96
 31109,Lancaster County,0.55
 31111,Lincoln County,1.17
+31113,Logan County,0
+31115,Loup County,0
+31117,McPherson County,0
+31119,Madison County,1.03
+31121,Merrick County,1.75
+31123,Morrill County,2.79
+31125,Nance County,2.52
+31127,Nemaha County,1.92
+31129,Nuckolls County,0.32
+31131,Otoe County,0.19
+31133,Pawnee County,0.58
+31135,Perkins County,4.51
+31137,Phelps County,1
+31139,Pierce County,3.43
+31141,Platte County,1.19
+31143,Polk County,2.52
+31145,Red Willow County,0.49
+31147,Richardson County,2.73
+31149,Rock County,2
+31151,Saline County,0.17
 31153,Sarpy County,0.47
+31155,Saunders County,0.52
 31157,Scotts Bluff County,2.24
+31159,Seward County,1.93
+31161,Sheridan County,2.78
+31163,Sherman County,2.55
+31165,Sioux County,0
+31167,Stanton County,2.4
+31169,Thayer County,0.74
+31171,Thomas County,0
+31173,Thurston County,1.25
+31175,Valley County,1.12
 31177,Washington County,0.99
+31179,Wayne County,0.67
+31181,Webster County,1.41
+31183,Wheeler County,0
+31185,York County,0.62
 32001,Churchill County,2.65
 32003,Clark County,1.38
 32005,Douglas County,1.16
 32007,Elko County,1
+32009,Esmeralda County,0
+32011,Eureka County,0
+32013,Humboldt County,1.22
+32015,Lander County,1.99
+32017,Lincoln County,0.34
 32019,Lyon County,1.93
+32021,Mineral County,1.87
 32023,Nye County,2.22
+32027,Pershing County,1.53
+32029,Storey County,2.94
 32031,Washoe County,1.4
 32033,White Pine County,0.98
 32510,Carson City,1.51
 33001,Belknap County,3.1
+33003,Carroll County,0.38
 33005,Cheshire County,0.44
 33007,Coos County,2.22
 33009,Grafton County,0.66
 33011,Hillsborough County,2.33
 33013,Merrimack County,1.47
 33015,Rockingham County,1.26
+33017,Strafford County,0.89
 33019,Sullivan County,0.95
 34001,Atlantic County,2.27
 34003,Bergen County,4.18
+34005,Burlington County,2.49
 34007,Camden County,2.58
+34009,Cape May County,2.88
 34011,Cumberland County,2.4
 34013,Essex County,4.38
 34015,Gloucester County,2.38
@@ -615,234 +1784,494 @@ FIPS,County,DeathRate
 34027,Morris County,3.8
 34029,Ocean County,3.6
 34031,Passaic County,3.31
+34033,Salem County,3.24
+34035,Somerset County,4.13
+34037,Sussex County,3.78
 34039,Union County,3.57
 34041,Warren County,3.77
 35001,Bernalillo County,1.45
+35003,Catron County,4.69
 35005,Chaves County,1.42
+35006,Cibola County,3.31
+35007,Colfax County,4.37
+35009,Curry County,1.2
+35011,De Baca County,0
 35013,Doña Ana County,1.6
 35015,Eddy County,1.58
 35017,Grant County,1.65
+35019,Guadalupe County,1.99
+35021,Harding County,0
+35023,Hidalgo County,2.9
 35025,Lea County,1.36
+35027,Lincoln County,1.13
+35028,Los Alamos County,0.29
 35029,Luna County,1.8
+35031,McKinley County,3.47
+35033,Mora County,3.01
+35035,Otero County,1.79
+35037,Quay County,2.2
 35039,Rio Arriba County,1.68
+35041,Roosevelt County,2.15
 35043,Sandoval County,1.61
 35045,San Juan County,2.73
+35047,San Miguel County,0.52
 35049,Santa Fe County,1.08
+35051,Sierra County,6.32
+35053,Socorro County,4.59
 35055,Taos County,3.33
+35057,Torrance County,1.52
+35059,Union County,3.48
 35061,Valencia County,1.33
 36001,Albany County,1.63
+36003,Allegany County,3.53
 36005,Bronx County,5.42
 36007,Broome County,2.31
+36009,Cattaraugus County,1.88
+36011,Cayuga County,1.3
 36013,Chautauqua County,0.76
+36015,Chemung County,2
+36017,Chenango County,2.06
+36019,Clinton County,0.71
+36021,Columbia County,3.16
+36023,Cortland County,1.89
+36025,Delaware County,1.57
 36027,Dutchess County,1.89
 36029,Erie County,2.72
 36031,Essex County,1.89
 36033,Franklin County,0.97
+36035,Fulton County,2.46
+36037,Genesee County,2.42
+36039,Greene County,2.13
 36041,Hamilton County,0.76
 36043,Herkimer County,1.15
 36045,Jefferson County,0.64
 36047,Kings County,5.66
+36049,Lewis County,1.64
+36051,Livingston County,1.31
+36053,Madison County,2.6
 36055,Monroe County,1.69
+36057,Montgomery County,3.35
 36059,Nassau County,2.42
 36061,New York County,4.93
 36063,Niagara County,2.02
 36065,Oneida County,2.02
 36067,Onondaga County,1.98
+36069,Ontario County,1.79
 36071,Orange County,2.39
+36073,Orleans County,3.82
 36075,Oswego County,1.29
+36077,Otsego County,1.42
 36079,Putnam County,1.18
 36081,Queens County,5.36
+36083,Rensselaer County,1.63
 36085,Richmond County,3.29
 36087,Rockland County,2.65
 36089,St. Lawrence County,1.67
 36091,Saratoga County,0.68
 36093,Schenectady County,1.45
+36095,Schoharie County,0.67
+36097,Schuyler County,1.55
 36099,Seneca County,4.32
 36101,Steuben County,3.06
 36103,Suffolk County,2.15
+36105,Sullivan County,1.38
+36107,Tioga County,2.7
 36109,Tompkins County,0.75
+36111,Ulster County,2.44
+36113,Warren County,1.96
+36115,Washington County,1.58
 36117,Wayne County,1.4
 36119,Westchester County,2.23
+36121,Wyoming County,1.74
+36123,Yates County,2.02
 37001,Alamance County,1.39
 37003,Alexander County,1.24
+37005,Alleghany County,0.41
+37007,Anson County,2.2
+37009,Ashe County,1.84
 37011,Avery County,1.03
 37013,Beaufort County,1.91
+37015,Bertie County,2
+37017,Bladen County,1.21
 37019,Brunswick County,1.5
 37021,Buncombe County,1.83
+37023,Burke County,1.23
 37025,Cabarrus County,1.25
 37027,Caldwell County,0.46
+37029,Camden County,1.39
 37031,Carteret County,0.54
 37033,Caswell County,0.74
 37035,Catawba County,1.51
 37037,Chatham County,2.13
+37039,Cherokee County,1.05
+37041,Chowan County,2.1
+37043,Clay County,1.02
+37045,Cleveland County,1.98
+37047,Columbus County,2.12
+37049,Craven County,1.48
 37051,Cumberland County,0.9
+37053,Currituck County,1.37
+37055,Dare County,0.39
 37057,Davidson County,0.93
+37059,Davie County,0.57
 37061,Duplin County,1.75
 37063,Durham County,0.87
 37065,Edgecombe County,2.32
 37067,Forsyth County,1.01
+37069,Franklin County,1.06
 37071,Gaston County,1.45
+37073,Gates County,2.88
 37075,Graham County,2.33
 37077,Granville County,1.66
+37079,Greene County,2.03
 37081,Guilford County,1.2
+37083,Halifax County,1.67
+37085,Harnett County,1.5
 37087,Haywood County,2.72
+37089,Henderson County,1.45
+37091,Hertford County,3.37
+37093,Hoke County,1.16
+37095,Hyde County,1.29
+37097,Iredell County,1
 37099,Jackson County,0.69
 37101,Johnston County,0.92
+37103,Jones County,3.45
 37105,Lee County,1.08
 37107,Lenoir County,2.1
 37109,Lincoln County,0.63
 37111,McDowell County,1.08
 37113,Macon County,0.67
+37115,Madison County,2.07
 37117,Martin County,1.6
 37119,Mecklenburg County,0.87
 37121,Mitchell County,1.05
 37123,Montgomery County,2.12
+37125,Moore County,1.4
 37127,Nash County,1.83
 37129,New Hanover County,0.9
 37131,Northampton County,2.22
 37133,Onslow County,0.78
 37135,Orange County,1.2
+37137,Pamlico County,0.82
 37139,Pasquotank County,2.77
+37141,Pender County,0.68
+37143,Perquimans County,0.79
 37145,Person County,1.37
 37147,Pitt County,0.53
+37149,Polk County,1.52
+37151,Randolph County,1.57
+37153,Richmond County,1.71
 37155,Robeson County,1.27
 37157,Rockingham County,0.6
 37159,Rowan County,1.78
+37161,Rutherford County,2.62
+37163,Sampson County,1.28
+37165,Scotland County,2.07
+37167,Stanly County,1.83
+37169,Stokes County,1.65
+37171,Surry County,1.77
 37173,Swain County,0.96
+37175,Transylvania County,0.94
+37177,Tyrrell County,2.01
 37179,Union County,0.78
+37181,Vance County,2.25
 37183,Wake County,0.73
+37185,Warren County,0.92
+37187,Washington County,2.79
 37189,Watauga County,0.67
 37191,Wayne County,1.93
+37193,Wilkes County,1.78
+37195,Wilson County,1.88
+37197,Yadkin County,1
 37199,Yancey County,0.79
+38001,Adams County,0.96
+38003,Barnes County,2.36
+38005,Benson County,1.69
 38007,Billings County,0
+38009,Bottineau County,3.23
+38011,Bowman County,1.24
 38013,Burke County,0.5
 38015,Burleigh County,1.29
 38017,Cass County,0.87
+38019,Cavalier County,0.98
+38021,Dickey County,4.51
+38023,Divide County,1.39
 38025,Dunn County,1.94
+38027,Eddy County,1.44
+38029,Emmons County,2.51
+38031,Foster County,3.54
+38033,Golden Valley County,0
 38035,Grand Forks County,0.73
+38037,Grant County,3.93
+38039,Griggs County,0.65
+38041,Hettinger County,1.45
+38043,Kidder County,3.59
+38045,LaMoure County,3.23
+38047,Logan County,3.64
+38049,McHenry County,3.48
+38051,McIntosh County,2.19
 38053,McKenzie County,1.03
+38055,McLean County,2.63
 38057,Mercer County,0.87
+38059,Morton County,1.95
+38061,Mountrail County,1.23
+38063,Nelson County,2.84
 38065,Oliver County,1.34
+38067,Pembina County,1.42
+38069,Pierce County,4.4
+38071,Ramsey County,1.85
+38073,Ransom County,2.06
+38075,Renville County,4.26
+38077,Richland County,0.94
+38079,Rolette County,1.26
+38081,Sargent County,1.22
+38083,Sheridan County,2
+38085,Sioux County,1.77
+38087,Slope County,0
 38089,Stark County,1.13
 38091,Steele County,1.2
+38093,Stutsman County,2.22
+38095,Towner County,3.56
+38097,Traill County,1.82
+38099,Walsh County,1.32
 38101,Ward County,2.06
+38103,Wells County,1.97
 38105,Williams County,0.81
 39001,Adams County,0.96
 39003,Allen County,1.31
+39005,Ashland County,1.23
 39007,Ashtabula County,1.57
 39009,Athens County,0.26
+39011,Auglaize County,1.5
 39013,Belmont County,1.05
+39015,Brown County,0.54
 39017,Butler County,0.75
+39019,Carroll County,1.05
+39021,Champaign County,1.08
 39023,Clark County,2.49
 39025,Clermont County,0.66
 39027,Clinton County,1.53
 39029,Columbiana County,1.83
+39031,Coshocton County,0.91
+39033,Crawford County,2.18
 39035,Cuyahoga County,1.23
+39037,Darke County,1.97
+39039,Defiance County,2.28
 39041,Delaware County,0.56
+39043,Erie County,2.03
+39045,Fairfield County,0.7
 39047,Fayette County,1.4
 39049,Franklin County,0.76
 39051,Fulton County,1.34
 39053,Gallia County,1.37
 39055,Geauga County,1.19
 39057,Greene County,1.17
+39059,Guernsey County,1.07
 39061,Hamilton County,0.74
+39063,Hancock County,1.66
+39065,Hardin County,1.66
 39067,Harrison County,0.75
+39069,Henry County,2.37
+39071,Highland County,0.75
+39073,Hocking County,1.45
+39075,Holmes County,2.92
+39077,Huron County,1
+39079,Jackson County,1.53
 39081,Jefferson County,1.69
 39083,Knox County,0.69
 39085,Lake County,0.88
 39087,Lawrence County,1.2
 39089,Licking County,1.08
+39091,Logan County,1.03
 39093,Lorain County,1.19
 39095,Lucas County,1.95
 39097,Madison County,0.84
 39099,Mahoning County,2.03
 39101,Marion County,1.57
 39103,Medina County,1.16
+39105,Meigs County,2.2
+39107,Mercer County,2.04
 39109,Miami County,0.87
+39111,Monroe County,3.04
 39113,Montgomery County,0.97
 39115,Morgan County,3.61
+39117,Morrow County,0.19
+39119,Muskingum County,0.64
 39121,Noble County,3.13
+39123,Ottawa County,1.28
+39125,Paulding County,1.51
+39127,Perry County,0.82
+39129,Pickaway County,0.75
+39131,Pike County,1.04
 39133,Portage County,1.25
 39135,Preble County,1.05
+39137,Putnam County,2
+39139,Richland County,1.26
+39141,Ross County,1.74
+39143,Sandusky County,1.48
 39145,Scioto County,1.06
+39147,Seneca County,1.26
+39149,Shelby County,0.51
 39151,Stark County,1.64
 39153,Summit County,2.09
 39155,Trumbull County,2.44
+39157,Tuscarawas County,2.38
+39159,Union County,0.57
+39161,Van Wert County,2.28
+39163,Vinton County,2.18
 39165,Warren County,0.72
 39167,Washington County,1.15
+39169,Wayne County,2.46
+39171,Williams County,2.22
 39173,Wood County,1.61
+39175,Wyandot County,2.52
 40001,Adair County,0.67
+40003,Alfalfa County,0.51
+40005,Atoka County,0.21
+40007,Beaver County,0.89
+40009,Beckham County,1.06
+40011,Blaine County,0.54
+40013,Bryan County,0.88
 40015,Caddo County,1.32
 40017,Canadian County,0.46
 40019,Carter County,0.49
 40021,Cherokee County,0.49
 40023,Choctaw County,0.55
+40025,Cimarron County,0.9
 40027,Cleveland County,0.78
+40029,Coal County,1.08
 40031,Comanche County,0.98
+40033,Cotton County,2.28
+40035,Craig County,0.43
 40037,Creek County,1.53
 40039,Custer County,1.13
+40041,Delaware County,1.33
 40043,Dewey County,0.66
+40045,Ellis County,0.31
 40047,Garfield County,0.77
+40049,Garvin County,0.73
+40051,Grady County,0.87
+40053,Grant County,1.16
+40055,Greer County,2.22
+40057,Harmon County,0
+40059,Harper County,0.82
+40061,Haskell County,0.71
+40063,Hughes County,1.1
+40065,Jackson County,1.52
+40067,Jefferson County,0.75
 40069,Johnston County,1.09
 40071,Kay County,1.14
+40073,Kingfisher County,0.75
+40075,Kiowa County,1.96
+40077,Latimer County,1.12
 40079,Le Flore County,0.8
 40081,Lincoln County,1.5
+40083,Logan County,0.46
 40085,Love County,0.72
+40087,McClain County,0.74
+40089,McCurtain County,1.8
+40091,McIntosh County,1.18
+40093,Major County,0.51
+40095,Marshall County,0.51
 40097,Mayes County,0.92
+40099,Murray County,0.78
 40101,Muskogee County,0.76
+40103,Noble County,0.64
 40105,Nowata County,1.23
+40107,Okfuskee County,0.99
 40109,Oklahoma County,0.72
+40111,Okmulgee County,1.02
 40113,Osage County,0.89
 40115,Ottawa County,1.05
 40117,Pawnee County,1.29
 40119,Payne County,0.48
 40121,Pittsburg County,0.72
+40123,Pontotoc County,0.74
 40125,Pottawatomie County,0.65
+40127,Pushmataha County,0.75
+40129,Roger Mills County,2.06
+40131,Rogers County,1.15
 40133,Seminole County,1
 40135,Sequoyah County,0.67
+40137,Stephens County,0.76
+40139,Texas County,0.58
+40141,Tillman County,1.63
 40143,Tulsa County,0.84
+40145,Wagoner County,0.94
 40147,Washington County,1.84
+40149,Washita County,0.34
+40151,Woods County,0.47
+40153,Woodward County,0.38
+41001,Baker County,0.97
 41003,Benton County,0.77
 41005,Clackamas County,1.07
+41007,Clatsop County,0.48
 41009,Columbia County,1.66
+41011,Coos County,1.47
 41013,Crook County,1.51
+41015,Curry County,0.98
 41017,Deschutes County,0.59
 41019,Douglas County,2.7
+41021,Gilliam County,2.22
+41023,Grant County,0.57
 41025,Harney County,1.92
+41027,Hood River County,2.21
 41029,Jackson County,1.23
+41031,Jefferson County,1.25
 41033,Josephine County,1.88
 41035,Klamath County,1.15
 41037,Lake County,1.83
 41039,Lane County,1.25
+41041,Lincoln County,1.79
 41043,Linn County,1.22
+41045,Malheur County,1.68
 41047,Marion County,1.44
+41049,Morrow County,1.02
 41051,Multnomah County,1.51
+41053,Polk County,1.49
+41055,Sherman County,0
+41057,Tillamook County,0.56
 41059,Umatilla County,0.95
 41061,Union County,1.52
+41063,Wallowa County,3.26
 41065,Wasco County,2.21
 41067,Washington County,0.89
+41069,Wheeler County,5.88
+41071,Yamhill County,1.23
 42001,Adams County,2.1
 42003,Allegheny County,1.94
 42005,Armstrong County,2.05
 42007,Beaver County,2.88
+42009,Bedford County,3.1
 42011,Berks County,2.37
 42013,Blair County,2.18
 42015,Bradford County,1.77
 42017,Bucks County,2.75
+42019,Butler County,2.26
 42021,Cambria County,2.97
+42023,Cameron County,2.15
 42025,Carbon County,2.81
 42027,Centre County,1.56
 42029,Chester County,2.51
+42031,Clarion County,2.27
 42033,Clearfield County,1.17
+42035,Clinton County,1.45
+42037,Columbia County,2.61
+42039,Crawford County,1.89
 42041,Cumberland County,2.89
 42043,Dauphin County,2.29
 42045,Delaware County,3.1
 42047,Elk County,1.38
 42049,Erie County,2
 42051,Fayette County,1.72
+42053,Forest County,1.45
 42055,Franklin County,2.62
+42057,Fulton County,1.3
 42059,Greene County,1.1
+42061,Huntingdon County,2.68
 42063,Indiana County,3.04
+42065,Jefferson County,2.52
+42067,Juniata County,4.08
 42069,Lackawanna County,2.76
 42071,Lancaster County,2.48
 42073,Lawrence County,2.9
@@ -850,176 +2279,651 @@ FIPS,County,DeathRate
 42077,Lehigh County,2.36
 42079,Luzerne County,2.56
 42081,Lycoming County,2.07
+42083,McKean County,1.54
 42085,Mercer County,2.58
+42087,Mifflin County,3.41
 42089,Monroe County,3.04
 42091,Montgomery County,2.99
+42093,Montour County,2.4
 42095,Northampton County,2.5
+42097,Northumberland County,4.43
 42099,Perry County,2.54
 42101,Philadelphia County,2.64
+42103,Pike County,2.12
+42105,Potter County,2.13
+42107,Schuylkill County,2.9
+42109,Snyder County,2.26
 42111,Somerset County,1.94
+42113,Sullivan County,1.61
 42115,Susquehanna County,3.39
 42117,Tioga County,3.7
+42119,Union County,1.54
+42121,Venango County,2.08
 42123,Warren County,3.02
 42125,Washington County,1.5
+42127,Wayne County,1.12
 42129,Westmoreland County,2.2
 42131,Wyoming County,3.53
 42133,York County,1.85
+44001,Bristol County,2.51
 44003,Kent County,1.97
+44005,Newport County,0.36
 44007,Providence County,2.28
 44009,Washington County,2.44
+45001,Abbeville County,1.88
 45003,Aiken County,1.42
+45005,Allendale County,1.76
 45007,Anderson County,2.19
+45009,Bamberg County,3.82
+45011,Barnwell County,2.11
 45013,Beaufort County,1.06
 45015,Berkeley County,1.15
+45017,Calhoun County,2.4
 45019,Charleston County,1.24
+45021,Cherokee County,2.5
+45023,Chester County,1.78
 45025,Chesterfield County,2.49
+45027,Clarendon County,4.06
 45029,Colleton County,2.62
 45031,Darlington County,1.94
+45033,Dillon County,2.24
+45035,Dorchester County,1.35
 45037,Edgefield County,1.46
+45039,Fairfield County,3.55
 45041,Florence County,2.36
 45043,Georgetown County,2.13
 45045,Greenville County,1.28
 45047,Greenwood County,2.15
+45049,Hampton County,3.13
 45051,Horry County,1.51
+45053,Jasper County,1.68
+45055,Kershaw County,1.89
+45057,Lancaster County,1.56
+45059,Laurens County,2.28
+45061,Lee County,3.26
 45063,Lexington County,1.5
+45065,McCormick County,1.7
+45067,Marion County,3.22
+45069,Marlboro County,1.49
+45071,Newberry County,2.26
 45073,Oconee County,1.21
 45075,Orangeburg County,2.69
 45077,Pickens County,1.45
 45079,Richland County,1.21
+45081,Saluda County,2.64
 45083,Spartanburg County,1.9
+45085,Sumter County,1.97
+45087,Union County,2.72
+45089,Williamsburg County,2.52
 45091,York County,1.07
+46003,Aurora County,2.35
+46005,Beadle County,1.49
+46007,Bennett County,2.18
+46009,Bon Homme County,1.54
 46011,Brookings County,0.97
 46013,Brown County,1.46
+46015,Brule County,1.23
+46017,Buffalo County,2.41
+46019,Butte County,2.17
+46021,Campbell County,3.45
+46023,Charles Mix County,1.12
+46025,Clark County,0.62
+46027,Clay County,0.71
 46029,Codington County,2
+46031,Corson County,2.43
 46033,Custer County,1.29
+46035,Davison County,1.89
+46037,Day County,3.74
+46039,Deuel County,1.6
+46041,Dewey County,1.05
+46043,Douglas County,2.28
+46045,Edmunds County,1.2
+46047,Fall River County,2.77
+46049,Faulk County,4.11
+46051,Grant County,4.12
+46053,Gregory County,5.28
+46055,Haakon County,3.8
+46057,Hamlin County,5.86
+46059,Hand County,1.26
+46061,Hanson County,0.93
+46063,Harding County,1.12
 46065,Hughes County,1.39
+46067,Hutchinson County,2.78
+46069,Hyde County,0.75
 46071,Jackson County,4.49
+46073,Jerauld County,6.04
+46075,Jones County,0
+46077,Kingsbury County,2.28
+46079,Lake County,1.49
+46081,Lawrence County,1.17
+46083,Lincoln County,0.96
+46085,Lyman County,1.63
+46087,McCook County,3.12
+46089,McPherson County,1.53
+46091,Marshall County,1.86
 46093,Meade County,1.02
+46095,Mellette County,0.89
+46097,Miner County,2.88
 46099,Minnehaha County,1.1
+46101,Moody County,2.52
+46102,Oglala Lakota County,1.87
 46103,Pennington County,1.22
+46105,Perkins County,3.64
+46107,Potter County,0.92
+46109,Roberts County,3.02
+46111,Sanborn County,0.96
+46115,Spink County,3.32
+46117,Stanley County,0.69
+46119,Sully County,2.46
+46121,Todd County,1.6
+46123,Tripp County,2.03
+46125,Turner County,4.91
 46127,Union County,1.74
+46129,Walworth County,2.12
+46135,Yankton County,1.04
+46137,Ziebach County,2.5
 47001,Anderson County,1.4
+47003,Bedford County,1.49
+47005,Benton County,2.52
+47007,Bledsoe County,0.59
 47009,Blount County,0.99
+47011,Bradley County,0.85
+47013,Campbell County,1.27
+47015,Cannon County,1.07
+47017,Carroll County,1.9
+47019,Carter County,2.09
+47021,Cheatham County,0.88
+47023,Chester County,2.16
 47025,Claiborne County,1.06
+47027,Clay County,2.8
+47029,Cocke County,1.59
+47031,Coffee County,1.41
+47033,Crockett County,2.09
+47035,Cumberland County,1.13
 47037,Davidson County,0.93
+47039,Decatur County,1.61
 47041,DeKalb County,1.58
+47043,Dickson County,1.45
 47045,Dyer County,1.73
+47047,Fayette County,1.36
+47049,Fentress County,1.46
+47051,Franklin County,1.3
+47053,Gibson County,1.87
+47055,Giles County,2.21
+47057,Grainger County,1.41
+47059,Greene County,1.64
+47061,Grundy County,1.48
+47063,Hamblen County,1.46
 47065,Hamilton County,0.94
+47067,Hancock County,1.57
+47069,Hardeman County,1.62
+47071,Hardin County,1.31
+47073,Hawkins County,1.49
+47075,Haywood County,1.76
+47077,Henderson County,1.58
+47079,Henry County,1.93
+47081,Hickman County,1.4
+47083,Houston County,2.42
+47085,Humphreys County,1.28
+47087,Jackson County,1.97
 47089,Jefferson County,1.66
+47091,Johnson County,1.57
 47093,Knox County,0.97
+47095,Lake County,1.25
+47097,Lauderdale County,1.09
 47099,Lawrence County,1.35
+47101,Lewis County,1.62
+47103,Lincoln County,1.07
 47105,Loudon County,0.98
 47107,McMinn County,1.46
+47109,McNairy County,1.86
+47111,Macon County,1.73
 47113,Madison County,1.85
+47115,Marion County,1.27
+47117,Marshall County,1.03
 47119,Maury County,1.11
+47121,Meigs County,1.5
+47123,Monroe County,1.43
 47125,Montgomery County,1.03
+47127,Moore County,0.78
+47129,Morgan County,0.68
+47131,Obion County,1.9
+47133,Overton County,1.69
+47135,Perry County,2.62
+47137,Pickett County,2.84
+47139,Polk County,1.27
 47141,Putnam County,1.34
+47143,Rhea County,1.46
 47145,Roane County,1.42
+47147,Robertson County,1.1
+47149,Rutherford County,0.85
+47151,Scott County,1.29
+47153,Sequatchie County,1.38
 47155,Sevier County,0.88
 47157,Shelby County,1.41
+47159,Smith County,1.08
+47161,Stewart County,2
 47163,Sullivan County,1.67
 47165,Sumner County,1.28
+47167,Tipton County,1.01
+47169,Trousdale County,0.58
+47171,Unicoi County,2.58
+47173,Union County,1.5
+47175,Van Buren County,1.13
+47177,Warren County,1.06
+47179,Washington County,1.63
+47181,Wayne County,0.7
+47183,Weakley County,1.42
+47185,White County,1.38
 47187,Williamson County,0.66
 47189,Wilson County,1.02
+48001,Anderson County,1.29
+48003,Andrews County,2.1
+48005,Angelina County,2.58
+48007,Aransas County,3.09
+48009,Archer County,0.93
+48011,Armstrong County,4.31
+48013,Atascosa County,2.21
+48015,Austin County,1.24
+48017,Bailey County,1.77
+48019,Bandera County,2.01
+48021,Bastrop County,1.16
+48023,Baylor County,2.92
+48025,Bee County,1.69
 48027,Bell County,1.2
 48029,Bexar County,1.39
+48031,Blanco County,2.95
+48033,Borden County,0
+48035,Bosque County,1.93
 48037,Bowie County,2.97
 48039,Brazoria County,1.06
+48041,Brazos County,0.93
 48043,Brewster County,0.88
+48045,Briscoe County,2.78
+48047,Brooks County,4.45
+48049,Brown County,2.31
+48051,Burleson County,1.86
+48053,Burnet County,1.45
 48055,Caldwell County,1.9
+48057,Calhoun County,0.85
+48059,Callahan County,2.66
 48061,Cameron County,3.85
+48063,Camp County,3.21
+48065,Carson County,3.38
+48067,Cass County,3.92
+48069,Castro County,2.31
+48071,Chambers County,0.35
+48073,Cherokee County,2.51
+48075,Childress County,0.87
+48077,Clay County,1.46
+48079,Cochran County,5.24
+48081,Coke County,2.42
+48083,Coleman County,3
 48085,Collin County,0.74
+48087,Collingsworth County,2.62
+48089,Colorado County,1.42
+48091,Comal County,2.42
+48093,Comanche County,3.01
+48095,Concho County,1.69
+48097,Cooke County,1.52
+48099,Coryell County,0.91
+48101,Cottle County,3.57
+48103,Crane County,1.87
+48105,Crockett County,2.48
+48107,Crosby County,5.8
 48109,Culberson County,1.41
+48111,Dallam County,4.09
 48113,Dallas County,1.03
+48115,Dawson County,3.63
+48117,Deaf Smith County,2.41
+48119,Delta County,2.31
 48121,Denton County,0.91
+48123,DeWitt County,3.28
+48125,Dickens County,5.26
+48127,Dimmit County,1.63
+48129,Donley County,2.55
+48131,Duval County,3.15
+48133,Eastland County,1.87
 48135,Ector County,2.13
+48137,Edwards County,1.5
 48139,Ellis County,1.23
 48141,El Paso County,1.78
+48143,Erath County,1.04
+48145,Falls County,1.6
+48147,Fannin County,2.69
+48149,Fayette County,2.85
+48151,Fisher County,4
+48153,Floyd County,4.09
+48155,Foard County,7.04
+48157,Fort Bend County,1.04
+48159,Franklin County,2.96
 48161,Freestone County,2.69
+48163,Frio County,0.94
+48165,Gaines County,2.5
 48167,Galveston County,0.96
+48169,Garza County,6.16
+48171,Gillespie County,1.38
+48173,Glasscock County,1.04
+48175,Goliad County,2.68
+48177,Gonzales County,1.37
+48179,Gray County,2.26
+48181,Grayson County,2.45
 48183,Gregg County,2.65
+48185,Grimes County,2.53
+48187,Guadalupe County,1.39
+48189,Hale County,2.42
+48191,Hall County,3.42
+48193,Hamilton County,3.53
+48195,Hansford County,2.27
+48197,Hardeman County,3.26
+48199,Hardin County,1.52
 48201,Harris County,1.37
 48203,Harrison County,2.34
+48205,Hartley County,0
+48207,Haskell County,3.95
+48209,Hays County,1.06
+48211,Hemphill County,0.47
+48213,Henderson County,2.2
 48215,Hidalgo County,4.12
+48217,Hill County,1.65
+48219,Hockley County,4.37
 48221,Hood County,1.68
+48223,Hopkins County,3.27
+48225,Houston County,2.33
 48227,Howard County,1.7
+48229,Hudspeth County,1.7
 48231,Hunt County,2.34
 48233,Hutchinson County,4.29
+48235,Irion County,1.32
+48237,Jack County,2.2
+48239,Jackson County,1.72
+48241,Jasper County,1.89
 48243,Jeff Davis County,0.88
 48245,Jefferson County,1.66
+48247,Jim Hogg County,2.7
+48249,Jim Wells County,2.09
 48251,Johnson County,1.43
+48253,Jones County,1.43
+48255,Karnes County,1.77
 48257,Kaufman County,1.35
+48259,Kendall County,2.14
+48261,Kenedy County,7.14
+48263,Kent County,1.64
+48265,Kerr County,1.66
+48267,Kimble County,2.83
+48269,King County,0
+48271,Kinney County,1.35
 48273,Kleberg County,3.28
+48275,Knox County,6.94
+48277,Lamar County,2.18
+48279,Lamb County,4.06
+48281,Lampasas County,1.79
+48283,La Salle County,2.14
+48285,Lavaca County,3.18
+48287,Lee County,2.81
+48289,Leon County,3.15
+48291,Liberty County,2.29
+48293,Limestone County,2.37
+48295,Lipscomb County,3.73
+48297,Live Oak County,1.74
+48299,Llano County,3.01
+48301,Loving County,0
 48303,Lubbock County,1.38
+48305,Lynn County,2.51
+48307,McCulloch County,2.64
 48309,McLennan County,1.55
+48311,McMullen County,2.9
+48313,Madison County,1.57
 48315,Marion County,6.01
+48317,Martin County,2.97
+48319,Mason County,0.99
+48321,Matagorda County,3.22
 48323,Maverick County,2.86
+48325,Medina County,1.95
+48327,Menard County,2.33
+48329,Midland County,1.55
 48331,Milam County,0.95
+48333,Mills County,4.36
+48335,Mitchell County,3.26
+48337,Montague County,2.75
 48339,Montgomery County,0.95
+48341,Moore County,2.57
+48343,Morris County,1.89
+48345,Motley County,6.33
+48347,Nacogdoches County,3.05
 48349,Navarro County,1.43
+48351,Newton County,2.87
+48353,Nolan County,2.31
 48355,Nueces County,1.86
+48357,Ochiltree County,1.89
+48359,Oldham County,1.23
 48361,Orange County,1.32
+48363,Palo Pinto County,2.16
+48365,Panola County,4.04
 48367,Parker County,1.01
+48369,Parmer County,2.9
+48371,Pecos County,1.85
 48373,Polk County,2.59
 48375,Potter County,2.02
+48377,Presidio County,2.67
+48379,Rains County,3.27
 48381,Randall County,1.28
+48383,Reagan County,2.04
+48385,Real County,4.86
+48387,Red River County,5.39
+48389,Reeves County,2.21
+48391,Refugio County,3.4
+48393,Roberts County,2.08
 48395,Robertson County,2.29
 48397,Rockwall County,0.8
+48399,Runnels County,2.13
 48401,Rusk County,2.07
+48403,Sabine County,3.51
+48405,San Augustine County,5.37
+48407,San Jacinto County,3.91
+48409,San Patricio County,3.29
+48411,San Saba County,2.98
+48413,Schleicher County,3.31
+48415,Scurry County,1.79
+48417,Shackelford County,0.58
+48419,Shelby County,3.55
+48421,Sherman County,8.77
 48423,Smith County,2.09
+48425,Somervell County,0.95
+48427,Starr County,3.08
+48429,Stephens County,2.82
+48431,Sterling County,4.17
+48433,Stonewall County,2.59
+48435,Sutton County,1.59
+48437,Swisher County,2.12
 48439,Tarrant County,0.98
+48441,Taylor County,1.88
+48443,Terrell County,1.43
+48445,Terry County,3.02
+48447,Throckmorton County,5.45
 48449,Titus County,1.75
+48451,Tom Green County,1.35
 48453,Travis County,1.04
+48455,Trinity County,2.05
+48457,Tyler County,1.02
+48459,Upshur County,1.71
+48461,Upton County,2.55
+48463,Uvalde County,1.97
+48465,Val Verde County,2.94
+48467,Van Zandt County,2.54
 48469,Victoria County,2.03
+48471,Walker County,1.39
+48473,Waller County,0.98
+48475,Ward County,1.36
+48477,Washington County,3.94
 48479,Webb County,1.67
+48481,Wharton County,2.9
+48483,Wheeler County,2.17
+48485,Wichita County,1.95
+48487,Wilbarger County,2.65
+48489,Willacy County,3.54
+48491,Williamson County,0.9
+48493,Wilson County,1.39
+48495,Winkler County,2.5
+48497,Wise County,1.52
+48499,Wood County,3.37
+48501,Yoakum County,2.66
+48503,Young County,2.01
+48505,Zapata County,1.07
+48507,Zavala County,2.39
 49011,Davis County,0.37
 49035,Salt Lake County,0.51
 49037,San Juan County,2.28
+49043,Summit County,0.16
 49045,Tooele County,0.25
 49049,Utah County,0.3
+49051,Wasatch County,0.45
 50001,Addison County,0.9
 50003,Bennington County,0.48
+50005,Caledonia County,1.42
 50007,Chittenden County,2.4
+50009,Essex County,0
+50011,Franklin County,5.07
+50013,Grand Isle County,0
+50015,Lamoille County,0.39
+50017,Orange County,0.28
+50019,Orleans County,1.61
 50021,Rutland County,1.59
 50023,Washington County,1.06
+50025,Windham County,1.27
+50027,Windsor County,0.53
+51001,Accomack County,1.5
 51003,Albemarle County,1.01
+51005,Alleghany County,2.9
+51007,Amelia County,1.53
+51009,Amherst County,0.57
+51011,Appomattox County,0.77
 51013,Arlington County,1.85
+51015,Augusta County,0.78
+51017,Bath County,0
+51019,Bedford County,0.85
+51021,Bland County,1.11
 51023,Botetourt County,1.19
+51025,Brunswick County,0.9
+51027,Buchanan County,2.41
+51029,Buckingham County,0.79
+51031,Campbell County,0.92
 51033,Caroline County,0.95
 51035,Carroll County,2.32
 51036,Charles City County,3.28
+51037,Charlotte County,2.11
 51041,Chesterfield County,1.25
+51043,Clarke County,1.34
+51045,Craig County,1.25
+51047,Culpeper County,0.7
+51049,Cumberland County,1.79
+51051,Dickenson County,0.82
+51053,Dinwiddie County,1.5
+51057,Essex County,0.47
 51059,Fairfax County,1.44
 51061,Fauquier County,1.06
+51063,Floyd County,2.96
+51065,Fluvanna County,1.21
+51067,Franklin County,0.93
 51069,Frederick County,0.81
 51071,Giles County,0.66
+51073,Gloucester County,1.04
+51075,Goochland County,0.96
+51077,Grayson County,2.85
+51079,Greene County,0.61
+51081,Greensville County,1.6
+51083,Halifax County,3.19
 51085,Hanover County,1.69
 51087,Henrico County,2.09
+51089,Henry County,1.94
+51091,Highland County,0
+51093,Isle of Wight County,1.71
+51095,James City County,1.34
+51097,King and Queen County,1.03
+51099,King George County,1.21
+51101,King William County,0.74
+51103,Lancaster County,0.72
+51105,Lee County,1.82
 51107,Loudoun County,1.07
+51109,Louisa County,0.99
+51111,Lunenburg County,0.69
 51113,Madison County,1.4
+51115,Mathews County,1.12
+51117,Mecklenburg County,2.76
+51119,Middlesex County,3.87
 51121,Montgomery County,0.86
+51125,Nelson County,0.92
+51127,New Kent County,0.74
+51131,Northampton County,6.14
+51133,Northumberland County,2.09
+51135,Nottoway County,1.89
+51137,Orange County,1.27
 51139,Page County,2.79
+51141,Patrick County,3.17
+51143,Pittsylvania County,1.31
+51145,Powhatan County,0.62
 51147,Prince Edward County,1.47
+51149,Prince George County,0.46
 51153,Prince William County,0.93
+51155,Pulaski County,2.01
+51157,Rappahannock County,1.06
+51159,Richmond County,0.62
 51161,Roanoke County,1.32
 51163,Rockbridge County,0.88
 51165,Rockingham County,1.05
+51167,Russell County,1.1
+51169,Scott County,2.91
+51171,Shenandoah County,2.93
+51173,Smyth County,2.84
+51175,Southampton County,2.78
+51177,Spotsylvania County,1.31
 51179,Stafford County,0.49
+51181,Surry County,1.92
+51183,Sussex County,1.74
+51185,Tazewell County,0.89
+51187,Warren County,2.33
+51191,Washington County,1.7
+51193,Westmoreland County,1.4
+51195,Wise County,2.79
 51197,Wythe County,2
+51199,York County,0.72
 51510,Alexandria city,1.13
 51520,Bristol city,0.76
+51530,Buena Vista city,0.69
+51540,Charlottesville city,1.39
 51550,Chesapeake city,1.04
+51570,Colonial Heights city,4.07
 51580,Covington city,0.87
+51590,Danville city,2.25
+51595,Emporia city,6.59
+51600,Fairfax city,3.06
+51610,Falls Church city,2.88
+51620,Franklin city,2.54
+51630,Fredericksburg city,0.95
+51640,Galax city,4.07
 51650,Hampton city,1.01
+51660,Harrisonburg city,0.98
 51670,Hopewell city,1
+51678,Lexington city,0.73
 51680,Lynchburg city,1.2
+51683,Manassas city,0.93
+51685,Manassas Park city,0.81
+51690,Martinsville city,2.39
 51700,Newport News city,1.05
 51710,Norfolk city,1.16
+51720,Norton city,0.48
+51730,Petersburg city,2
+51735,Poquoson city,1.7
+51740,Portsmouth city,1.66
+51750,Radford city,0.49
 51760,Richmond city,1.02
 51770,Roanoke city,1.82
 51775,Salem city,2.3
+51790,Staunton city,2.07
 51800,Suffolk city,2.08
 51810,Virginia Beach city,0.83
+51820,Waynesboro city,1.18
+51830,Williamsburg city,2.05
 51840,Winchester city,0.93
 53001,Adams County,0.95
 53003,Asotin County,1.74
@@ -1027,77 +2931,164 @@ FIPS,County,DeathRate
 53007,Chelan County,0.73
 53009,Clallam County,0.51
 53011,Clark County,1.06
+53013,Columbia County,4.35
 53015,Cowlitz County,1.19
+53017,Douglas County,0.54
+53019,Ferry County,1.06
+53021,Franklin County,0.92
+53023,Garfield County,2.02
 53025,Grant County,0.78
 53027,Grays Harbor County,1.05
+53029,Island County,2.12
 53031,Jefferson County,0.79
 53033,King County,1.61
 53035,Kitsap County,1.13
 53037,Kittitas County,1.62
+53039,Klickitat County,0.56
 53041,Lewis County,1.24
+53043,Lincoln County,1.81
 53045,Mason County,0.88
 53047,Okanogan County,1.6
+53049,Pacific County,1.04
+53051,Pend Oreille County,0.8
 53053,Pierce County,1.35
+53055,San Juan County,0
 53057,Skagit County,1.21
 53059,Skamania County,0.47
 53061,Snohomish County,1.7
 53063,Spokane County,1.33
 53065,Stevens County,1.42
 53067,Thurston County,1.09
+53069,Wahkiakum County,0
 53071,Walla Walla County,1.04
 53073,Whatcom County,1.35
 53075,Whitman County,1.14
 53077,Yakima County,1.54
+54001,Barbour County,1.25
 54003,Berkeley County,0.8
+54005,Boone County,2
+54007,Braxton County,0.16
 54009,Brooke County,2.39
 54011,Cabell County,1.94
+54013,Calhoun County,0
+54015,Clay County,1.4
+54017,Doddridge County,0.96
+54019,Fayette County,2.61
 54021,Gilmer County,0.62
+54023,Grant County,2.05
 54025,Greenbrier County,2.36
+54027,Hampshire County,2.01
 54029,Hancock County,2.64
+54031,Hardy County,1.12
 54033,Harrison County,1.04
+54035,Jackson County,2.39
+54037,Jefferson County,0.98
 54039,Kanawha County,2.34
+54041,Lewis County,0.77
+54043,Lincoln County,0.97
+54045,Logan County,3.24
+54047,McDowell County,0.64
 54049,Marion County,0.68
 54051,Marshall County,2.38
 54053,Mason County,1.83
 54055,Mercer County,1.84
 54057,Mineral County,3.15
+54059,Mingo County,1.23
 54061,Monongalia County,0.74
+54063,Monroe County,1.47
+54065,Morgan County,1.17
+54067,Nicholas County,1.1
 54069,Ohio County,1.75
+54071,Pendleton County,0.51
+54073,Pleasants County,0.87
+54075,Pocahontas County,2.15
+54077,Preston County,1.71
+54079,Putnam County,1.81
 54081,Raleigh County,1.01
+54083,Randolph County,0.4
+54085,Ritchie County,1.53
+54087,Roane County,1.68
 54089,Summers County,3.03
+54091,Taylor County,1.55
 54093,Tucker County,0.99
+54095,Tyler County,0.45
+54097,Upshur County,0.94
+54099,Wayne County,1.12
+54101,Webster County,0
+54103,Wetzel County,1.97
+54105,Wirt County,0.38
 54107,Wood County,1.01
+54109,Wyoming County,1.66
+55001,Adams County,0.85
 55003,Ashland County,1.44
+55005,Barron County,1.2
+55007,Bayfield County,1.8
 55009,Brown County,0.61
+55011,Buffalo County,0.63
+55013,Burnett County,1.83
+55015,Calumet County,0.74
+55017,Chippewa County,1.13
+55019,Clark County,1.78
 55021,Columbia County,0.82
+55023,Crawford County,0.79
 55025,Dane County,0.63
 55027,Dodge County,1.26
 55029,Door County,0.73
 55031,Douglas County,0.8
+55033,Dunn County,0.62
 55035,Eau Claire County,0.97
+55037,Florence County,2.76
 55039,Fond du Lac County,0.67
 55041,Forest County,2.63
 55043,Grant County,1.74
+55045,Green County,0.55
+55047,Green Lake County,0.94
+55049,Iowa County,0.5
+55051,Iron County,6.43
+55053,Jackson County,0.72
 55055,Jefferson County,0.84
+55057,Juneau County,0.44
 55059,Kenosha County,1.71
 55061,Kewaunee County,1.09
 55063,La Crosse County,0.56
+55065,Lafayette County,0.43
+55067,Langlade County,2.02
+55069,Lincoln County,2.23
 55071,Manitowoc County,0.85
 55073,Marathon County,1.35
+55075,Marinette County,1.27
+55077,Marquette County,1.78
+55078,Menominee County,1.33
 55079,Milwaukee County,1.05
+55081,Monroe County,0.66
+55083,Oconto County,1.04
 55085,Oneida County,1.67
 55087,Outagamie County,0.88
 55089,Ozaukee County,0.82
+55091,Pepin County,0.81
+55093,Pierce County,0.92
+55095,Polk County,0.88
+55097,Portage County,0.92
+55099,Price County,0.57
 55101,Racine County,1.35
+55103,Richland County,1.08
 55105,Rock County,0.94
+55107,Rusk County,1.17
 55109,St. Croix County,0.49
 55111,Sauk County,0.73
+55113,Sawyer County,1.29
+55115,Shawano County,1.49
 55117,Sheboygan County,0.8
 55119,Taylor County,1.03
+55121,Trempealeau County,0.97
+55123,Vernon County,1.9
 55125,Vilas County,1.62
 55127,Walworth County,1.13
+55129,Washburn County,1.44
+55131,Washington County,0.77
 55133,Waukesha County,1.01
 55135,Waupaca County,2.71
+55137,Waushara County,0.98
 55139,Winnebago County,0.98
 55141,Wood County,1.01
 56001,Albany County,0.28
@@ -1105,12 +3096,15 @@ FIPS,County,DeathRate
 56005,Campbell County,0.88
 56007,Carbon County,1.62
 56009,Converse County,1.29
+56011,Crook County,2.28
 56013,Fremont County,1.67
 56015,Goshen County,1.65
+56017,Hot Springs County,0.74
 56019,Johnson County,1.47
 56021,Laramie County,0.87
 56023,Lincoln County,1.08
 56025,Natrona County,1.49
+56027,Niobrara County,1.41
 56029,Park County,0.68
 56031,Platte County,1.88
 56033,Sheridan County,0.63
@@ -1118,2083 +3112,89 @@ FIPS,County,DeathRate
 56037,Sweetwater County,0.76
 56039,Teton County,0.17
 56041,Uinta County,0.47
+56043,Washakie County,2.61
 56045,Weston County,0.82
-72001,"Adjuntas Municipio, Puerto Rico",0
-72013,"Arecibo Municipio, Puerto Rico",0
-72021,"Bayamón Municipio, Puerto Rico",0
-72025,"Caguas Municipio, Puerto Rico",0
-72033,"Cataño Municipio, Puerto Rico",0
-72053,"Fajardo Municipio, Puerto Rico",0
-72057,"Guayama Municipio, Puerto Rico",0
-72059,"Guayanilla Municipio, Puerto Rico",0
-72061,"Guaynabo Municipio, Puerto Rico",0
-72069,"Humacao Municipio, Puerto Rico",0
-72081,"Lares Municipio, Puerto Rico",0
-72097,"Mayagüez Municipio, Puerto Rico",0
-72113,"Ponce Municipio, Puerto Rico",0
-72127,"San Juan Municipio, Puerto Rico",0
-01001,NA,1.11
-01005,NA,2.11
-01007,NA,2.34
-01009,NA,1.52
-01011,NA,2.94
-01013,NA,3.49
-01015,NA,1.7
-01017,NA,2.5
-01019,NA,1.56
-01021,NA,1.66
-01023,NA,4.39
-01025,NA,0.99
-01029,NA,1.61
-01031,NA,1.04
-01035,NA,1.98
-01037,NA,1.55
-01039,NA,1.58
-01041,NA,3.38
-01043,NA,1.03
-01045,NA,1.72
-01047,NA,1.51
-01057,NA,1.34
-01059,NA,1.1
-01061,NA,1.21
-01063,NA,2.74
-01065,NA,2.47
-01067,NA,0.77
-01071,NA,0.61
-01075,NA,1.41
-01077,NA,1
-01079,NA,1.89
-01081,NA,0.68
-01083,NA,0.79
-01085,NA,3.33
-01087,NA,3.2
-01091,NA,1.39
-01093,NA,1.98
-01095,NA,0.93
-01099,NA,0.87
-01105,NA,2.04
-01107,NA,1.64
-01111,NA,2.37
-01115,NA,1.59
-01123,NA,4.19
-01129,NA,1.97
-01131,NA,2.05
-01133,NA,1.56
-02013,NA,0
-02016,NA,0
-02164,NA,0
-02070,NA,0.68
-02100,NA,0
-02150,NA,0.21
-02158,NA,0.33
-02180,NA,0
-02185,NA,0.34
-02188,NA,0
-02195,NA,2.63
-02198,NA,1.35
-02220,NA,0
-02230,NA,0
-02240,NA,0.72
-02261,NA,0.79
-02275,NA,0
-02282,NA,1.67
-02290,NA,1.69
-04009,NA,1.38
-04011,NA,0.86
-05005,NA,3.31
-05009,NA,2.51
-05011,NA,1.85
-05013,NA,0.37
-05015,NA,1.45
-05017,NA,2.24
-05021,NA,2.46
-05023,NA,2.79
-05025,NA,3.34
-05027,NA,2.64
-05029,NA,1.15
-05033,NA,1.28
-05037,NA,2.31
-05039,NA,2.2
-05041,NA,1.35
-05043,NA,1.43
-05047,NA,2.08
-05049,NA,3.8
-05053,NA,1.34
-05055,NA,1.21
-05057,NA,0.8
-05059,NA,1.5
-05061,NA,1.51
-05063,NA,3.2
-05065,NA,1.61
-05071,NA,0.97
-05073,NA,1.35
-05075,NA,2.21
-05077,NA,1.85
-05079,NA,0.96
-05081,NA,4.34
-05083,NA,0.78
-05085,NA,1.82
-05087,NA,1.22
-05095,NA,1.62
-05097,NA,3.62
-05099,NA,3.51
-05103,NA,2.18
-05105,NA,0.92
-05109,NA,1.8
-05111,NA,2.44
-05117,NA,2.81
-05121,NA,2.65
-05125,NA,1.36
-05127,NA,1.81
-05129,NA,2.39
-05133,NA,1.06
-05135,NA,2.76
-05123,NA,0.77
-05137,NA,3.27
-05141,NA,1.03
-05147,NA,0.45
-05149,NA,1.88
-06003,NA,0
-06035,NA,0.24
-06091,NA,0
-06115,NA,0.56
-08003,NA,2.49
-08009,NA,0.49
-08011,NA,1.38
-08014,NA,2.24
-08015,NA,1.79
-08017,NA,4.76
-08021,NA,0.88
-08023,NA,1.18
-08025,NA,0.83
-08027,NA,0
-08033,NA,0
-08037,NA,0.43
-08049,NA,0.53
-08053,NA,0
-08055,NA,6.01
-08057,NA,0
-08061,NA,2.56
-08063,NA,2.19
-08065,NA,0
-08071,NA,0.85
-08073,NA,0.38
-08075,NA,1.63
-08079,NA,2
-08081,NA,3.7
-08085,NA,1.57
-08087,NA,3.74
-08089,NA,3.14
-08091,NA,1.81
-08095,NA,2.65
-08105,NA,1.6
-08109,NA,1.47
-08111,NA,0
-08115,NA,1.22
-08117,NA,0.22
-08119,NA,1.04
-08121,NA,3.12
-08125,NA,2.36
-12007,NA,1.01
-12013,NA,2.1
-12015,NA,2.97
-12019,NA,1.51
-12027,NA,1.94
-12029,NA,0.9
-12037,NA,0.39
-12039,NA,1.36
-12041,NA,2.47
-12043,NA,1.36
-12045,NA,1.99
-12049,NA,0.93
-12051,NA,1.45
-12053,NA,3.43
-12063,NA,2.4
-12065,NA,1.6
-12067,NA,1.44
-12075,NA,1.02
-12079,NA,2.06
-12087,NA,0.77
-12093,NA,1.94
-12109,NA,0.8
-12119,NA,2.04
-12121,NA,2.15
-12123,NA,1.3
-12125,NA,4.24
-12131,NA,1.04
-12133,NA,1.39
-13001,NA,2.46
-13003,NA,1.06
-13005,NA,2.15
-13007,NA,3.31
-13009,NA,2.18
-13011,NA,1.54
-13013,NA,1.2
-13015,NA,1.45
-13017,NA,2.89
-13019,NA,2.34
-13023,NA,3.3
-13025,NA,1.91
-13027,NA,3.05
-13029,NA,0.96
-13031,NA,1.25
-13033,NA,1.37
-13035,NA,2.55
-13037,NA,2.53
-13039,NA,0.79
-13043,NA,4.81
-13045,NA,1.61
-13047,NA,1.06
-13049,NA,1.8
-13053,NA,0.13
-13057,NA,0.7
-13061,NA,1.52
-13065,NA,1.94
-13071,NA,1.59
-13075,NA,2
-13077,NA,0.93
-13079,NA,1.69
-13081,NA,2.85
-13083,NA,0.86
-13087,NA,2.46
-13091,NA,4.03
-13093,NA,3.47
-13099,NA,4.82
-13101,NA,1.02
-13103,NA,1.26
-13105,NA,1.91
-13107,NA,2.71
-13109,NA,1.91
-13111,NA,2.86
-13113,NA,1.44
-13117,NA,0.65
-13119,NA,1.44
-13123,NA,1.88
-13125,NA,3.12
-13129,NA,1.24
-13131,NA,2.11
-13133,NA,2.22
-13137,NA,2.51
-13141,NA,6.43
-13143,NA,2.24
-13145,NA,1.79
-13147,NA,1.98
-13149,NA,1.88
-13155,NA,2.72
-13157,NA,1.17
-13159,NA,1.41
-13161,NA,2.69
-13163,NA,2.84
-13165,NA,5.42
-13167,NA,3.93
-13169,NA,1.74
-13171,NA,2.51
-13173,NA,1.72
-13175,NA,2.85
-13177,NA,1.92
-13179,NA,1.47
-13181,NA,2.65
-13183,NA,0.91
-13187,NA,1.1
-13193,NA,2.86
-13195,NA,1.19
-13197,NA,2.87
-13189,NA,1.77
-13191,NA,1.79
-13199,NA,1.53
-13201,NA,0.49
-13205,NA,3.51
-13207,NA,3.74
-13209,NA,1.55
-13211,NA,0.76
-13217,NA,1.98
-13219,NA,1.58
-13221,NA,1.5
+72001,Adjuntas Municipio,0
+72003,Aguada Municipio,0
+72005,Aguadilla Municipio,0
+72007,Aguas Buenas Municipio,0
+72009,Aibonito Municipio,0
+72011,Añasco Municipio,0
+72013,Arecibo Municipio,0
+72015,Arroyo Municipio,0
+72017,Barceloneta Municipio,0
+72019,Barranquitas Municipio,0
+72021,Bayamón Municipio,0
+72023,Cabo Rojo Municipio,0
+72025,Caguas Municipio,0
+72027,Camuy Municipio,0
+72029,Canóvanas Municipio,0
+72031,Carolina Municipio,0
+72033,Cataño Municipio,0
+72035,Cayey Municipio,0
+72037,Ceiba Municipio,0
+72039,Ciales Municipio,0
+72041,Cidra Municipio,0
+72043,Coamo Municipio,0
+72045,Comerío Municipio,0
+72047,Corozal Municipio,0
+72049,Culebra Municipio,0
+72051,Dorado Municipio,0
+72053,Fajardo Municipio,0
+72054,Florida Municipio,0
+72055,Guánica Municipio,0
+72057,Guayama Municipio,0
+72059,Guayanilla Municipio,0
+72061,Guaynabo Municipio,0
+72063,Gurabo Municipio,0
+72065,Hatillo Municipio,0
+72067,Hormigueros Municipio,0
+72069,Humacao Municipio,0
+72071,Isabela Municipio,0
+72073,Jayuya Municipio,0
+72075,Juana Díaz Municipio,0
+72077,Juncos Municipio,0
+72079,Lajas Municipio,0
+72081,Lares Municipio,0
+72083,Las Marías Municipio,0
+72085,Las Piedras Municipio,0
+72087,Loíza Municipio,0
+72089,Luquillo Municipio,0
+72091,Manatí Municipio,0
+72093,Maricao Municipio,0
+72095,Maunabo Municipio,0
+72097,Mayagüez Municipio,0
+72099,Moca Municipio,0
+72101,Morovis Municipio,0
+72103,Naguabo Municipio,0
+72105,Naranjito Municipio,0
+72107,Orocovis Municipio,0
+72109,Patillas Municipio,0
+72111,Peñuelas Municipio,0
+72113,Ponce Municipio,0
+72115,Quebradillas Municipio,0
+72117,Rincón Municipio,0
+72119,Río Grande Municipio,0
+72121,Sabana Grande Municipio,0
+72123,Salinas Municipio,0
+72125,San Germán Municipio,0
+72127,San Juan Municipio,0
+72129,San Lorenzo Municipio,0
+72131,San Sebastián Municipio,0
+72133,Santa Isabel Municipio,0
+72135,Toa Alta Municipio,0
+72137,Toa Baja Municipio,0
+72139,Trujillo Alto Municipio,0
+72141,Utuado Municipio,0
+72143,Vega Alta Municipio,0
+72145,Vega Baja Municipio,0
+72147,Vieques Municipio,0
+72149,Villalba Municipio,0
+72151,Yabucoa Municipio,0
+72153,Yauco Municipio,0
 80013,NA,1.31
-13225,NA,1.83
-13227,NA,1
-13229,NA,1.84
-13233,NA,1.22
-13235,NA,4.36
-13237,NA,2.23
-13239,NA,0.86
-13241,NA,1.71
-13243,NA,6.81
-13249,NA,0.81
-13251,NA,2.23
-13253,NA,1.62
-13255,NA,2.48
-13257,NA,2.21
-13259,NA,2.41
-13263,NA,2.89
-13265,NA,0
-13267,NA,2.26
-13269,NA,2.54
-13271,NA,4.18
-13273,NA,5.71
-13275,NA,2.7
-13277,NA,2.12
-13279,NA,2.71
-13281,NA,4.21
-13283,NA,2.66
-13285,NA,2.37
-13287,NA,3.4
-13289,NA,4.02
-13291,NA,2.85
-13293,NA,3.24
-13297,NA,1.39
-13299,NA,2.4
-13301,NA,2.68
-13305,NA,2.12
-13307,NA,1.92
-13309,NA,3.8
-13311,NA,1.78
-13313,NA,1.04
-13315,NA,5.94
-13317,NA,1.55
-13321,NA,3.04
 80015,NA,0.7
-16003,NA,1.05
-16007,NA,0.67
-16011,NA,1.38
-16013,NA,0.8
-16025,NA,0
-16031,NA,0.87
-16033,NA,0
-16035,NA,0.94
-16037,NA,0.92
-16039,NA,0.71
-16043,NA,1.56
-16047,NA,1.68
-16051,NA,0.7
-16061,NA,1.42
-16063,NA,2
-16065,NA,0.38
-16067,NA,1.08
-16071,NA,0.74
-16073,NA,2.26
-16075,NA,1.16
-16081,NA,0.37
-16087,NA,1.53
-17003,NA,1.92
-17005,NA,1.2
-17007,NA,1.41
-17009,NA,1.96
-17011,NA,2.62
-17013,NA,0.96
-17015,NA,2.32
-17017,NA,1.82
-17021,NA,2.43
-17025,NA,2.87
-17027,NA,1.69
-17029,NA,1.67
-17033,NA,1.9
-17035,NA,2.54
-17039,NA,2.38
-17037,NA,1.22
-17041,NA,1.7
-17045,NA,3.5
-17047,NA,1.8
-17051,NA,1.85
-17053,NA,3.47
-17055,NA,1.75
-17057,NA,1.89
-17059,NA,1.07
-17061,NA,3.4
-17063,NA,1.3
-17067,NA,2.25
-17069,NA,3.11
-17071,NA,3.5
-17073,NA,1.83
-17075,NA,2.12
-17077,NA,1.7
-17079,NA,1.52
-17081,NA,2.96
-17087,NA,1.29
-17091,NA,1.53
-17093,NA,0.83
-17095,NA,3.09
-17101,NA,1.39
-17103,NA,2.39
-17105,NA,1.89
-17107,NA,1.84
-17121,NA,2.9
-17123,NA,2.08
-17125,NA,3.46
-17127,NA,3.01
-17109,NA,2.33
-17129,NA,1.12
-17131,NA,2.28
-17135,NA,1.29
-17137,NA,2.73
-17139,NA,2.05
-17141,NA,1.49
 80017,NA,0
-17145,NA,2.4
-17147,NA,1.25
-17149,NA,2.87
-17151,NA,0.44
-17153,NA,0.51
-17155,NA,0.29
-17159,NA,2.73
-17165,NA,2.47
-17169,NA,2.57
-17171,NA,0.28
-17173,NA,1.8
-17175,NA,4.11
-17177,NA,2.11
-17181,NA,1.7
-17183,NA,1.39
-17187,NA,2.7
-17189,NA,1.82
-17191,NA,2.92
-17193,NA,2.28
-17195,NA,3.35
-17199,NA,1.89
-17203,NA,2.05
-18001,NA,1.23
-18007,NA,1.23
-18009,NA,2.12
-18017,NA,1.23
-18021,NA,1.55
-18023,NA,1.05
-18025,NA,1.3
-18033,NA,1.9
-18029,NA,0.95
-18031,NA,3.45
-18041,NA,1.96
-18045,NA,1.47
-18047,NA,2.21
-18049,NA,1.9
-18053,NA,1.95
-18059,NA,1.47
-18061,NA,1.28
-18073,NA,1.19
-18075,NA,1.33
-18077,NA,1.61
-18079,NA,1.85
-18081,NA,1.96
-18085,NA,0.98
-18087,NA,2.76
-18093,NA,1.84
-18099,NA,1.75
-18101,NA,1.93
-18103,NA,1.39
-18111,NA,2.19
-18113,NA,1.26
-18115,NA,1.6
-18117,NA,2.34
-18119,NA,2.24
-18121,NA,0.64
-18131,NA,3.8
-18133,NA,1.59
-18135,NA,1.94
-18137,NA,1.57
-18139,NA,1.15
-18143,NA,1.79
-18149,NA,2.46
-18151,NA,1.33
-18155,NA,0.87
-18159,NA,2.6
-18161,NA,0.34
-18165,NA,2.37
-18171,NA,1.11
-18175,NA,0.98
-18177,NA,2.66
-18179,NA,2.06
-18181,NA,1.48
-19001,NA,3.05
-19003,NA,1.04
-19005,NA,2.1
-19007,NA,3.53
-19009,NA,2.01
-19011,NA,2
-19015,NA,0.72
-19019,NA,1.24
-19021,NA,0.73
-19023,NA,1.64
-19025,NA,0.75
-19027,NA,1.29
-19029,NA,3.63
-19031,NA,1.31
-19035,NA,1.88
-19037,NA,1.01
-19039,NA,0.95
-19041,NA,1.05
-19043,NA,3.18
-19047,NA,0.98
-19049,NA,0.79
-19051,NA,2.95
-19053,NA,0.87
-19057,NA,1.02
-19059,NA,1.16
-19061,NA,1.28
-19065,NA,1.45
-19067,NA,2.68
-19069,NA,1.73
-19071,NA,1.03
-19073,NA,1.05
-19075,NA,1.8
-19077,NA,2.3
-19079,NA,1.69
-19081,NA,1.91
-19083,NA,1.91
-19087,NA,1.12
-19089,NA,2.26
-19091,NA,1.77
-19093,NA,4.14
-19095,NA,1.84
-19097,NA,1.67
-19099,NA,1.8
-19101,NA,1.99
-19105,NA,1.84
-19107,NA,3.02
-19109,NA,2.14
-19115,NA,2.4
-19117,NA,1.26
-19119,NA,2.29
-19121,NA,0.82
-19123,NA,1.89
-19125,NA,1.75
-19127,NA,1.41
-19129,NA,1.12
-19131,NA,2.96
-19133,NA,2.69
-19135,NA,2.34
-19141,NA,3.25
-19143,NA,1.43
-19145,NA,0.99
-19149,NA,1.88
-19151,NA,1.44
-19157,NA,1.87
-19159,NA,2.24
-19161,NA,1.3
-19165,NA,2.63
-19167,NA,1.07
-19173,NA,1.55
-19175,NA,1.88
-19179,NA,2.82
-19181,NA,0.9
-19183,NA,1.45
-19185,NA,5.11
-19187,NA,1.46
-19189,NA,2.52
-19191,NA,1.29
-19195,NA,0.52
-20001,NA,1.47
-20003,NA,0.31
-20005,NA,0.75
-20007,NA,0.95
-20009,NA,1.5
-20011,NA,0.94
-20013,NA,2.71
-20015,NA,0.56
-20017,NA,1.38
-20019,NA,1.45
-20021,NA,1.73
-20023,NA,3.21
-20025,NA,2.44
-20027,NA,2.99
-20029,NA,2.48
-20031,NA,2.37
-20033,NA,5.37
-20035,NA,1.63
-20037,NA,0.91
-20039,NA,3.38
-20041,NA,1.31
-20043,NA,0.88
-20045,NA,0.7
-20047,NA,3.49
-20049,NA,0
-20051,NA,1.64
-20053,NA,0.91
-20055,NA,0.94
-20059,NA,0.9
-20061,NA,0.83
-20063,NA,6.45
-20065,NA,1.39
-20067,NA,1.59
-20069,NA,1.76
-20071,NA,1.03
-20073,NA,1.28
-20075,NA,0
-20077,NA,3.95
-20079,NA,0.98
-20081,NA,0.53
-20083,NA,3.01
-20085,NA,0.89
-20087,NA,1.54
-20089,NA,1.79
-20093,NA,1.93
-20095,NA,1.7
-20097,NA,1.03
-20099,NA,0.46
-20101,NA,5.36
-20105,NA,0.88
-20109,NA,2.15
-20111,NA,1.69
-20115,NA,1.03
-20117,NA,2.56
-20113,NA,1.54
-20119,NA,1.45
-20121,NA,0.72
-20123,NA,0.86
-20125,NA,1.07
-20127,NA,3.87
-20129,NA,3.77
-20131,NA,3.63
-20135,NA,4.59
-20137,NA,2.11
-20139,NA,1.29
-20141,NA,0.45
-20143,NA,1.78
-20145,NA,0.68
-20147,NA,2.29
-20149,NA,0.55
-20151,NA,2.92
-20153,NA,2.22
-20155,NA,1.47
-20157,NA,1.85
-20159,NA,0.45
-20161,NA,0.44
-20163,NA,1.62
-20165,NA,2.19
-20167,NA,2.64
-20171,NA,2.87
-20175,NA,0.81
-20179,NA,2.28
-20183,NA,0.43
-20185,NA,3.04
-20187,NA,3.09
-20189,NA,1.12
-20193,NA,1.14
-20197,NA,1.58
-20199,NA,1.21
-20201,NA,1.77
-20203,NA,2.54
-20205,NA,0.95
-20207,NA,1.46
-21001,NA,3.2
-21003,NA,1.28
-21005,NA,0.34
-21007,NA,1.14
-21009,NA,1.25
-21011,NA,1.53
-21017,NA,0.09
-21021,NA,0.18
-21023,NA,0.88
-21025,NA,0.42
-21027,NA,0.63
-21031,NA,1.75
-21033,NA,1.62
-21035,NA,1.1
-21039,NA,0.27
-21041,NA,1.04
-21045,NA,2.97
-21049,NA,0.89
-21051,NA,0.51
-21053,NA,1.84
-21055,NA,0.68
-21057,NA,1.03
-21063,NA,0.12
-21065,NA,0
-21069,NA,0.36
-21071,NA,0.74
-21075,NA,1.03
-21077,NA,2.31
-21079,NA,0.37
-21081,NA,0.73
-21083,NA,1.66
-21085,NA,2.49
-21087,NA,1.35
-21095,NA,1.4
-21097,NA,0.1
-21099,NA,0.67
-21103,NA,0.44
-21105,NA,3.03
-21107,NA,3.05
-21109,NA,2.13
-21115,NA,1.21
-21119,NA,1.75
-21121,NA,0.48
-21123,NA,0.44
-21127,NA,0.54
-21129,NA,1.67
-21131,NA,0.18
-21133,NA,0.32
-21135,NA,2.89
-21137,NA,1.65
-21141,NA,2.11
-21143,NA,1.93
-21153,NA,0.13
-21155,NA,1.19
-21157,NA,1.37
-21159,NA,1.36
-21161,NA,2.17
-21147,NA,0.33
-21149,NA,3.13
-21163,NA,0.3
-21165,NA,0.79
-21167,NA,0.49
-21169,NA,1.03
-21171,NA,2.67
-21173,NA,0.74
-21177,NA,1.34
-21179,NA,0.57
-21181,NA,0.85
-21187,NA,1.29
-21189,NA,2.91
-21191,NA,0.15
-21197,NA,0
-21201,NA,3.01
-21203,NA,0.9
-21205,NA,0.21
-21207,NA,2.47
-21209,NA,0.81
-21211,NA,0.87
-21215,NA,0.45
-21217,NA,0.99
-21219,NA,1.96
-21223,NA,0.46
-21225,NA,0.87
-21231,NA,1.06
-21233,NA,1.34
-21235,NA,0.32
-21237,NA,1.17
-21239,NA,0.14
-22001,NA,3.02
-22003,NA,2.91
-22007,NA,1.91
-22009,NA,3.2
-22011,NA,2.58
-22013,NA,4.37
-22021,NA,2.25
-22023,NA,0.97
-22025,NA,3.05
-22027,NA,3.29
-22031,NA,2.76
-22035,NA,1.76
-22037,NA,3.68
-22039,NA,2.1
-22041,NA,3.99
-22043,NA,2.47
-22045,NA,2.35
-22049,NA,2.64
-22053,NA,2.74
-22059,NA,1.94
-22061,NA,2.18
-22065,NA,1.7
-22067,NA,2.2
-22069,NA,1.89
-22081,NA,4.08
-22083,NA,2.1
-22085,NA,1.97
-22091,NA,0.66
-22097,NA,2.92
-22101,NA,3.09
-22107,NA,1.04
-22111,NA,3.36
-22113,NA,2.28
-22115,NA,3.31
-22117,NA,2.84
-22119,NA,2.2
-22123,NA,3.43
-22125,NA,2.65
-22127,NA,2.6
-23015,NA,0.56
-23021,NA,0.7
-23023,NA,0.2
-23025,NA,2.7
-23027,NA,4.22
-24011,NA,0.73
-24035,NA,1.47
-24039,NA,1.12
-24037,NA,2.46
-24041,NA,0.8
-24045,NA,1.76
-24047,NA,2.14
-26001,NA,4.83
-26003,NA,0.87
-26009,NA,1.63
-26011,NA,3.92
-26013,NA,5.14
-26015,NA,1.2
-26023,NA,2.21
-26025,NA,2.52
-26029,NA,1.13
-26031,NA,4.16
-26035,NA,4.34
-26039,NA,1
-26041,NA,2.63
-26045,NA,2.06
-26051,NA,2.73
-26053,NA,3.76
-26057,NA,3.28
-26059,NA,2.19
-26061,NA,1.57
-26069,NA,4.79
-26073,NA,1.49
-26075,NA,2.25
-26079,NA,2.73
-26083,NA,2.02
-26085,NA,3.17
-26087,NA,2.42
-26089,NA,1.15
-26093,NA,1.04
-26095,NA,0
-26097,NA,0.76
-26103,NA,1.41
-26107,NA,0.75
-26109,NA,1.81
-26111,NA,1.13
-26117,NA,2.36
-26119,NA,3.68
-26123,NA,1.59
-26127,NA,2.6
-26129,NA,2.95
-26131,NA,5.13
-26133,NA,2.09
-26135,NA,5.45
-26137,NA,2.4
 80026,NA,0.38
-26141,NA,3.15
-26143,NA,2.64
-26151,NA,4.11
-26155,NA,1.89
-26149,NA,1.61
-26159,NA,1.95
-27001,NA,3.15
-27009,NA,2.05
-27011,NA,0.67
-27013,NA,0.61
-27015,NA,1.62
-27019,NA,0.5
-27023,NA,2.38
-27025,NA,0.66
-27027,NA,1.22
-27029,NA,2.06
-27033,NA,1.37
-27039,NA,0.31
-27043,NA,1.38
-27045,NA,0.26
-27051,NA,1.66
-27055,NA,1
-27057,NA,2.56
-27059,NA,1.41
-27063,NA,1.21
-27065,NA,1.88
-27069,NA,5.32
-27071,NA,1.75
-27073,NA,2.48
-27077,NA,0.61
-27079,NA,0.73
-27081,NA,0.21
-27087,NA,1.73
-27089,NA,2.16
-27091,NA,1.57
-27093,NA,1.69
-27097,NA,1.41
-27099,NA,0.74
-27101,NA,0.6
-27105,NA,1.27
-27107,NA,1.9
-27113,NA,1.62
-27115,NA,0.5
-27117,NA,2.42
-27119,NA,1.63
-27121,NA,0.68
-27125,NA,1.27
-27127,NA,1.99
-27129,NA,2.89
-27131,NA,1.08
-27133,NA,1.03
-27135,NA,0.98
-27141,NA,0.77
-27143,NA,0.66
-27147,NA,0.34
-27149,NA,1.16
-27151,NA,2.07
-27153,NA,1.27
-27155,NA,1.27
-27157,NA,0.12
-27159,NA,1.11
-27161,NA,0.86
-27165,NA,0.67
-27167,NA,1.48
-27173,NA,1.52
-28003,NA,1.82
-28005,NA,2.66
-28007,NA,2.93
-28009,NA,2.84
-28013,NA,1.48
-28015,NA,1.98
-28017,NA,2.39
-28019,NA,2.1
-28021,NA,2.72
-28023,NA,4.56
-28025,NA,2.07
-28027,NA,2.48
-28029,NA,2.02
-28031,NA,3.4
-28037,NA,1.88
-28039,NA,1.97
-28041,NA,2.57
-28051,NA,4.06
-28053,NA,2.8
-28055,NA,3.9
-28057,NA,2.24
-28061,NA,1.94
-28063,NA,3.35
-28065,NA,2.93
-28069,NA,2.57
-28071,NA,1.88
-28073,NA,1.33
-28077,NA,1.75
-28079,NA,2.8
-28083,NA,3.58
-28085,NA,2.86
-28089,NA,1.94
-28091,NA,3.5
-28093,NA,1.94
-28095,NA,2.84
-28097,NA,3.02
-28099,NA,4.61
-28101,NA,2.32
-28103,NA,1.98
-28105,NA,2.09
-28107,NA,2.1
-28111,NA,3.24
-28113,NA,3.04
-28115,NA,1.42
-28117,NA,2.01
-28119,NA,1.09
-28125,NA,4.13
-28127,NA,2.94
-28129,NA,1.75
-28131,NA,1.33
-28133,NA,2.52
-28135,NA,2.47
-28137,NA,2.26
-28139,NA,2.01
-28141,NA,3.22
-28143,NA,2.58
-28145,NA,1.66
-28147,NA,3.34
-28151,NA,2.57
-28153,NA,1.44
-28155,NA,2.64
-28157,NA,4.29
-28159,NA,3.03
-28163,NA,2.26
-29001,NA,0.28
-29005,NA,1.77
-29007,NA,2.16
-29009,NA,1.92
-29011,NA,0.96
-29013,NA,1.4
-29015,NA,1.38
-29017,NA,1.2
-29023,NA,0.53
-29025,NA,1.2
-29029,NA,1.91
-29031,NA,1.51
-29033,NA,2.54
-29035,NA,1.52
-29041,NA,0.84
-29043,NA,0.91
-29045,NA,1.29
-29051,NA,1.16
-29053,NA,1.23
-29055,NA,1.08
-29057,NA,2.62
-29059,NA,2.6
-29061,NA,1.75
-29063,NA,2.54
-29065,NA,1.22
-29067,NA,2.95
-29069,NA,0.77
-29073,NA,4.02
-29075,NA,2.45
-29079,NA,3.51
-29081,NA,1.47
-29083,NA,1.57
-29085,NA,2.02
-29089,NA,0.61
-29101,NA,0.99
-29103,NA,1.28
-29105,NA,1.92
-29107,NA,1.94
-29109,NA,2.27
-29111,NA,0.52
-29115,NA,2.18
-29117,NA,2.11
-29121,NA,0.99
-29123,NA,0.86
-29127,NA,1.22
-29119,NA,1.25
-29131,NA,1.98
-29133,NA,1.54
-29135,NA,1.2
-29139,NA,1.69
-29141,NA,1.96
-29145,NA,1.63
-29147,NA,0.91
-29149,NA,0.49
-29151,NA,0.63
-29153,NA,1.17
-29155,NA,1.65
-29159,NA,1.55
-29161,NA,3.49
-29163,NA,1.26
-29165,NA,0.94
-29167,NA,1.23
-29169,NA,1.04
-29171,NA,0.98
-29173,NA,0.99
-29175,NA,1.12
-29177,NA,0.8
-29181,NA,1.25
-29195,NA,1.2
-29197,NA,0.43
-29199,NA,1.29
-29201,NA,1.88
-29203,NA,2.07
-29205,NA,1.25
-29185,NA,1
-29207,NA,1.62
-29209,NA,1.54
-29211,NA,1.43
-29213,NA,1.41
-29215,NA,1.33
-29217,NA,1.96
-29219,NA,0.5
-29221,NA,2.14
-29223,NA,1.11
-29225,NA,1.65
-29227,NA,0.79
-29229,NA,2.01
-30001,NA,0.98
-30003,NA,3.19
-30005,NA,3.72
-30007,NA,0.3
-30009,NA,1.11
-30011,NA,3.65
-30015,NA,1.24
-30017,NA,1.07
-30019,NA,3.36
-30021,NA,2.83
-30023,NA,1.02
-30025,NA,0.74
-30033,NA,2.74
-30035,NA,1.76
-30037,NA,0
-30039,NA,1.14
-30041,NA,1.95
-30043,NA,0.47
-30045,NA,0
-30051,NA,0.99
-30057,NA,0.54
-30055,NA,0
-30059,NA,6.14
-30061,NA,0
-30065,NA,2.55
-30067,NA,0.75
-30069,NA,9.09
-30073,NA,0.75
-30077,NA,0.61
-30079,NA,1.57
-30085,NA,3.63
-30091,NA,1.36
-30095,NA,1.38
-30097,NA,1.87
-30099,NA,1.52
-30101,NA,1.18
-30103,NA,2.13
-30105,NA,1.31
-30107,NA,3.97
-30109,NA,4.42
-31001,NA,1.5
-31003,NA,0.91
-31005,NA,0
-31007,NA,0
-31009,NA,0
-31011,NA,0.9
-31013,NA,0.98
-31015,NA,1.84
-31017,NA,0.95
-31019,NA,1.16
-31021,NA,1.87
-31023,NA,1.36
-31029,NA,0.76
-31033,NA,1.53
-31035,NA,1.88
-31037,NA,1.29
-31039,NA,1.03
-31041,NA,2.02
-31043,NA,1.57
-31045,NA,3.17
-31047,NA,0.97
-31051,NA,1.41
-31053,NA,1.05
-31057,NA,3.33
-31059,NA,1.64
-31061,NA,1.4
-31063,NA,0.61
-31065,NA,1.05
-31067,NA,0.68
-31069,NA,1.03
-31071,NA,2.34
-31073,NA,2.4
-31075,NA,13.04
-31077,NA,1.12
-31081,NA,1.96
-31083,NA,0
-31085,NA,0
-31087,NA,1.09
-31089,NA,1.87
-31091,NA,4.17
-31093,NA,2.71
-31095,NA,0.17
-31097,NA,0.87
-31099,NA,0.68
-31101,NA,0.32
-31103,NA,0
-31105,NA,1.44
-31113,NA,0
-31115,NA,0
-31119,NA,1.03
-31117,NA,0
-31121,NA,1.75
-31123,NA,2.79
-31125,NA,2.52
-31127,NA,1.92
-31129,NA,0.32
-31131,NA,0.19
-31133,NA,0.58
-31135,NA,4.51
-31137,NA,1
-31139,NA,3.43
-31141,NA,1.19
-31143,NA,2.52
-31145,NA,0.49
-31147,NA,2.73
-31149,NA,2
-31151,NA,0.17
-31155,NA,0.52
-31159,NA,1.93
-31161,NA,2.78
-31163,NA,2.55
-31165,NA,0
-31167,NA,2.4
-31169,NA,0.74
-31171,NA,0
-31173,NA,1.25
-31175,NA,1.12
-31179,NA,0.67
-31181,NA,1.41
-31183,NA,0
-31185,NA,0.62
-32009,NA,0
-32011,NA,0
-32013,NA,1.22
-32015,NA,1.99
-32017,NA,0.34
-32021,NA,1.87
-32027,NA,1.53
-32029,NA,2.94
-33003,NA,0.38
-33017,NA,0.89
-34005,NA,2.49
-34009,NA,2.88
-34033,NA,3.24
-34035,NA,4.13
-34037,NA,3.78
-35003,NA,4.69
-35006,NA,3.31
-35007,NA,4.37
-35009,NA,1.2
-35011,NA,0
-35019,NA,1.99
-35021,NA,0
-35023,NA,2.9
-35027,NA,1.13
-35028,NA,0.29
-35031,NA,3.47
-35033,NA,3.01
-35035,NA,1.79
-35037,NA,2.2
-35041,NA,2.15
-35047,NA,0.52
-35051,NA,6.32
-35053,NA,4.59
-35057,NA,1.52
-35059,NA,3.48
-36003,NA,3.53
-36009,NA,1.88
-36011,NA,1.3
-36015,NA,2
-36017,NA,2.06
-36019,NA,0.71
-36021,NA,3.16
-36023,NA,1.89
-36025,NA,1.57
-36035,NA,2.46
-36037,NA,2.42
-36039,NA,2.13
-36049,NA,1.64
-36051,NA,1.31
-36053,NA,2.6
-36057,NA,3.35
-36069,NA,1.79
-36073,NA,3.82
-36077,NA,1.42
-36083,NA,1.63
-36095,NA,0.67
-36097,NA,1.55
-36105,NA,1.38
-36107,NA,2.7
-36111,NA,2.44
-36113,NA,1.96
-36115,NA,1.58
-36121,NA,1.74
-36123,NA,2.02
-37005,NA,0.41
-37007,NA,2.2
-37009,NA,1.84
-37015,NA,2
-37017,NA,1.21
-37023,NA,1.23
-37029,NA,1.39
-37039,NA,1.05
-37041,NA,2.1
-37043,NA,1.02
-37045,NA,1.98
-37047,NA,2.12
-37049,NA,1.48
-37053,NA,1.37
-37055,NA,0.39
-37059,NA,0.57
-37069,NA,1.06
-37073,NA,2.88
-37079,NA,2.03
-37083,NA,1.67
-37085,NA,1.5
-37089,NA,1.45
-37091,NA,3.37
-37093,NA,1.16
-37095,NA,1.29
-37097,NA,1
-37103,NA,3.45
-37115,NA,2.07
-37125,NA,1.4
-37137,NA,0.82
-37141,NA,0.68
-37143,NA,0.79
-37149,NA,1.52
-37151,NA,1.57
-37153,NA,1.71
-37161,NA,2.62
-37163,NA,1.28
-37165,NA,2.07
-37167,NA,1.83
-37169,NA,1.65
-37171,NA,1.77
-37175,NA,0.94
-37177,NA,2.01
-37181,NA,2.25
-37185,NA,0.92
-37187,NA,2.79
-37193,NA,1.78
-37195,NA,1.88
-37197,NA,1
-38001,NA,0.96
-38003,NA,2.36
-38005,NA,1.69
-38009,NA,3.23
-38011,NA,1.24
-38019,NA,0.98
-38021,NA,4.51
-38023,NA,1.39
-38027,NA,1.44
-38029,NA,2.51
-38031,NA,3.54
-38033,NA,0
-38037,NA,3.93
-38039,NA,0.65
-38041,NA,1.45
-38043,NA,3.59
-38045,NA,3.23
-38047,NA,3.64
-38049,NA,3.48
-38051,NA,2.19
-38055,NA,2.63
-38059,NA,1.95
-38061,NA,1.23
-38063,NA,2.84
-38067,NA,1.42
-38069,NA,4.4
-38071,NA,1.85
-38073,NA,2.06
-38075,NA,4.26
-38077,NA,0.94
-38079,NA,1.26
-38081,NA,1.22
-38083,NA,2
-38085,NA,1.77
-38087,NA,0
-38093,NA,2.22
-38095,NA,3.56
-38097,NA,1.82
-38099,NA,1.32
-38103,NA,1.97
-39005,NA,1.23
-39011,NA,1.5
-39015,NA,0.54
-39019,NA,1.05
-39021,NA,1.08
-39031,NA,0.91
-39033,NA,2.18
-39037,NA,1.97
-39039,NA,2.28
-39043,NA,2.03
-39045,NA,0.7
-39059,NA,1.07
-39063,NA,1.66
-39065,NA,1.66
-39069,NA,2.37
-39071,NA,0.75
-39073,NA,1.45
-39075,NA,2.92
-39077,NA,1
-39079,NA,1.53
-39091,NA,1.03
-39105,NA,2.2
-39107,NA,2.04
-39111,NA,3.04
-39117,NA,0.19
-39119,NA,0.64
-39123,NA,1.28
-39125,NA,1.51
-39127,NA,0.82
-39129,NA,0.75
-39131,NA,1.04
-39137,NA,2
-39139,NA,1.26
-39141,NA,1.74
-39143,NA,1.48
-39147,NA,1.26
-39149,NA,0.51
-39157,NA,2.38
-39159,NA,0.57
-39161,NA,2.28
-39163,NA,2.18
-39169,NA,2.46
-39171,NA,2.22
-39175,NA,2.52
-40003,NA,0.51
-40005,NA,0.21
-40007,NA,0.89
-40009,NA,1.06
-40011,NA,0.54
-40013,NA,0.88
-40025,NA,0.9
-40029,NA,1.08
-40033,NA,2.28
-40035,NA,0.43
-40041,NA,1.33
-40045,NA,0.31
-40049,NA,0.73
-40051,NA,0.87
-40053,NA,1.16
-40055,NA,2.22
-40057,NA,0
-40059,NA,0.82
-40061,NA,0.71
-40063,NA,1.1
-40065,NA,1.52
-40067,NA,0.75
-40073,NA,0.75
-40075,NA,1.96
-40077,NA,1.12
-40083,NA,0.46
-40093,NA,0.51
-40095,NA,0.51
-40087,NA,0.74
-40089,NA,1.8
-40091,NA,1.18
-40099,NA,0.78
-40103,NA,0.64
-40107,NA,0.99
-40111,NA,1.02
-40123,NA,0.74
-40127,NA,0.75
-40129,NA,2.06
-40131,NA,1.15
-40137,NA,0.76
-40139,NA,0.58
-40141,NA,1.63
-40145,NA,0.94
-40149,NA,0.34
-40151,NA,0.47
-40153,NA,0.38
-41001,NA,0.97
-41007,NA,0.48
-41011,NA,1.47
-41015,NA,0.98
-41021,NA,2.22
-41023,NA,0.57
-41027,NA,2.21
-41031,NA,1.25
-41041,NA,1.79
-41045,NA,1.68
-41049,NA,1.02
-41053,NA,1.49
-41055,NA,0
-41057,NA,0.56
-41063,NA,3.26
-41069,NA,5.88
-41071,NA,1.23
-42009,NA,3.1
-42019,NA,2.26
-42023,NA,2.15
-42031,NA,2.27
-42035,NA,1.45
-42037,NA,2.61
-42039,NA,1.89
-42053,NA,1.45
-42057,NA,1.3
-42061,NA,2.68
-42065,NA,2.52
-42067,NA,4.08
-42083,NA,1.54
-42087,NA,3.41
-42093,NA,2.4
-42097,NA,4.43
-42103,NA,2.12
-42105,NA,2.13
-42107,NA,2.9
-42109,NA,2.26
-42113,NA,1.61
-42119,NA,1.54
-42121,NA,2.08
-42127,NA,1.12
-72003,NA,0
-72005,NA,0
-72007,NA,0
-72009,NA,0
-72011,NA,0
-72015,NA,0
-72017,NA,0
-72019,NA,0
-72023,NA,0
-72027,NA,0
-72029,NA,0
-72031,NA,0
-72035,NA,0
-72037,NA,0
-72039,NA,0
-72041,NA,0
-72043,NA,0
-72045,NA,0
-72047,NA,0
-72049,NA,0
-72051,NA,0
-72054,NA,0
-72055,NA,0
-72063,NA,0
-72065,NA,0
-72067,NA,0
-72071,NA,0
-72073,NA,0
-72075,NA,0
-72077,NA,0
-72079,NA,0
-72083,NA,0
-72085,NA,0
-72087,NA,0
-72089,NA,0
-72091,NA,0
-72093,NA,0
-72095,NA,0
-72099,NA,0
-72101,NA,0
-72103,NA,0
-72105,NA,0
-72107,NA,0
 72888,NA,0
-72109,NA,0
-72111,NA,0
-72115,NA,0
-72117,NA,0
-72119,NA,0
-72121,NA,0
-72123,NA,0
-72125,NA,0
-72129,NA,0
-72131,NA,0
-72133,NA,0
-72135,NA,0
-72137,NA,0
-72139,NA,0
-72141,NA,0
-72143,NA,0
-72145,NA,0
-72147,NA,0
-72149,NA,0
-72151,NA,0
-72153,NA,0
-44001,NA,2.51
-44005,NA,0.36
-45001,NA,1.88
-45005,NA,1.76
-45009,NA,3.82
-45011,NA,2.11
-45017,NA,2.4
-45021,NA,2.5
-45023,NA,1.78
-45027,NA,4.06
-45033,NA,2.24
-45035,NA,1.35
-45039,NA,3.55
-45049,NA,3.13
-45053,NA,1.68
-45055,NA,1.89
-45057,NA,1.56
-45059,NA,2.28
-45061,NA,3.26
-45067,NA,3.22
-45069,NA,1.49
-45065,NA,1.7
-45071,NA,2.26
-45081,NA,2.64
-45085,NA,1.97
-45087,NA,2.72
-45089,NA,2.52
-46003,NA,2.35
-46005,NA,1.49
-46007,NA,2.18
-46009,NA,1.54
-46015,NA,1.23
-46017,NA,2.41
-46019,NA,2.17
-46021,NA,3.45
-46023,NA,1.12
-46025,NA,0.62
-46027,NA,0.71
-46031,NA,2.43
-46035,NA,1.89
-46037,NA,3.74
-46039,NA,1.6
-46041,NA,1.05
-46043,NA,2.28
-46045,NA,1.2
-46047,NA,2.77
-46049,NA,4.11
-46051,NA,4.12
-46053,NA,5.28
-46055,NA,3.8
-46057,NA,5.86
-46059,NA,1.26
-46061,NA,0.93
-46063,NA,1.12
-46067,NA,2.78
-46069,NA,0.75
-46073,NA,6.04
-46075,NA,0
-46077,NA,2.28
-46079,NA,1.49
-46081,NA,1.17
-46083,NA,0.96
-46085,NA,1.63
-46091,NA,1.86
-46087,NA,3.12
-46089,NA,1.53
-46095,NA,0.89
-46097,NA,2.88
-46101,NA,2.52
-46102,NA,1.87
-46105,NA,3.64
-46107,NA,0.92
-46109,NA,3.02
-46111,NA,0.96
-46115,NA,3.32
-46117,NA,0.69
-46119,NA,2.46
-46121,NA,1.6
-46123,NA,2.03
-46125,NA,4.91
-46129,NA,2.12
-46135,NA,1.04
-46137,NA,2.5
-47003,NA,1.49
-47005,NA,2.52
-47007,NA,0.59
-47011,NA,0.85
-47013,NA,1.27
-47015,NA,1.07
-47017,NA,1.9
-47019,NA,2.09
-47021,NA,0.88
-47023,NA,2.16
-47027,NA,2.8
-47029,NA,1.59
-47031,NA,1.41
-47033,NA,2.09
-47035,NA,1.13
-47039,NA,1.61
-47043,NA,1.45
-47047,NA,1.36
-47049,NA,1.46
-47051,NA,1.3
-47053,NA,1.87
-47055,NA,2.21
-47057,NA,1.41
-47059,NA,1.64
-47061,NA,1.48
-47063,NA,1.46
-47067,NA,1.57
-47069,NA,1.62
-47071,NA,1.31
-47073,NA,1.49
-47075,NA,1.76
-47077,NA,1.58
-47079,NA,1.93
-47081,NA,1.4
-47083,NA,2.42
-47085,NA,1.28
-47087,NA,1.97
-47091,NA,1.57
-47095,NA,1.25
-47097,NA,1.09
-47101,NA,1.62
-47103,NA,1.07
-47111,NA,1.73
-47115,NA,1.27
-47117,NA,1.03
-47109,NA,1.86
-47121,NA,1.5
-47123,NA,1.43
-47127,NA,0.78
-47129,NA,0.68
-47131,NA,1.9
 80047,NA,0.44
-47133,NA,1.69
-47135,NA,2.62
-47137,NA,2.84
-47139,NA,1.27
-47143,NA,1.46
-47147,NA,1.1
-47149,NA,0.85
-47151,NA,1.29
-47153,NA,1.38
-47159,NA,1.08
-47161,NA,2
-47167,NA,1.01
-47169,NA,0.58
-47171,NA,2.58
-47173,NA,1.5
-47175,NA,1.13
-47177,NA,1.06
-47179,NA,1.63
-47181,NA,0.7
-47183,NA,1.42
-47185,NA,1.38
-48001,NA,1.29
-48003,NA,2.1
-48005,NA,2.58
-48007,NA,3.09
-48009,NA,0.93
-48011,NA,4.31
-48013,NA,2.21
-48015,NA,1.24
-48017,NA,1.77
-48019,NA,2.01
-48021,NA,1.16
-48023,NA,2.92
-48025,NA,1.69
-48031,NA,2.95
-48033,NA,0
-48035,NA,1.93
-48041,NA,0.93
-48045,NA,2.78
-48047,NA,4.45
-48049,NA,2.31
-48051,NA,1.86
-48053,NA,1.45
-48057,NA,0.85
-48059,NA,2.66
-48063,NA,3.21
-48065,NA,3.38
-48067,NA,3.92
-48069,NA,2.31
-48071,NA,0.35
-48073,NA,2.51
-48075,NA,0.87
-48077,NA,1.46
-48079,NA,5.24
-48081,NA,2.42
-48083,NA,3
-48087,NA,2.62
-48089,NA,1.42
-48091,NA,2.42
-48093,NA,3.01
-48095,NA,1.69
-48097,NA,1.52
-48099,NA,0.91
-48101,NA,3.57
-48103,NA,1.87
-48105,NA,2.48
-48107,NA,5.8
-48111,NA,4.09
-48115,NA,3.63
-48123,NA,3.28
-48117,NA,2.41
-48119,NA,2.31
-48125,NA,5.26
-48127,NA,1.63
-48129,NA,2.55
-48131,NA,3.15
-48133,NA,1.87
-48137,NA,1.5
-48143,NA,1.04
-48145,NA,1.6
-48147,NA,2.69
-48149,NA,2.85
-48151,NA,4
-48153,NA,4.09
-48155,NA,7.04
-48157,NA,1.04
-48159,NA,2.96
-48163,NA,0.94
-48165,NA,2.5
-48169,NA,6.16
-48171,NA,1.38
-48173,NA,1.04
-48175,NA,2.68
-48177,NA,1.37
-48179,NA,2.26
-48181,NA,2.45
-48185,NA,2.53
-48187,NA,1.39
-48189,NA,2.42
-48191,NA,3.42
-48193,NA,3.53
-48195,NA,2.27
-48197,NA,3.26
-48199,NA,1.52
-48205,NA,0
-48207,NA,3.95
-48209,NA,1.06
-48211,NA,0.47
-48213,NA,2.2
-48217,NA,1.65
-48219,NA,4.37
-48223,NA,3.27
-48225,NA,2.33
-48229,NA,1.7
-48235,NA,1.32
-48237,NA,2.2
-48239,NA,1.72
-48241,NA,1.89
-48247,NA,2.7
-48249,NA,2.09
-48253,NA,1.43
-48255,NA,1.77
-48259,NA,2.14
-48261,NA,7.14
-48263,NA,1.64
-48265,NA,1.66
-48267,NA,2.83
-48269,NA,0
-48271,NA,1.35
-48275,NA,6.94
-48283,NA,2.14
-48277,NA,2.18
-48279,NA,4.06
-48281,NA,1.79
-48285,NA,3.18
-48287,NA,2.81
-48289,NA,3.15
-48291,NA,2.29
-48293,NA,2.37
-48295,NA,3.73
-48297,NA,1.74
-48299,NA,3.01
-48301,NA,0
-48305,NA,2.51
-48313,NA,1.57
-48317,NA,2.97
-48319,NA,0.99
-48321,NA,3.22
-48307,NA,2.64
-48311,NA,2.9
-48325,NA,1.95
-48327,NA,2.33
-48329,NA,1.55
-48333,NA,4.36
-48335,NA,3.26
-48337,NA,2.75
-48341,NA,2.57
-48343,NA,1.89
-48345,NA,6.33
-48347,NA,3.05
-48351,NA,2.87
-48353,NA,2.31
-48357,NA,1.89
-48359,NA,1.23
-48363,NA,2.16
-48365,NA,4.04
-48369,NA,2.9
-48371,NA,1.85
-48377,NA,2.67
-48379,NA,3.27
-48383,NA,2.04
-48385,NA,4.86
-48387,NA,5.39
-48389,NA,2.21
-48391,NA,3.4
-48393,NA,2.08
-48399,NA,2.13
-48403,NA,3.51
-48405,NA,5.37
-48407,NA,3.91
-48409,NA,3.29
-48411,NA,2.98
-48413,NA,3.31
-48415,NA,1.79
-48417,NA,0.58
-48419,NA,3.55
-48421,NA,8.77
-48425,NA,0.95
-48427,NA,3.08
-48429,NA,2.82
-48431,NA,4.17
-48433,NA,2.59
-48435,NA,1.59
-48437,NA,2.12
-48441,NA,1.88
-48443,NA,1.43
-48445,NA,3.02
-48447,NA,5.45
-48451,NA,1.35
-48455,NA,2.05
-48457,NA,1.02
-48459,NA,1.71
-48461,NA,2.55
-48463,NA,1.97
-48465,NA,2.94
-48467,NA,2.54
-48471,NA,1.39
-48473,NA,0.98
-48475,NA,1.36
-48477,NA,3.94
-48481,NA,2.9
-48483,NA,2.17
-48485,NA,1.95
-48487,NA,2.65
-48489,NA,3.54
-48491,NA,0.9
-48493,NA,1.39
-48495,NA,2.5
-48497,NA,1.52
-48499,NA,3.37
-48501,NA,2.66
-48503,NA,2.01
-48505,NA,1.07
-48507,NA,2.39
-49043,NA,0.16
-49051,NA,0.45
-50005,NA,1.42
-50009,NA,0
-50011,NA,5.07
-50013,NA,0
-50015,NA,0.39
-50017,NA,0.28
-50019,NA,1.61
-50025,NA,1.27
-50027,NA,0.53
-51001,NA,1.5
-51005,NA,2.9
-51007,NA,1.53
-51009,NA,0.57
-51011,NA,0.77
-51015,NA,0.78
-51017,NA,0
-51019,NA,0.85
-51021,NA,1.11
-51025,NA,0.9
-51027,NA,2.41
-51029,NA,0.79
-51530,NA,0.69
-51031,NA,0.92
-51037,NA,2.11
-51540,NA,1.39
-51043,NA,1.34
-51570,NA,4.07
-51045,NA,1.25
-51047,NA,0.7
-51049,NA,1.79
-51590,NA,2.25
-51051,NA,0.82
-51053,NA,1.5
-51595,NA,6.59
-51057,NA,0.47
-51600,NA,3.06
-51610,NA,2.88
-51063,NA,2.96
-51065,NA,1.21
-51067,NA,0.93
-51620,NA,2.54
-51630,NA,0.95
-51640,NA,4.07
-51073,NA,1.04
-51075,NA,0.96
-51077,NA,2.85
-51079,NA,0.61
-51081,NA,1.6
-51083,NA,3.19
-51660,NA,0.98
-51089,NA,1.94
-51091,NA,0
-51093,NA,1.71
-51095,NA,1.34
-51099,NA,1.21
-51101,NA,0.74
-51097,NA,1.03
-51103,NA,0.72
-51105,NA,1.82
-51678,NA,0.73
-51109,NA,0.99
-51111,NA,0.69
-51683,NA,0.93
-51685,NA,0.81
-51690,NA,2.39
-51115,NA,1.12
-51117,NA,2.76
-51119,NA,3.87
-51125,NA,0.92
-51127,NA,0.74
-51131,NA,6.14
-51133,NA,2.09
-51720,NA,0.48
-51135,NA,1.89
-51137,NA,1.27
-51141,NA,3.17
-51730,NA,2
-51143,NA,1.31
-51735,NA,1.7
-51740,NA,1.66
-51145,NA,0.62
-51149,NA,0.46
-51155,NA,2.01
-51750,NA,0.49
-51157,NA,1.06
-51159,NA,0.62
-51167,NA,1.1
-51169,NA,2.91
-51171,NA,2.93
-51173,NA,2.84
-51175,NA,2.78
-51177,NA,1.31
-51790,NA,2.07
-51181,NA,1.92
-51183,NA,1.74
-51185,NA,0.89
-51187,NA,2.33
-51191,NA,1.7
-51820,NA,1.18
-51193,NA,1.4
-51830,NA,2.05
-51195,NA,2.79
-51199,NA,0.72
-53013,NA,4.35
-53017,NA,0.54
-53019,NA,1.06
-53021,NA,0.92
-53023,NA,2.02
-53029,NA,2.12
-53039,NA,0.56
-53043,NA,1.81
-53049,NA,1.04
-53051,NA,0.8
-53055,NA,0
-53069,NA,0
-54001,NA,1.25
-54005,NA,2
-54007,NA,0.16
-54013,NA,0
-54015,NA,1.4
-54017,NA,0.96
-54019,NA,2.61
-54023,NA,2.05
-54027,NA,2.01
-54031,NA,1.12
-54035,NA,2.39
-54037,NA,0.98
-54041,NA,0.77
-54043,NA,0.97
-54045,NA,3.24
-54047,NA,0.64
-54059,NA,1.23
-54063,NA,1.47
-54065,NA,1.17
-54067,NA,1.1
-54071,NA,0.51
-54073,NA,0.87
-54075,NA,2.15
-54077,NA,1.71
-54079,NA,1.81
-54083,NA,0.4
-54085,NA,1.53
-54087,NA,1.68
-54091,NA,1.55
-54095,NA,0.45
-54097,NA,0.94
-54099,NA,1.12
-54101,NA,0
-54103,NA,1.97
-54105,NA,0.38
-54109,NA,1.66
-55001,NA,0.85
-55005,NA,1.2
-55007,NA,1.8
-55011,NA,0.63
-55013,NA,1.83
-55015,NA,0.74
-55017,NA,1.13
-55019,NA,1.78
-55023,NA,0.79
-55033,NA,0.62
-55037,NA,2.76
-55045,NA,0.55
-55047,NA,0.94
-55049,NA,0.5
-55051,NA,6.43
-55053,NA,0.72
-55057,NA,0.44
-55065,NA,0.43
-55067,NA,2.02
-55069,NA,2.23
-55075,NA,1.27
-55077,NA,1.78
-55078,NA,1.33
-55081,NA,0.66
-55083,NA,1.04
-55091,NA,0.81
-55093,NA,0.92
-55095,NA,0.88
-55097,NA,0.92
-55099,NA,0.57
-55103,NA,1.08
-55107,NA,1.17
-55113,NA,1.29
-55115,NA,1.49
-55121,NA,0.97
-55123,NA,1.9
-55129,NA,1.44
-55131,NA,0.77
-55137,NA,0.98
-56011,NA,2.28
-56017,NA,0.74
-56027,NA,1.41
-56043,NA,2.61
