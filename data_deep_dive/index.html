@@ -58,9 +58,27 @@
         <!-- Paragraphs -->
         <p>Since previous studies successfully found a strong correlation between PM2.5 and COVID 19 death rate in China, we decided to see if there is a similarly strong correlation between SO2, another major pollutant, and COVID 19 death rate in China.</p>
 
-        <p>Note on data we used: for both China COVID 19 data and China air quality data, we used datasets provided by Harvard dataverse, and both data run from February to October 2020. If you want to play around with the same datasets, you can access China COVID 19 data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MR5IJN'>here</a> and China air pollution data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XETLSS'>here</a>.</p>
+        <p>Note on data we used:<p> 
 
-        <P>We first compared two heatmaps of China, one containing information about the COVID 19 death rate across provinces and the other containing information about the SO2 level across provinces. </p>
+        <p>For both China COVID 19 data and China air quality data, we used datasets provided by Harvard dataverse, and both data run from February to October 2020. If you want to play around with the same datasets, you can access China COVID 19 data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MR5IJN'>here</a> and China air pollution data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XETLSS'>here</a>.</p>
+
+        <P>To get a general sense of the SO2 level and the COVID death rate in China, we first compared two heatmaps of China, one containing information about the COVID 19 death rate across provinces and the other containing information about the SO2 level across provinces.</p>
+
+        <h3>The two maps are showing similar trends!</h3>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="Covid 19 Death Rate in China" aria-label="Map" id="datawrapper-chart-M6Isn" src="https://datawrapper.dwcdn.net/M6Isn/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <!-- Embed datawrapper chart -->
+       <!--  <iframe title="CO Level in China" aria-label="Map" id="datawrapper-chart-2X6zH" src="https://datawrapper.dwcdn.net/2X6zH/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script> -->
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="SO2 Level in China" aria-label="Map" id="datawrapper-chart-EVu2u" src="https://datawrapper.dwcdn.net/EVu2u/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+
 
         <p>After performing data analysis to find out if there is a potential relationship between COVID 19 and air pollution across the US, we decided to conduct similar analysis across China. We have collected China's covid 19 data from February to October 2020 and the country's air pollution data in the same period.</p>
 
@@ -134,7 +152,7 @@
               .attr("transform", "rotate(-90)")
               .attr("y", -margin.left + 25)
               .attr("x", -margin.top - height/2 + 90)
-              .text("Covid 19 Death Rate(%)")
+              .text("Covid 19 Death Rate (%)")
 
         })
 
@@ -163,19 +181,7 @@
 
         <P>Since the correlation between SO2 and covid 19 death rate was the strongest, we decided to further visualize both SO2 and covid 19 death rate using the heat map of China.</P>
 
-        <p>The visualizations are shown below:</p>
-
-        <!-- Embed datawrapper chart -->
-        <iframe title="Covid 19 Death Rate in China" aria-label="Map" id="datawrapper-chart-M6Isn" src="https://datawrapper.dwcdn.net/M6Isn/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-        </script>
-
-        <!-- Embed datawrapper chart -->
-       <!--  <iframe title="CO Level in China" aria-label="Map" id="datawrapper-chart-2X6zH" src="https://datawrapper.dwcdn.net/2X6zH/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-        </script> -->
-
-        <!-- Embed datawrapper chart -->
-        <iframe title="SO2 Level in China" aria-label="Map" id="datawrapper-chart-EVu2u" src="https://datawrapper.dwcdn.net/EVu2u/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-        </script>
+        
 
         <p>As expected, provinces with high level of SO2 had relatively higher covid 19 death rate. However, it should be noted that the strong positive correlation between the level of SO2 and covid 19 death rate does not necessarily indicate a causal relationship between two variables. First, we do not know which of these two variables, if any, is a dependant variable. Second, even if we do, there might be one or more confounding variables that affect the correlation between SO2 level and the death rate. Therefore, in order to find out if there is a causal relationship between the two, we need to control other confounding variables, and that is beyond the scope of this page.</p>
 
