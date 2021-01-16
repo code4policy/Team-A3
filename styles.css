@@ -44,7 +44,7 @@ h3 {
 h4 {
   color: #23252d;
   font-family: Calibri;
-  font-size: 28px;
+  font-size: 24px;
   text-align: justify;
 }
 
@@ -284,6 +284,8 @@ table{
   width: 60%;
 }
 
+
+/*extend infographics on main page when you move the mouse over it (hover) */
 .thumbnail{
   width: 100px;
   height: 100px;
