@@ -232,7 +232,7 @@ th, td {
 
 
 .team-img-con { position: relative; }
-.team-img-con img { display: block; }
+.team-img-con img { display: block; padding}
 .team-img-con .fa-linkedin-in { position: absolute; top:0; right:0; }
 
 /* collapsible*/
@@ -282,4 +282,18 @@ th, td {
 
 table{
   width: 60%;
+}
+
+.thumbnail{
+  width: 100px;
+  height: 100px;
+  display:block;
+  z-index:999;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+.thumbnail:hover {
+    transform: scale(5);
 }
