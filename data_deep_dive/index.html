@@ -53,7 +53,7 @@
 
                 <br>
 
-        <h1>What about China?</h1>
+        <h1>At least in China, the results align with the findings of the related studies</h1>
 
         <!-- Paragraphs -->
         <p>After performing data analysis to find out if there is a potential relationship between COVID 19 and air pollution across the US, we decided to conduct similar analysis across China. We have collected China's covid 19 data from February to October 2020 and the country's air pollution data in the same period.</p>
@@ -87,7 +87,7 @@
                   "translate(" + margin.left + "," + margin.top + ")");
 
         //Read the data
-        d3.csv("../data-for-china/china_death_pm25.csv", function(data) {
+        d3.csv("../data-for-china/china_death_so2.csv", function(data) {
 
           // Add X axis
           var x = d3.scaleLinear()
@@ -110,7 +110,7 @@
             .data(data)
             .enter()
             .append("circle")
-              .attr("cx", function (d) { return x(d.PM25); } )
+              .attr("cx", function (d) { return x(d.SO2); } )
               .attr("cy", function (d) { return y(d.Death_rate); } )
               .attr("r", 1.5)
               .style("fill", "#69b3a2")
@@ -120,7 +120,7 @@
               .attr("text-anchor", "end")
               .attr("x", width/2 + margin.left + 20)
               .attr("y", height + margin.top + 30)
-              .text("PM 2.5 Level (μg/m3)");
+              .text("SO2 Level (ppm)");
 
           // Y axis label:
           svg.append("text")
@@ -137,17 +137,17 @@
 
         <br>
 
-        <p>PM2.5 vs Covid 19 Death Rate</p>
+        <!-- <p>PM2.5 vs Covid 19 Death Rate</p>
         <img src='../images/pm2.5_vs_covid_china.png' width="600" height="800">
-        <p></p>
+        <p></p> -->
 
-        <p>PM10 vs Covid 19 Death Rate</p>
+        <!-- <p>PM10 vs Covid 19 Death Rate</p>
         <img src='../images/pm10_vs_covid_china.png' width="600" height="800">
-        <p></p>
+        <p></p> -->
 
-        <p>CO vs Covid 19 Death Rate</p>
+        <!-- <p>CO vs Covid 19 Death Rate</p>
         <img src='../images/co_vs_covid_china.png' width="600" height="800">
-        <p></p>
+        <p></p> -->
 
         <p>SO2 vs Covid 19 Death Rate</p>
         <img src='../images/so2_vs_covid_china.png' width="600" height="800">
