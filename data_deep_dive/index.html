@@ -13,8 +13,8 @@
     </head>
     <!-- add Topnav -->
          <div class="topnav">
-             <a href="../index.html">Home</a>
-             <a class="active_topnav" href="index.html">Data</a>
+             <a href="../index2.html">Intro</a>
+             <a class="active" href="index.html">Data</a>
              <a href="../literature_review.html">Literature</a>
              <a href="../our-team/index.html">About Us</a>
         </div> 
@@ -53,14 +53,32 @@
 
                 <br>
 
-        <h1>What about China?</h1>
+        <h1>At least in China, the results align with the findings of the related studies</h1>
 
         <!-- Paragraphs -->
-        <p>After performing data analysis to find out if there is a potential relationship between COVID 19 and air pollution across the US, we decided to conduct similar analysis across China. We have collected China's covid 19 data from February to October 2020 and the country's air pollution data in the same period.</p>
+        <p>Since previous studies successfully found a strong correlation between PM2.5 and COVID 19 death rate in China, we decided to see if there is a similarly strong correlation between SO2, another major pollutant, and COVID 19 death rate in China.</p>
 
-        <p>With the data available, we made four scatterplots to find out if there are positive correlations between Covid 19 death rate in China and each of the three major pollutants (i.e. particle pollution (PM2.5 and PM10), carbon monoxide, and sulfur dioxide).</p>
+        <p>Note on data we used: For both China COVID 19 data and China air quality data, we used datasets provided by Harvard dataverse, and both data run from February to October 2020. If you want to play around with the same datasets, you can access China COVID 19 data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MR5IJN'>here</a> and China air pollution data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XETLSS'>here</a>.</p>
 
-        <p>The results are shown below:</p>
+        <P>To get a general sense of the SO2 level and the COVID death rate in China, we first compare two heatmaps of China, one containing information about the COVID 19 death rate across provinces and the other containing information about the SO2 level across provinces.</p>
+
+        <h3>The two heatmaps are showing similar trends!</h3>
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="Covid 19 Death Rate in China" aria-label="Map" id="datawrapper-chart-M6Isn" src="https://datawrapper.dwcdn.net/M6Isn/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <!-- Embed datawrapper chart -->
+       <!--  <iframe title="CO Level in China" aria-label="Map" id="datawrapper-chart-2X6zH" src="https://datawrapper.dwcdn.net/2X6zH/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script> -->
+
+        <!-- Embed datawrapper chart -->
+        <iframe title="SO2 Level in China" aria-label="Map" id="datawrapper-chart-EVu2u" src="https://datawrapper.dwcdn.net/EVu2u/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+        </script>
+
+        <p>Since the two heatmaps show similar trends across Chinese provinces (i.e. provinces with higher SO2 level generally have higher COVID 19 death rates, and those with lower SO2 level generally have lower COVID 19 death rates), we decided to make a scatteplot that shows the same result in more orderly fashion.</p>
+
+        <h3>There seems to be a strong correlation between SO2 level and COVID 19 death rate across Chinese provinces!</h3>
 
         <!-- D3 scatterplot starts here -->
 
@@ -87,11 +105,11 @@
                   "translate(" + margin.left + "," + margin.top + ")");
 
         //Read the data
-        d3.csv("../data-for-china/china_death_pm25.csv", function(data) {
+        d3.csv("../data-for-china/china_death_so2.csv", function(data) {
 
           // Add X axis
           var x = d3.scaleLinear()
-            .domain([0, 120])
+            .domain([0, 70])
             .range([ 0, width ]);
           svg.append("g")
             .attr("transform", "translate(0," + height + ")")
@@ -99,7 +117,7 @@
 
           // Add Y axis
           var y = d3.scaleLinear()
-            .domain([0, 20])
+            .domain([0, 14])
             .range([ height, 0]);
           svg.append("g")
             .call(d3.axisLeft(y));
@@ -110,7 +128,7 @@
             .data(data)
             .enter()
             .append("circle")
-              .attr("cx", function (d) { return x(d.PM25); } )
+              .attr("cx", function (d) { return x(d.SO2); } )
               .attr("cy", function (d) { return y(d.Death_rate); } )
               .attr("r", 1.5)
               .style("fill", "#69b3a2")
@@ -120,7 +138,7 @@
               .attr("text-anchor", "end")
               .attr("x", width/2 + margin.left + 20)
               .attr("y", height + margin.top + 30)
-              .text("PM 2.5 Level (μg/m3)");
+              .text("SO2 Level (ppm)");
 
           // Y axis label:
           svg.append("text")
@@ -128,50 +146,38 @@
               .attr("transform", "rotate(-90)")
               .attr("y", -margin.left + 25)
               .attr("x", -margin.top - height/2 + 90)
-              .text("Covid 19 Death Rate(%)")
+              .text("Covid 19 Death Rate (%)")
 
         })
 
         </script>
         <!-- D3 scatterplot ends here -->
 
-        <br>
+        <p>Just as expected, the scatterplot clearly shows that there is a strong positive correlation between SO2 level and COVID 19 death rate across Chinese provinces. Here, each dot represents one province. Next, we decided to make another scatterplot of two variables, but this time using city-level data instead of province-level data.</p>
 
-        <p>PM2.5 vs Covid 19 Death Rate</p>
-        <img src='../images/pm2.5_vs_covid_china.png' width="600" height="800">
-        <p></p>
+        <h3>There indeed is a strong positive correlation between SO2 level and COVID 19 death rate, at least in China!</h3>
 
-        <p>PM10 vs Covid 19 Death Rate</p>
-        <img src='../images/pm10_vs_covid_china.png' width="600" height="800">
-        <p></p>
-
-        <p>CO vs Covid 19 Death Rate</p>
-        <img src='../images/co_vs_covid_china.png' width="600" height="800">
-        <p></p>
-
-        <p>SO2 vs Covid 19 Death Rate</p>
         <img src='../images/so2_vs_covid_china.png' width="600" height="800">
         <p></p>
 
-        <p>Contrary to our initial expectation, there is a weak positive correlation between PM2.5 and covid 19 death rate, with the correlation coefficient of 0.05. Similarly, the correlation coefficient between PM10 and covid 19 death rate is 0.16, which is still not a strong correlation. However, the correlation between CO and covid 19 death rate, and that between SO2 and covid 19 death rate are relatively strong and positive, with the correlation coefficients of 0.44 and 0.55, respectively.</p>
+        <p>Bingo! The correlation between SO2 level and COVID 19 death rate in China is 0.55, which is both strong and positive. Here, each dot represents one city, and that's why there are more dots included in the graph. Our results align with similar studies on China related to the correlation between air pollution and COVID 19 death rate.</p>
 
-        <P>Since the correlation between SO2 and covid 19 death rate was the strongest, we decided to further visualize both SO2 and covid 19 death rate using the heat map of China.</P>
+        <p>However, it should be noted that the strong positive correlation between the level of SO2 and COVID 19 death rate does not necessarily indicate a causal relationship between two variables. First, we do not know which of these two variables, if any, is a dependant variable. Second, even if we do, there might be one or more confounding variables that affect the correlation between SO2 level and the death rate. Therefore, in order to find out if there is a causal relationship between the two, we need to control other confounding variables, and that is beyond the scope of this page.</p>
 
-        <p>The visualizations are shown below:</p>
 
-        <!-- Embed datawrapper chart -->
-        <iframe title="Covid 19 Death Rate in China" aria-label="Map" id="datawrapper-chart-M6Isn" src="https://datawrapper.dwcdn.net/M6Isn/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-        </script>
+        <!-- <p>PM2.5 vs Covid 19 Death Rate</p>
+        <img src='../images/pm2.5_vs_covid_china.png' width="600" height="800">
+        <p></p> -->
 
-        <!-- Embed datawrapper chart -->
-        <iframe title="SO2 Level in China" aria-label="Map" id="datawrapper-chart-EVu2u" src="https://datawrapper.dwcdn.net/EVu2u/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-        </script>
+        <!-- <p>PM10 vs Covid 19 Death Rate</p>
+        <img src='../images/pm10_vs_covid_china.png' width="600" height="800">
+        <p></p> -->
 
-        <!-- Embed datawrapper chart -->
-        <iframe title="CO Level in China" aria-label="Map" id="datawrapper-chart-2X6zH" src="https://datawrapper.dwcdn.net/2X6zH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="615"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-        </script>
+        <!-- <p>CO vs Covid 19 Death Rate</p>
+        <img src='../images/co_vs_covid_china.png' width="600" height="800">
+        <p></p> --> 
 
-        <p>As expected, provinces with high level of SO2 had relatively higher covid 19 death rate. However, it should be noted that the strong positive correlation between the level of SO2 and covid 19 death rate does not necessarily indicate a causal relationship between two variables. First, we do not know which of these two variables, if any, is a dependant variable. Second, even if we do, there might be one or more confounding variables that affect the correlation between SO2 level and the death rate. Therefore, in order to find out if there is a causal relationship between the two, we need to control other confounding variables, and that is beyond the scope of this page.</p>
+  
 
         <br>
 
@@ -216,7 +222,7 @@
             title="US Annual PM2.5 By County" 
             aria-label="Map" 
             id="datawrapper-chart-4zoBn" 
-            src="https://datawrapper.dwcdn.net/4zoBn/3/" 
+            src="https://datawrapper.dwcdn.net/4zoBn/6/" 
             scrolling="no" 
             frameborder="0" 
             style="width: 0; min-width: 100% !important; border: none;" 
@@ -229,7 +235,7 @@
             title="Deaths per COVID19 Case, by County]" 
             aria-label="Map" 
             id="datawrapper-chart-UueJh" 
-            src="https://datawrapper.dwcdn.net/UueJh/1/" 
+            src="https://datawrapper.dwcdn.net/UueJh/4/" 
             scrolling="no" 
             frameborder="0" 
             style="width: 0; min-width: 100% !important; border: none;" 
@@ -253,7 +259,7 @@
             title="[ Poverty Rate, by County ]" 
             aria-label="Map" 
             id="datawrapper-chart-PnsT0" 
-            src="https://datawrapper.dwcdn.net/PnsT0/1/" 
+            src="https://datawrapper.dwcdn.net/PnsT0/4/" 
             scrolling="no" 
             frameborder="0" 
             style="width: 0; min-width: 100% !important; border: none;" height="489"></iframe>

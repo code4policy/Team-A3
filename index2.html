@@ -13,12 +13,13 @@
     <body>
 		<!-- Link stylesheet -->
 		 <div class="topnav">
-			 <a class="active_topnav" href="index2.html">Intro</a>
+			 <a class="active" href="index2.html">Intro</a>
 			 <a href="data_deep_dive/index.html">Data</a>
 			 <a href="literature_review.html">Literature</a>
 			 <a href="our-team/index.html">About Us</a>
 		</div> 
-    	
+    
+    <div id = "content">	
     	<!-- Head and subhead -->
 <br>
     <div class="container2">
@@ -85,10 +86,23 @@
 
 
     <br>
+  
+<!-- End of content div necessary for glossary -->
+  </div>
 
 
-        <!-- Invoke the JavaScript file for interactive image -->
-		<script type="text/javascript" src='main.js'></script>
-    </body>
+<!-- This is the glossary -->
+  <div id="glossary" style="display:none;">
+    <h2>COVID-19</h2>
+    <p>A contagious respiratory diseased caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)</p>
+    <h2>environmental factors</h2>
+    <p>Like particulate matter, NOx, SOx, or CO.</p>
+  </div>
+
+  <!-- This is for the glossary -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <!-- Invoke the JavaScript file for interactive image -->
+	<script type="text/javascript" src='main.js'></script>
+  </body>
 </html>
 

@@ -1,14 +1,12 @@
 /* Set background */
 html {
-
   background-color: white;
-
 }
 
 /* styles for the body of the site */
 body {
-
-  width: 40%;
+  width: auto;
+  max-width: 1250;
   height: 100%;
   padding: 50px 100px 100px 100px;
   margin-top: 50px;
@@ -148,7 +146,7 @@ th, td {
 }
 
 /* Collapsible: Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active_accordion, .collapsible:hover {
   background-color: #ccc;
 }
 
@@ -168,7 +166,7 @@ th, td {
   margin-left: 5px;
 }
 
-.active:after {
+.active_accordion:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
@@ -254,7 +252,7 @@ th, td {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active_accordion, .accordion:hover {
   background-color: #ccc;
 }
 
@@ -276,14 +274,13 @@ th, td {
   margin-left: 5px;
 }
 
-.active:after {
+.active_accordion:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 table{
   width: 60%;
 }
-
 
 /*extend infographics on main page when you move the mouse over it (hover) */
 .thumbnail{
@@ -298,4 +295,43 @@ table{
 }
 .thumbnail:hover {
     transform: scale(5);
+
+  
+/*Tooltips*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  max-width: block-size;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  display: inline-block;
+
+  /*format text*/
+  font-family: Calibri;
+  font-size: 20px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /*Make fade in*/
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
