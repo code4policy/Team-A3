@@ -6,7 +6,7 @@ html {
 /* styles for the body of the site */
 body {
   width: auto;
-  max-width: 1250;
+  max-width: 750px;
   height: 100%;
   padding: 50px 100px 100px 100px;
   margin-top: 50px;
