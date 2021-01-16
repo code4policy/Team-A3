@@ -295,7 +295,7 @@ table{
 }
 .thumbnail:hover {
     transform: scale(5);
-
+}
   
 /*Tooltips*/
 .tooltip {
