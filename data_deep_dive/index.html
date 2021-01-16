@@ -56,7 +56,7 @@
         <h1>At least in China, the results align with the findings of the related studies</h1>
 
         <!-- Paragraphs -->
-        <p>Since previous studies successfully found a strong correlation between PM2.5 and COVID 19 death rate in China, we decided to see if there is a similarly strong correlation between SO2, another major pollutant, and COVID 19 death rate.</p>
+        <p>Since previous studies successfully found a strong correlation between PM2.5 and COVID 19 death rate in China, we decided to see if there is a similarly strong correlation between SO2, another major pollutant, and COVID 19 death rate in China.</p>
 
         <p>Note on data we used: for both China COVID 19 data and China air quality data, we used datasets provided by Harvard dataverse, and both data run from February to October 2020. If you want to play around with the same datasets, you can access China COVID 19 data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MR5IJN'>here</a> and China air pollution data <a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XETLSS'>here</a>.</p>
 
@@ -97,7 +97,7 @@
 
           // Add X axis
           var x = d3.scaleLinear()
-            .domain([0, 120])
+            .domain([0, 70])
             .range([ 0, width ]);
           svg.append("g")
             .attr("transform", "translate(0," + height + ")")
@@ -105,7 +105,7 @@
 
           // Add Y axis
           var y = d3.scaleLinear()
-            .domain([0, 20])
+            .domain([0, 14])
             .range([ height, 0]);
           svg.append("g")
             .call(d3.axisLeft(y));
