@@ -4,7 +4,7 @@ $("#glossary h2").each(function(index) {
   var def = $("#glossary").find("p")[index].innerHTML;
 
   // Update all instances of that word in the content page with mouse over def.
-  var ids = ["#content1", "#content2", "#content3", "#content4", "#content5"];
+  var ids = ["#content1", "#content2", "#content3", "#content4", "#content5", "#content6"];
   for (i = 0; i < ids.length; i++) {
     var contentHTML = $(ids[i]).html();
     // var contentHTML = $(".content").html();
