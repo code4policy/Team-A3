@@ -21,7 +21,7 @@
 
     <body>
 
-   <div id = "content">
+   <div id = "content1">
         
         <!-- Head -->
         <h1>The literature is clear</h1>
@@ -37,16 +37,17 @@
 		<p>As can be seen above, the level of air quality as measured the mean annual PM 2.5 air pollution concentration, varies a lot between country. Given the results of multiple studies (as summarised on our <a href='../literature_review.html'>literature review</a> page) one might think that we might now see a correlation between PM 2.5 and COVID-19 death rate on a country-by-country basis. However, this is not the case: </p>
 
     <!-- End of content div necessary for glossary -->
-    </div>
+</div>
 
 		<!-- Embed datawrapper chart --> 
 		<iframe title="When looking at countries with high testing rates (EU as proxy), a correlation starts to emerge (Copy)" aria-label="chart" id="datawrapper-chart-R9ZWa" src="https://datawrapper.dwcdn.net/R9ZWa/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 			</script>
 
+<div id="content2">
 		<p>How come? There are two main reasons why it is difficult to look at this issue with average country-by-country data. Firstly, air pollution is a highly localised issue. Most particulate matter comes from so called "point sources". So unlike CO2, which is an atmospheric gas with similar concentrations everywhere (apart from the North Pole), particulate matter concentrations are much higher close to their sources than elsewhere. Most particles form in the atmosphere as a result of complex chemical reactions of sulfur dioxide and nitorgen oxides, which are pollutants emitted from power plants, industrial plants but also automobiles. This means that looking at national mean values is not necessarily picking up in which region air concentration is high and the correlation with COVID-19 deaths might not be linear.</p>
 		
 		<p>Secondly, data on COVID-19 death rates, measured as deaths per 100k, is highly dependant on testing. In countries with less testing, or improper reporting of the reason of death, this measure is not representative. Take the example below: When we start to look at regions with high test rates and high levels of reporting the reason for death (taking countries in the EU as a proxy-group), we see a positive correlation emerging. </p>
-
+</div>
 		<!-- Embed datawrapper chart --> 
 		<iframe title="When looking at countries with high testing rates (EU as proxy), a correlation starts to emerge" aria-label="chart" id="datawrapper-chart-mnXsX" src="https://datawrapper.dwcdn.net/mnXsX/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 			</script>
@@ -94,69 +95,7 @@
         <!-- Create a div where the graph will take place -->
         <div id="my_dataviz"></div>
 
-        <script>
-
-        // set the dimensions and margins of the graph
-        var margin = {top: 10, right: 30, bottom: 50, left: 60},
-            width = 460 - margin.left - margin.right,
-            height = 400 - margin.top - margin.bottom;
-
-        // append the svg object to the body of the page
-        var svg = d3.select("#my_dataviz")
-          .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-          .append("g")
-            .attr("transform",
-                  "translate(" + margin.left + "," + margin.top + ")");
-
-        //Read the data
-        d3.csv("../data-for-china/china_death_so2.csv", function(data) {
-
-          // Add X axis
-          var x = d3.scaleLinear()
-            .domain([0, 70])
-            .range([ 0, width ]);
-          svg.append("g")
-            .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x));
-
-          // Add Y axis
-          var y = d3.scaleLinear()
-            .domain([0, 14])
-            .range([ height, 0]);
-          svg.append("g")
-            .call(d3.axisLeft(y));
-
-          // Add dots
-          svg.append('g')
-            .selectAll("dot")
-            .data(data)
-            .enter()
-            .append("circle")
-              .attr("cx", function (d) { return x(d.SO2); } )
-              .attr("cy", function (d) { return y(d.Death_rate); } )
-              .attr("r", 1.5)
-              .style("fill", "#69b3a2")
-
-          // Add X axis label:
-          svg.append("text")
-              .attr("text-anchor", "end")
-              .attr("x", width/2 + margin.left + 20)
-              .attr("y", height + margin.top + 30)
-              .text("SO2 Level (ppm)");
-
-          // Y axis label:
-          svg.append("text")
-              .attr("text-anchor", "end")
-              .attr("transform", "rotate(-90)")
-              .attr("y", -margin.left + 25)
-              .attr("x", -margin.top - height/2 + 90)
-              .text("Covid 19 Death Rate (%)")
-
-        })
-
-        </script>
+        
         <!-- D3 scatterplot ends here -->
 
      
@@ -301,6 +240,7 @@
         <!-- This is for the glossary -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript" src='../glossary.js'></script>
+        <script type="text/javascript" src='d3.js'></script>
 
 
     </body>
