@@ -20,6 +20,8 @@
         </div> 
 
     <body>
+
+      <div id = "content"> 
         
         <!-- Head -->
         <h1>The literature is clear</h1>
@@ -271,6 +273,24 @@
 
         <h2>What Does It All Mean?</h2>
         <p>With the data available from the EPA for 2019, there is no clear correlation between PM2.5 particles and COVID Death Rate without controlling for ommitted factors correlated with both PM2.5 particles and COVID Death Rate, such as amount of economic activity taking place in a county.  A more complicated analysis could show such a correlation, but using PM2.5 concentrations without controlling for other factors to predict COVID Death Rate would have little benefit.</p>
+
+        <!-- End of content div necessary for glossary -->
+        </div>
+
+        <!-- This is the glossary -->
+        <div id="glossary" style="display:none;">
+          <h2>COVID-19</h2>
+          <p>A contagious respiratory diseased caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)</p>
+          <h2>environmental factors</h2>
+          <p>Like particulate matter, NOx, SOx, or CO.</p>
+        </div>
+
+        <!-- Invoke the JavaScript file for interactive image -->
+        <script type="text/javascript" src='../main.js'></script>
+
+        <!-- This is for the glossary -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src='../glossary.js'></script>
 
 
     </body>
