@@ -21,7 +21,7 @@
 
     <body>
 
-      <div id = "content"> 
+   <div id = "content">
         
         <!-- Head -->
         <h1>The literature is clear</h1>
@@ -35,6 +35,9 @@
 			</script> 
 
 		<p>As can be seen above, the level of air quality as measured the mean annual PM 2.5 air pollution concentration, varies a lot between country. Given the results of multiple studies (as summarised on our <a href='../literature_review.html'>literature review</a> page) one might think that we might now see a correlation between PM 2.5 and COVID-19 death rate on a country-by-country basis. However, this is not the case: </p>
+
+    <!-- End of content div necessary for glossary -->
+    </div>
 
 		<!-- Embed datawrapper chart --> 
 		<iframe title="When looking at countries with high testing rates (EU as proxy), a correlation starts to emerge (Copy)" aria-label="chart" id="datawrapper-chart-R9ZWa" src="https://datawrapper.dwcdn.net/R9ZWa/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
@@ -81,6 +84,7 @@
         <p>Since the two heatmaps show similar trends across Chinese provinces (i.e. provinces with higher SO2 level generally have higher COVID-19 death rates, and those with lower SO2 level generally have lower COVID-19 death rates), we decided to make a scatteplot that shows the same result in more orderly fashion.</p>
 
         <h3>There seems to be a strong correlation between SO2 level and COVID-19 death rate across Chinese provinces!</h3>
+
 
         <!-- D3 scatterplot starts here -->
 
@@ -154,6 +158,8 @@
 
         </script>
         <!-- D3 scatterplot ends here -->
+
+     
 
         <p>Just as expected, the scatterplot clearly shows that there is a strong positive correlation between SO2 level and COVID-19 death rate across Chinese provinces. Here, each dot represents one province. Next, we decided to make another scatterplot of two variables, but this time using city-level data instead of province-level data.</p>
 
@@ -274,8 +280,7 @@
         <h2>What Does It All Mean?</h2>
         <p>With the data available from the EPA for 2019, there is no clear correlation between PM2.5 particles and COVID Death Rate without controlling for ommitted factors correlated with both PM2.5 particles and COVID Death Rate, such as amount of economic activity taking place in a county.  A more complicated analysis could show such a correlation, but using PM2.5 concentrations without controlling for other factors to predict COVID Death Rate would have little benefit.</p>
 
-        <!-- End of content div necessary for glossary -->
-        </div>
+      
 
         <!-- This is the glossary -->
         <div id="glossary" style="display:none;">
@@ -290,9 +295,6 @@
           <h2>PM2.5</h2>
           <p>particles that have diameter less than 2.5 micrometres (more than 100 times thinner than a human hair) and remain suspended for longer</p>
         </div>
-
-        <!-- Invoke the JavaScript file for interactive image -->
-        <script type="text/javascript" src='../main.js'></script>
 
         <!-- This is for the glossary -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
