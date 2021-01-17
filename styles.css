@@ -105,8 +105,13 @@ img {
 }
 
 /* Styles for table on lit review page*/
+table{
+width: 100%;
+}
+
 table, th, td {
   border: 1px solid black;
+  border-collapse: collapse;
 }
 
 th, td {
@@ -116,16 +121,6 @@ th, td {
   font-size: 20px;
 }
 
-#datawrapper-chart-R9ZWa{
-    width: 50%; /* set width to 50% of page width */
-    float: left; /* Make the element go to the left */
-}
-
-
-#datawrapper-chart-mnXsX{
-    width: 50%;
-    float: right;
-}
 
 
 /* Styles for topnav*/
@@ -309,7 +304,7 @@ th, td {
 }
 
 table{
-  width: 60%;
+  width: 100%;
 }
 
 /*extend infographics on main page when you move the mouse over it (hover) */
