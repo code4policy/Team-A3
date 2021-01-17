@@ -116,6 +116,18 @@ th, td {
   font-size: 20px;
 }
 
+#datawrapper-chart-R9ZWa{
+    width: 50%; /* set width to 50% of page width */
+    float: left; /* Make the element go to the left */
+}
+
+
+#datawrapper-chart-mnXsX{
+    width: 50%;
+    float: right;
+}
+
+
 /* Styles for topnav*/
 
 /* Add a black background color to the top navigation */
