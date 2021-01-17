@@ -4,8 +4,14 @@ $("#glossary h2").each(function(index) {
   var def = $("#glossary").find("p")[index].innerHTML;
 
   // Update all instances of that word in the content page with mouse over def.
-  var contentHTML = $("#content").html();
-  // contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<span class="tooltip">' + word + '<span class="tooltiptext">' + def + '</span></span>');
-  contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<span class="tooltip">' + word + '<span class="tooltiptext">' + def + '</span></span>');
-  $("#content").html(contentHTML);
+  var ids = ["#content1", "#content2"];
+  for (i = 0; i < ids.length; i++) {
+    var contentHTML = $(ids[i]).html();
+    // var contentHTML = $(".content").html();
+    // contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<span class="tooltip">' + word + '<span class="tooltiptext">' + def + '</span></span>');
+    if(contentHTML != undefined){
+      contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<span class="tooltip">' + word + '<span class="tooltiptext">' + def + '</span></span>');
+      $(ids[i]).html(contentHTML);
+    }
+  }
 });
