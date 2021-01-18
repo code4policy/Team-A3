@@ -1,4 +1,6 @@
-# This folder houses inputs to r scripts and outputs created by them
+# Data 
+This folder houses inputs to r scripts and outputs created by them
+
 - all-geocodes-v2018.csv - manipulated version of all-geocodes-v2018.xlsx that r parses for FIPS codes and county cames
 - all-geocodes-v2018.xlsx - original [file](https://www2.census.gov/programs-surveys/popest/geographies/2018/all-geocodes-v2018.xlsx) downloaded from [Census Bureau](https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html)
 - ctyfactbook2019.csv - manipulated version of ctyfactbook2019.xlsx that r parses for county-level air quality
