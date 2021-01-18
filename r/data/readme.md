@@ -5,6 +5,9 @@
 - ctyfactbook2019.xlsx - original [file](https://www.epa.gov/sites/production/files/2020-06/ctyfactbook2019.xlsx) downlaoded from [EPA](https://www.epa.gov/air-trends/air-quality-cities-and-counties)
 - deaths_per_case.csv - data output from r containing a FIPS code, county name, and rate of deaths per COVID case (in %)
 - pm25.csv - data output from r containing a FIPS code, county name, and annual mean 24-hr PM2.5 concentrations
+- poverty.csv - data output from r containing a FIPS code, county name, and percentage of all people living in poverty in that county.
+
+
 
 # Header 1
 ## Header 2
