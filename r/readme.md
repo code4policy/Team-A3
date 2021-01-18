@@ -15,7 +15,7 @@ Then mark the file safe.
 
 all-geocodes-v2018.csv - manipulated version of all-geocodes-v2018.xlsx that r parses for FIPS Codes and County Names
 
-all-geocodes-v2018.xlsx - original file downloaded from [Census Bureau](https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html)
+all-geocodes-v2018.xlsx - original [file](https://www2.census.gov/programs-surveys/popest/geographies/2018/all-geocodes-v2018.xlsx) downloaded from [Census Bureau](https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html)
 
 
 
