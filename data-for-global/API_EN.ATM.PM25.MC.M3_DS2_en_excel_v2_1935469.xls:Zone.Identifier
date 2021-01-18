@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3
+HostUrl=https://api.worldbank.org/v2/en/indicator/EN.ATM.PM25.MC.M3?downloadformat=excel
