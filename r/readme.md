@@ -16,15 +16,3 @@ This command places a script in `~/bash` to tell WSL system how to open rstudio 
 
 Then mark the file safe. 
 `chmod +x ~/bin/rstudio`
-
-
-
-
-
-
-
-
-
-# Header 1
-## Header 2
-### Header 3
