@@ -10,8 +10,8 @@ Then mark the file safe.
 `chmod +x ~/bin/rstudio`
 
 ## Within this directory are data, figures, and scripts directories, along with the r.Rproj project file.
-
 ### The folder ./data is for data used by and outputs created by .r files in ./scripts.
+
 
 
 
