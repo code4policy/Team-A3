@@ -54,9 +54,27 @@ p {
 }
 
 li {
-    color: #23252d;
-    font-family: Calibri;
-    font-size: 20px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+  color: #23252d;
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+ul {
+  display: indline-block;
+  background: #DCDCDC;
+  padding: 20px;
+
+}
+
+li:before {
+  content: "\25BA \0020";
+  font-size: 6px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
 }
 
 /* styles for image */
@@ -87,8 +105,13 @@ img {
 }
 
 /* Styles for table on lit review page*/
+table{
+width: 100%;
+}
+
 table, th, td {
   border: 1px solid black;
+  border-collapse: collapse;
 }
 
 th, td {
@@ -97,6 +120,8 @@ th, td {
   font-family: Calibri;
   font-size: 20px;
 }
+
+
 
 /* Styles for topnav*/
 
@@ -279,7 +304,7 @@ th, td {
 }
 
 table{
-  width: 60%;
+  width: 100%;
 }
 
 /*extend infographics on main page when you move the mouse over it (hover) */
@@ -335,3 +360,5 @@ table{
   visibility: visible;
   opacity: 1;
 }
+
+
