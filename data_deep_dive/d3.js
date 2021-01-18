@@ -44,9 +44,9 @@ d3.csv("../data-for-china/china_death_so2.csv", function(data) {
   // Add X axis label:
   svg.append("text")
       .attr("text-anchor", "end")
-      .attr("x", width/2 + margin.left + 20)
-      .attr("y", height + margin.top + 30)
-      .text("SO2 Level (ppm)");
+      .attr("x", width/2 + margin.left + 90)
+      .attr("y", height + margin.top + 35)
+      .text("SO2 Level (micrograms per cubic meter)");
 
   // Y axis label:
   svg.append("text")
