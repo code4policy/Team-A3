@@ -11,9 +11,11 @@ Then mark the file safe.
 
 ## Within this directory are data, figures, and scripts directories, along with the r.Rproj project file.
 
-
-
 ### The folder ./data is for data used by and outputs created by .r files in ./scripts.
+
+all-geocodes-v2018.csv - manipulated version of all-geocodes-v2018.xlsx that r parses for FIPS Codes and County Names
+
+all-geocodes-v2018.xlsx - original file downloaded from https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
 
 
 
