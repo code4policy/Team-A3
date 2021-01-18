@@ -5,11 +5,11 @@ $("#glossary h2").each(function(index) {
 
   // Update all instances of that word in the content page with mouse over def.
 
-  var elements = $("[id^=content]").toArray() //array of elements with ids starting with "content"
-  for (i = 0; i < elements.length; i++) {
+  // var elements = $("[id^=content]").toArray() //array of elements with ids starting with "content"
+  // for (i = 0; i < elements.length; i++) {
     
-  // get content matching ID
-    var contentHTML = $("#"+elements[i].id).html();
+  // // get content matching ID
+  //   var contentHTML = $("#"+elements[i].id).html();
     
     // test to make sure element was found
 
@@ -22,7 +22,8 @@ $("#glossary h2").each(function(index) {
     if(contentHTML != undefined){
       // replace glossary words with the tooltip span
       contentHTML = contentHTML.replace(new RegExp(word, 'g'), '<span class="tooltip">' + word + '<span class="tooltiptext">' + def + '</span></span>');
-      $("#"+elements[i].id).html(contentHTML);
+      $(ids[i]).html(contentHTML);
+      // $("#"+elements[i].id).html(contentHTML);
     }
   }
 });
