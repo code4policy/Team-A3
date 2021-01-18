@@ -6,7 +6,7 @@
 - deaths_per_case.csv - data output from r containing a FIPS code, county name, and rate of deaths per COVID case (in %)
 - pm25.csv - data output from r containing a FIPS code, county name, and annual mean 24-hr PM2.5 concentrations
 - poverty.csv - data output from r containing a FIPS code, county name, and percentage of all people living in poverty in that county.
-
+- poverty-by-county.csv - data input from the Economic Research Service of the US Department of Agriculture
 
 
 # Header 1
