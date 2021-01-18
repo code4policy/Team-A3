@@ -1,8 +1,10 @@
 For final datasets and a Rmd file used for graphs in the China section, refer to the data-for-china folder.
 
-The original dataset for China COVID-19 Data comes from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MR5IJN
+For original datasets, refer to the original_data folder within the data-for-china folder.
 
-The original dataset for China Air Quality Data comes from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XETLSS
+The original datasets for China COVID-19 Data comes from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MR5IJN
+
+The original datasets for China Air Quality Data comes from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XETLSS
 
 Step-by-step of the data transformation:
 
