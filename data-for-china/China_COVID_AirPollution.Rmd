@@ -1,0 +1,51 @@
+---
+title: "China_COVID_AirPollution"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE)
+
+library(ggplot2)
+library(tidyverse)
+library(gridExtra)
+library(dplyr)
+library(stargazer)
+library(ggpubr)
+```
+
+```{r}
+#loading data
+setwd("C:/Users/user/Desktop/")
+covid_aqi<-read.csv("China_COVID_PM25.csv")
+```
+
+```{r}
+#Removing cities with no death reported
+covid_aqi_w_death <- covid_aqi %>% filter(T_D_1010 != 0)
+```
+
+```{r}
+#data visualization (Removing cities with zero death reported)
+
+#scatterplot using Death_rate vs PM2.5 with R value
+ggplot(data=covid_aqi_w_death, aes(x=PM2.5, y=Death_rate))+geom_point() + xlab("PM2.5 Levels") + ylab("COVID 19 Death Rate") + ggtitle("PM2.5 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=105, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$PM2.5,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
+
+#scatterplot using Death_rate vs PM10 with R value
+ggplot(data=covid_aqi_w_death, aes(x=PM10, y=Death_rate))+geom_point() + xlab("PM10 Levels") + ylab("COVID 19 Death Rate") + ggtitle("PM10 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=130, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$PM10,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
+
+#scatterplot using Death_rate vs CO with R value
+ggplot(data=covid_aqi_w_death, aes(x=CO, y=Death_rate))+geom_point() + xlab("CO Levels") + ylab("COVID 19 Death Rate") + ggtitle("CO vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=2.2, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$CO,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
+
+#scatterplot using Death_rate vs NO2 with R value
+ggplot(data=covid_aqi_w_death, aes(x=NO2, y=Death_rate))+geom_point() + xlab("NO2 Levels") + ylab("COVID 19 Death Rate") + ggtitle("NO2 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=85, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$NO2,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
+
+#scatterplot using Death_rate vs O3 with R value
+ggplot(data=covid_aqi_w_death, aes(x=O3, y=Death_rate))+geom_point() + xlab("O3 Levels") + ylab("COVID 19 Death Rate") + ggtitle("O3 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=67, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$O3,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
+
+#scatterplot using Death_rate vs SO2 with R value
+ggplot(data=covid_aqi_w_death, aes(x=SO2, y=Death_rate))+geom_point() + xlab("SO2 Levels") + ylab("COVID 19 Death Rate") + ggtitle("SO2 vs COVID 19 Death Rate")+geom_smooth(method=lm)+annotate(x=55, y=20, label=paste("R = ", round(cor(covid_aqi_w_death$SO2,covid_aqi_w_death$Death_rate),2)), geom="text", size=4)
+
+```
+
